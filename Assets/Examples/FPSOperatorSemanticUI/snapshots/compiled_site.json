@@ -1,0 +1,44 @@
+{
+  "siteId": "fps_operator_semantic_ui",
+  "displayName": "FPS Operator Semantic UI",
+  "designWidth": 1920,
+  "designHeight": 1080,
+  "themeCss": "theme.css",
+  "sharedStyles": [
+    "shared/widgets.css"
+  ],
+  "themeRoles": [
+    "button/primary",
+    "card/accent",
+    "card/entry",
+    "card/info",
+    "panel/hero",
+    "panel/ink",
+    "panel/primary",
+    "panel/resource-bar",
+    "panel/section",
+    "text/body",
+    "text/gold",
+    "text/label",
+    "text/micro",
+    "text/muted",
+    "text/title",
+    "text/value",
+    "window/main"
+  ],
+  "themeClasses": [],
+  "widgetClasses": [
+    "screen-root"
+  ],
+  "widgetRoles": [],
+  "pages": [
+    {
+      "pageId": "combat-hud",
+      "html": "pages/combat-hud.html",
+      "compiledPage": "compiled_pages/combat-hud.compiled_page.json",
+      "layoutSnapshot": "layout_snapshots/combat-hud.layout_snapshot.json",
+      "warningCount": 0,
+      "pageRootFound": true
+    }
+  ]
+}

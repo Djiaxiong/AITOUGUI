@@ -1,0 +1,22 @@
+{
+  "siteId": "fps_operator_semantic_ui",
+  "displayName": "FPS Operator Semantic UI",
+  "designWidth": 1920,
+  "designHeight": 1080,
+  "themeCss": "theme.css",
+  "sharedStyles": [
+    "shared/widgets.css"
+  ],
+  "prefabOutputRoot": "Assets/Prefabs/UI/Generated",
+  "metadataOutputRoot": "Assets/DataConfig/UI/Generated",
+  "pages": [
+    {
+      "pageId": "combat-hud",
+      "displayName": "Combat HUD",
+      "html": "pages/combat-hud.html",
+      "prefabName": "FPSOperatorSemanticUIPanel",
+      "targetLayer": "Normal",
+      "localStyles": []
+    }
+  ]
+}

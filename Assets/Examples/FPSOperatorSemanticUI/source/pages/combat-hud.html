@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FPS Operator Semantic UI - Combat HUD</title>
+  <link rel="stylesheet" href="../theme.css">
+  <link rel="stylesheet" href="../shared/widgets.css">
+</head>
+<body>
+  <div class="screen-root" data-ui-page="combat-hud" data-ui-name="FPSOperatorHudRoot" data-ui-role="window/main">
+    <div data-ui-name="MiniMapPlaceholder" data-ui-role="panel/section" style="position:absolute;left:40px;top:40px;width:240px;height:240px;box-sizing:border-box;">
+      <div data-ui-name="MiniMapTitle" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:120px;height:16px;box-sizing:border-box;font-size:12px;line-height:16px;text-align:left;">AREA SCAN</div>
+      <div data-ui-name="MiniMapFrame" data-ui-role="card/info" data-ui-asset-id="frame/hud-minimap" data-ui-asset-type="frame" data-ui-asset-usage="minimap-frame" data-ui-asset-import="sprite" data-ui-asset-width="208" data-ui-asset-height="184" data-ui-asset-tint="none" style="position:absolute;left:16px;top:40px;width:208px;height:184px;box-sizing:border-box;background:url('../assets/hud_minimap_frame.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;">
+        <div data-ui-name="MiniMapLaneHorizontal" data-ui-role="card/accent" style="position:absolute;left:22px;top:86px;width:164px;height:12px;box-sizing:border-box;"></div>
+        <div data-ui-name="MiniMapLaneVertical" data-ui-role="card/accent" style="position:absolute;left:98px;top:20px;width:12px;height:144px;box-sizing:border-box;"></div>
+        <div data-ui-name="MiniMapHotspotA" data-ui-role="card/info" style="position:absolute;left:36px;top:34px;width:26px;height:26px;box-sizing:border-box;"></div>
+        <div data-ui-name="MiniMapHotspotB" data-ui-role="card/info" style="position:absolute;left:142px;top:58px;width:26px;height:26px;box-sizing:border-box;"></div>
+        <div data-ui-name="MiniMapHotspotC" data-ui-role="card/accent" style="position:absolute;left:90px;top:122px;width:30px;height:30px;box-sizing:border-box;"></div>
+      </div>
+    </div>
+
+    <div data-ui-name="TopMatchInfo" data-ui-role="panel/resource-bar" style="position:absolute;left:720px;top:20px;width:480px;height:64px;box-sizing:border-box;">
+      <div data-ui-name="TopMatchMode" data-ui-role="text/label" style="position:absolute;left:18px;top:10px;width:120px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">CONTROL / ROUND 05</div>
+      <div data-ui-name="TopMatchScore" data-ui-role="text/title" style="position:absolute;left:152px;top:18px;width:176px;height:28px;box-sizing:border-box;font-size:28px;line-height:28px;text-align:center;">3 - 2</div>
+      <div data-ui-name="TopMatchTimer" data-ui-role="text/value" style="position:absolute;left:346px;top:18px;width:116px;height:24px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:right;">01:18</div>
+    </div>
+
+    <div data-ui-name="TopRightKillFeed" data-ui-role="panel/ink" style="position:absolute;left:1460px;top:28px;width:380px;height:220px;box-sizing:border-box;">
+      <div data-ui-name="TopRightKillFeedTitle" data-ui-role="text/label" style="position:absolute;left:18px;top:14px;width:120px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">KILL FEED</div>
+      <div data-ui-name="KillFeedEntryA" data-ui-role="card/entry" style="position:absolute;left:18px;top:42px;width:344px;height:36px;box-sizing:border-box;">
+        <div data-ui-name="KillFeedEntryAText" data-ui-role="text/body" style="position:absolute;left:14px;top:10px;width:316px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">NOVA took Point A from STRIKE</div>
+      </div>
+      <div data-ui-name="KillFeedEntryB" data-ui-role="card/entry" style="position:absolute;left:18px;top:88px;width:344px;height:36px;box-sizing:border-box;">
+        <div data-ui-name="KillFeedEntryBText" data-ui-role="text/body" style="position:absolute;left:14px;top:10px;width:316px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">ALPHA eliminated HOSTILE-04</div>
+      </div>
+      <div data-ui-name="KillFeedEntryC" data-ui-role="card/entry" style="position:absolute;left:18px;top:134px;width:344px;height:36px;box-sizing:border-box;">
+        <div data-ui-name="KillFeedEntryCText" data-ui-role="text/body" style="position:absolute;left:14px;top:10px;width:316px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">WARD secured crossfire angle</div>
+      </div>
+      <div data-ui-name="KillFeedEntryD" data-ui-role="card/entry" style="position:absolute;left:18px;top:180px;width:344px;height:22px;box-sizing:border-box;">
+        <div data-ui-name="KillFeedEntryDText" data-ui-role="text/micro" style="position:absolute;left:14px;top:4px;width:316px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">last event 2.1s ago</div>
+      </div>
+    </div>
+
+    <div data-ui-name="CenterCrosshair" data-ui-role="panel/section" data-ui-asset-id="icon/hud-crosshair" data-ui-asset-type="icon" data-ui-asset-usage="combat-crosshair" data-ui-asset-import="sprite" data-ui-asset-width="60" data-ui-asset-height="60" data-ui-asset-tint="none" style="position:absolute;left:930px;top:500px;width:60px;height:60px;box-sizing:border-box;background:url('../assets/hud_crosshair.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;">
+      <div data-ui-name="CrosshairTop" data-ui-role="card/accent" style="position:absolute;left:22px;top:8px;width:16px;height:10px;box-sizing:border-box;opacity:0;"></div>
+      <div data-ui-name="CrosshairLeft" data-ui-role="card/accent" style="position:absolute;left:8px;top:22px;width:10px;height:16px;box-sizing:border-box;opacity:0;"></div>
+      <div data-ui-name="CrosshairRight" data-ui-role="card/accent" style="position:absolute;left:42px;top:22px;width:10px;height:16px;box-sizing:border-box;opacity:0;"></div>
+      <div data-ui-name="CrosshairBottom" data-ui-role="card/accent" style="position:absolute;left:22px;top:42px;width:16px;height:10px;box-sizing:border-box;opacity:0;"></div>
+      <div data-ui-name="CrosshairCenter" data-ui-role="card/info" style="position:absolute;left:24px;top:24px;width:12px;height:12px;box-sizing:border-box;opacity:0;"></div>
+    </div>
+
+    <div data-ui-name="MidPrompt" data-ui-role="panel/resource-bar" style="position:absolute;left:760px;top:760px;width:400px;height:64px;box-sizing:border-box;">
+      <div data-ui-name="MidPromptLabel" data-ui-role="text/label" style="position:absolute;left:18px;top:10px;width:90px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">INTERACT</div>
+      <div data-ui-name="MidPromptBody" data-ui-role="text/body" style="position:absolute;left:18px;top:30px;width:320px;height:18px;box-sizing:border-box;font-size:16px;line-height:18px;text-align:left;">Hold F to secure uplink relay</div>
+    </div>
+
+    <div data-ui-name="BottomLeftHealthArmor" data-ui-role="panel/ink" style="position:absolute;left:40px;top:906px;width:360px;height:124px;box-sizing:border-box;">
+      <div data-ui-name="BottomLeftHealthCard" data-ui-role="card/accent" style="position:absolute;left:18px;top:18px;width:108px;height:88px;box-sizing:border-box;">
+        <div data-ui-name="BottomLeftHealthLabel" data-ui-role="text/label" style="position:absolute;left:12px;top:12px;width:64px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">HP</div>
+        <div data-ui-name="BottomLeftHealthValue" data-ui-role="text/title" style="position:absolute;left:12px;top:42px;width:64px;height:24px;box-sizing:border-box;font-size:26px;line-height:24px;text-align:left;">83</div>
+      </div>
+      <div data-ui-name="BottomLeftArmorCard" data-ui-role="card/info" style="position:absolute;left:136px;top:18px;width:108px;height:88px;box-sizing:border-box;">
+        <div data-ui-name="BottomLeftArmorLabel" data-ui-role="text/label" style="position:absolute;left:12px;top:12px;width:64px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">ARMOR</div>
+        <div data-ui-name="BottomLeftArmorValue" data-ui-role="text/value" style="position:absolute;left:12px;top:42px;width:64px;height:24px;box-sizing:border-box;font-size:26px;line-height:24px;text-align:left;">52</div>
+      </div>
+      <div data-ui-name="BottomLeftStateCard" data-ui-role="card/info" style="position:absolute;left:254px;top:18px;width:88px;height:88px;box-sizing:border-box;">
+        <div data-ui-name="BottomLeftStateLabel" data-ui-role="text/label" style="position:absolute;left:12px;top:12px;width:52px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">STATE</div>
+        <div data-ui-name="BottomLeftStateValue" data-ui-role="text/body" style="position:absolute;left:12px;top:42px;width:60px;height:24px;box-sizing:border-box;font-size:15px;line-height:18px;text-align:left;">READY</div>
+      </div>
+    </div>
+
+    <div data-ui-name="BottomRightAmmoAbility" data-ui-role="panel/hero" data-ui-shape="plate" data-ui-asset-id="background/hud-ammo-panel" data-ui-asset-type="background" data-ui-asset-usage="ammo-panel" data-ui-asset-import="sprite" data-ui-asset-width="420" data-ui-asset-height="154" data-ui-asset-tint="none" style="position:absolute;left:1420px;top:876px;width:420px;height:154px;box-sizing:border-box;background:url('../assets/hud_ammo_panel.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;">
+      <div data-ui-name="BottomRightAmmoLabel" data-ui-role="text/label" style="position:absolute;left:18px;top:14px;width:90px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">AMMO</div>
+      <div data-ui-name="BottomRightAmmoValue" data-ui-role="text/title" style="position:absolute;left:18px;top:34px;width:120px;height:36px;box-sizing:border-box;font-size:36px;line-height:36px;text-align:left;">28</div>
+      <div data-ui-name="BottomRightAmmoReserve" data-ui-role="text/body" style="position:absolute;left:120px;top:46px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;">/ 84</div>
+      <div data-ui-name="BottomRightMode" data-ui-role="text/gold" style="position:absolute;left:18px;top:82px;width:120px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:left;">AUTO FIRE</div>
+      <div data-ui-name="AbilityCardA" data-ui-role="card/info" style="position:absolute;left:228px;top:18px;width:76px;height:54px;box-sizing:border-box;">
+        <div data-ui-name="AbilityCardALabel" data-ui-role="text/label" style="position:absolute;left:12px;top:8px;width:20px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">Q</div>
+        <div data-ui-name="AbilityCardAValue" data-ui-role="text/body" style="position:absolute;left:12px;top:28px;width:46px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">Scan</div>
+      </div>
+      <div data-ui-name="AbilityCardB" data-ui-role="card/info" style="position:absolute;left:316px;top:18px;width:76px;height:54px;box-sizing:border-box;">
+        <div data-ui-name="AbilityCardBLabel" data-ui-role="text/label" style="position:absolute;left:12px;top:8px;width:20px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">E</div>
+        <div data-ui-name="AbilityCardBValue" data-ui-role="text/body" style="position:absolute;left:12px;top:28px;width:46px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">Dash</div>
+      </div>
+      <div data-ui-name="AbilityCardC" data-ui-role="card/info" style="position:absolute;left:228px;top:82px;width:76px;height:54px;box-sizing:border-box;">
+        <div data-ui-name="AbilityCardCLabel" data-ui-role="text/label" style="position:absolute;left:12px;top:8px;width:20px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">X</div>
+        <div data-ui-name="AbilityCardCValue" data-ui-role="text/body" style="position:absolute;left:12px;top:28px;width:46px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">Pack</div>
+      </div>
+      <div data-ui-name="AbilityCardD" data-ui-role="card/accent" style="position:absolute;left:316px;top:82px;width:76px;height:54px;box-sizing:border-box;">
+        <div data-ui-name="AbilityCardDLabel" data-ui-role="text/label" style="position:absolute;left:12px;top:8px;width:20px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">C</div>
+        <div data-ui-name="AbilityCardDValue" data-ui-role="text/body" style="position:absolute;left:12px;top:28px;width:46px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">Burst</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

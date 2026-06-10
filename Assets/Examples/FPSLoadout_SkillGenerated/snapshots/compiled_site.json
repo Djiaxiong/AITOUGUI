@@ -1,0 +1,47 @@
+{
+  "siteId": "fps_loadout_skill_generated",
+  "displayName": "FPS Loadout Skill Generated",
+  "designWidth": 1920,
+  "designHeight": 1080,
+  "themeCss": "theme.css",
+  "sharedStyles": [
+    "shared/widgets.css"
+  ],
+  "themeRoles": [
+    "button/ghost",
+    "button/primary",
+    "button/secondary",
+    "card/accent",
+    "card/entry",
+    "card/info",
+    "panel/hero",
+    "panel/ink",
+    "panel/primary",
+    "panel/resource-bar",
+    "panel/section",
+    "text/body",
+    "text/gold",
+    "text/label",
+    "text/micro",
+    "text/muted",
+    "text/title",
+    "text/title-inverse",
+    "text/value",
+    "window/main"
+  ],
+  "themeClasses": [],
+  "widgetClasses": [
+    "screen-root"
+  ],
+  "widgetRoles": [],
+  "pages": [
+    {
+      "pageId": "weapon-loadout",
+      "html": "pages/weapon-loadout.html",
+      "compiledPage": "compiled_pages/weapon-loadout.compiled_page.json",
+      "layoutSnapshot": "layout_snapshots/weapon-loadout.layout_snapshot.json",
+      "warningCount": 0,
+      "pageRootFound": true
+    }
+  ]
+}

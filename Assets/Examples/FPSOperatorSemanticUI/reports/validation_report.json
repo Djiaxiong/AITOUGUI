@@ -1,0 +1,36 @@
+{
+  "reportVersion": "1.0",
+  "siteRoot": "E:\\UnityProject\\AIGeneratedUGUI\\Assets\\AI_UGUI_Creator\\Samples\\FPS\\FPSOperatorSemanticUI",
+  "siteId": "fps_operator_semantic_ui",
+  "status": "pass",
+  "summary": {
+    "pageCount": 1,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "violations": [],
+  "warnings": [],
+  "pageReports": [
+    {
+      "pageId": "combat-hud",
+      "html": "pages/combat-hud.html",
+      "status": "pass",
+      "errorCount": 0,
+      "warningCount": 0,
+      "errors": [],
+      "warnings": [],
+      "unsupportedTags": [],
+      "unsupportedAttributes": [],
+      "unsupportedSelectors": [],
+      "unsupportedProperties": [],
+      "unsupportedValuePatterns": [],
+      "browserOnlyPatterns": [],
+      "missingRequiredAttributes": [],
+      "missingRequiredSizeNodes": [],
+      "undefinedClasses": [],
+      "undefinedRoles": [],
+      "contractMismatches": [],
+      "metadataMismatches": []
+    }
+  ]
+}

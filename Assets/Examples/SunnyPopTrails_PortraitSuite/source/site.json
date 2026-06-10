@@ -1,0 +1,38 @@
+{
+  "siteId": "sunny_pop_trails_portrait_suite",
+  "displayName": "Sunny Pop Trails Portrait Suite",
+  "designWidth": 1080,
+  "designHeight": 1920,
+  "themeCss": "theme.css",
+  "sharedStyles": [
+    "shared/widgets.css"
+  ],
+  "prefabOutputRoot": "Assets/Prefabs/UI/Generated",
+  "metadataOutputRoot": "Assets/DataConfig/UI/Generated",
+  "pages": [
+    {
+      "pageId": "home",
+      "displayName": "Home",
+      "html": "pages/home.html",
+      "prefabName": "SunnyPopTrailsHomePanel",
+      "targetLayer": "Normal",
+      "localStyles": []
+    },
+    {
+      "pageId": "loading",
+      "displayName": "Loading",
+      "html": "pages/loading.html",
+      "prefabName": "SunnyPopTrailsLoadingPanel",
+      "targetLayer": "Normal",
+      "localStyles": []
+    },
+    {
+      "pageId": "gameplay",
+      "displayName": "Gameplay",
+      "html": "pages/gameplay.html",
+      "prefabName": "SunnyPopTrailsGameplayPanel",
+      "targetLayer": "Normal",
+      "localStyles": []
+    }
+  ]
+}

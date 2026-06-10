@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "warningCount": 0,
+  "infoCount": 7,
+  "warnings": [],
+  "infos": [
+    "theme.pageBackground = #07111b",
+    "theme.cardFill = rgba(24, 41, 62, 0.92)",
+    "theme.panelFill = rgba(15, 26, 41, 0.98)",
+    "theme.buttonFill = #ff8f4f",
+    "theme.accentColor = #ff8f4f",
+    "theme.tokens count = 19",
+    "canonical role matches = 15"
+  ],
+  "bundlePath": "E:/UnityProject/AIGeneratedUGUI/Assets/AI_UGUI_Creator/Samples/FPS/FPSLoadout_SkillGenerated/compiled_site_bundle.json"
+}

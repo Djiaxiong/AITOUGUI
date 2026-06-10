@@ -1,0 +1,4487 @@
+{
+  "siteId": "sunny_pop_trails_portrait_suite",
+  "pageId": "home",
+  "designWidth": 1080,
+  "designHeight": 1920,
+  "pageRootFound": true,
+  "pageRootName": "HomeRoot",
+  "entries": [
+    {
+      "path": "HomeRoot",
+      "name": "HomeRoot",
+      "tag": "div",
+      "role": "window/main",
+      "classes": [
+        "screen-root",
+        "home-root"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "5 FULL LIVES 12,840 SUN COINS 287 STARS Menu SUNNY POP TRAILS OF ORCHARD MAGIC Sunbeam Orchard • World 12 Play Level 128 Collect 24 honey drops and clear 18 jelly tiles. Today's Fun Short-session events and streak rewards designed for casual portrait play. DAILY STREAK Day 6 Bloom Finish one stage to unlock a rainbow rocket and 30 bonus coins. View Reward LIMITED EVENT Treasure Cruise Chain five win streaks to fill the picnic map and claim a golden chest. Open Event Road to Level 128 You are one win away from the orchard gate. Keep your boosters for the honey lane. WORLD PROGRESS 78% NEXT GOAL Honey Drop Rescue Use fewer than 20 moves to keep the streak chest alive. TEAM UPDATE Picnic Club Rank 3 Two more wins this week unlock the shared blossom chest. Booster Shelf Hammer x12 Shuffle x7 Rocket x9",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "0",
+        "top": "0",
+        "width": "1080px",
+        "height": "1920px",
+        "overflow": "hidden",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 0.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 0.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 1080.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 1920.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1080.0,
+        "height": 1920.0,
+        "measured": true,
+        "source": "page-root"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #7dd7ff 0%, #e2f9ff 58%, #fff3df 100%)",
+        "background-color": "var(--page-bg)"
+      },
+      "attrs": {
+        "class": "screen-root home-root",
+        "data-ui-page": "home",
+        "data-ui-name": "HomeRoot",
+        "data-ui-role": "window/main"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeCloudLeft",
+      "name": "HomeCloudLeft",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "soft-cloud"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "66px",
+        "top": "132px",
+        "width": "206px",
+        "height": "80px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 66.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 132.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 206.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 80.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 66.0,
+        "y": 132.0,
+        "width": 206.0,
+        "height": 80.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "rgba(255, 255, 255, 0.42)",
+        "border-radius": "60px",
+        "box-shadow": "0 10px 22px rgba(136, 192, 220, 0.18)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeCloudLeft",
+        "class": "soft-cloud",
+        "style": "position:absolute;left:66px;top:132px;width:206px;height:80px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeCloudRight",
+      "name": "HomeCloudRight",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "soft-cloud"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "792px",
+        "top": "164px",
+        "width": "184px",
+        "height": "72px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 792.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 164.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 184.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 72.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 792.0,
+        "y": 164.0,
+        "width": 184.0,
+        "height": 72.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "rgba(255, 255, 255, 0.42)",
+        "border-radius": "60px",
+        "box-shadow": "0 10px 22px rgba(136, 192, 220, 0.18)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeCloudRight",
+        "class": "soft-cloud",
+        "style": "position:absolute;left:792px;top:164px;width:184px;height:72px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar",
+      "name": "HomeTopStatusBar",
+      "tag": "div",
+      "role": "panel/resource-bar",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "5 FULL LIVES 12,840 SUN COINS 287 STARS Menu",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "56px",
+        "top": "48px",
+        "width": "968px",
+        "height": "116px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 56.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 48.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 968.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 116.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 56.0,
+        "y": 48.0,
+        "width": 968.0,
+        "height": 116.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(244, 252, 255, 0.9) 100%)",
+        "background-color": "var(--panel-white)",
+        "border": "2px solid rgba(255, 255, 255, 0.66)",
+        "border-radius": "34px",
+        "box-shadow": "var(--shadow-soft)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeTopStatusBar",
+        "data-ui-role": "panel/resource-bar",
+        "style": "position:absolute;left:56px;top:48px;width:968px;height:116px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeLivesChip",
+      "name": "HomeLivesChip",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "top-pill"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "5 FULL LIVES",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "18px",
+        "width": "220px",
+        "height": "80px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 220.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 80.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 80.0,
+        "y": 66.0,
+        "width": 220.0,
+        "height": 80.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(246, 252, 255, 0.92) 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "30px",
+        "box-shadow": "0 10px 24px rgba(86, 136, 173, 0.1)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeLivesChip",
+        "class": "top-pill",
+        "style": "position:absolute;left:24px;top:18px;width:220px;height:80px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeLivesChip/HomeLivesIcon",
+      "name": "HomeLivesIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "20px",
+        "top": "20px",
+        "width": "40px",
+        "height": "40px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 40.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 40.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 100.0,
+        "y": 86.0,
+        "width": 40.0,
+        "height": 40.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_heart.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "HomeLivesIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/heart",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "currency-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "40",
+        "data-ui-asset-height": "40",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:20px;top:20px;width:40px;height:40px;box-sizing:border-box;background:url('../assets/icon_heart.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeLivesChip/HomeLivesValue",
+      "name": "HomeLivesValue",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "5",
+      "aggregateText": "5",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "74px",
+        "top": "18px",
+        "width": "80px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 74.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 80.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 154.0,
+        "y": 84.0,
+        "width": 80.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "28px",
+        "font-weight": "800",
+        "line-height": "30px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeLivesValue",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:74px;top:18px;width:80px;height:22px;box-sizing:border-box;font-size:28px;line-height:30px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeLivesChip/HomeLivesLabel",
+      "name": "HomeLivesLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "FULL LIVES",
+      "aggregateText": "FULL LIVES",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "74px",
+        "top": "48px",
+        "width": "120px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 74.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 48.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 154.0,
+        "y": 114.0,
+        "width": 120.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeLivesLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:74px;top:48px;width:120px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeCoinsChip",
+      "name": "HomeCoinsChip",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "top-pill"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "12,840 SUN COINS",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "262px",
+        "top": "18px",
+        "width": "260px",
+        "height": "80px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 262.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 260.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 80.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 318.0,
+        "y": 66.0,
+        "width": 260.0,
+        "height": 80.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(246, 252, 255, 0.92) 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "30px",
+        "box-shadow": "0 10px 24px rgba(86, 136, 173, 0.1)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeCoinsChip",
+        "class": "top-pill",
+        "style": "position:absolute;left:262px;top:18px;width:260px;height:80px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeCoinsChip/HomeCoinsIcon",
+      "name": "HomeCoinsIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "20px",
+        "top": "20px",
+        "width": "40px",
+        "height": "40px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 40.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 40.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 338.0,
+        "y": 86.0,
+        "width": 40.0,
+        "height": 40.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_coin.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "HomeCoinsIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/coin",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "currency-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "40",
+        "data-ui-asset-height": "40",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:20px;top:20px;width:40px;height:40px;box-sizing:border-box;background:url('../assets/icon_coin.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeCoinsChip/HomeCoinsValue",
+      "name": "HomeCoinsValue",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "12,840",
+      "aggregateText": "12,840",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "74px",
+        "top": "18px",
+        "width": "120px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 74.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 392.0,
+        "y": 84.0,
+        "width": 120.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "28px",
+        "font-weight": "800",
+        "line-height": "30px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeCoinsValue",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:74px;top:18px;width:120px;height:22px;box-sizing:border-box;font-size:28px;line-height:30px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeCoinsChip/HomeCoinsLabel",
+      "name": "HomeCoinsLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "SUN COINS",
+      "aggregateText": "SUN COINS",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "74px",
+        "top": "48px",
+        "width": "140px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 74.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 48.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 140.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 392.0,
+        "y": 114.0,
+        "width": 140.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeCoinsLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:74px;top:48px;width:140px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeStarsChip",
+      "name": "HomeStarsChip",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "top-pill"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "287 STARS",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "540px",
+        "top": "18px",
+        "width": "244px",
+        "height": "80px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 540.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 244.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 80.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 596.0,
+        "y": 66.0,
+        "width": 244.0,
+        "height": 80.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(246, 252, 255, 0.92) 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "30px",
+        "box-shadow": "0 10px 24px rgba(86, 136, 173, 0.1)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeStarsChip",
+        "class": "top-pill",
+        "style": "position:absolute;left:540px;top:18px;width:244px;height:80px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeStarsChip/HomeStarsIcon",
+      "name": "HomeStarsIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "20px",
+        "top": "20px",
+        "width": "40px",
+        "height": "40px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 40.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 40.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 616.0,
+        "y": 86.0,
+        "width": 40.0,
+        "height": 40.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_star.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "HomeStarsIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/star",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "progress-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "40",
+        "data-ui-asset-height": "40",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:20px;top:20px;width:40px;height:40px;box-sizing:border-box;background:url('../assets/icon_star.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeStarsChip/HomeStarsValue",
+      "name": "HomeStarsValue",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "287",
+      "aggregateText": "287",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "74px",
+        "top": "18px",
+        "width": "90px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 74.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 90.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 670.0,
+        "y": 84.0,
+        "width": 90.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "28px",
+        "font-weight": "800",
+        "line-height": "30px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeStarsValue",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:74px;top:18px;width:90px;height:22px;box-sizing:border-box;font-size:28px;line-height:30px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeStarsChip/HomeStarsLabel",
+      "name": "HomeStarsLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "STARS",
+      "aggregateText": "STARS",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "74px",
+        "top": "48px",
+        "width": "120px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 74.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 48.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 670.0,
+        "y": 114.0,
+        "width": 120.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeStarsLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:74px;top:48px;width:120px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeSettingsButton",
+      "name": "HomeSettingsButton",
+      "tag": "button",
+      "role": "button/ghost",
+      "classes": [],
+      "contentType": "button",
+      "directText": "",
+      "aggregateText": "Menu",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "808px",
+        "top": "18px",
+        "width": "136px",
+        "height": "80px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 808.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 136.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 80.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 864.0,
+        "y": 66.0,
+        "width": 136.0,
+        "height": 80.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)"
+      },
+      "visualStyle": {
+        "background": "rgba(255, 255, 255, 0.42)",
+        "background-color": "rgba(255, 255, 255, 0.42)",
+        "border": "2px solid rgba(255, 255, 255, 0.64)",
+        "border-radius": "28px"
+      },
+      "attrs": {
+        "data-ui-name": "HomeSettingsButton",
+        "data-ui-role": "button/ghost",
+        "data-ui-element": "button/ghost",
+        "style": "position:absolute;left:808px;top:18px;width:136px;height:80px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeTopStatusBar/HomeSettingsButton/HomeSettingsButtonText",
+      "name": "HomeSettingsButtonText",
+      "tag": "span",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Menu",
+      "aggregateText": "Menu",
+      "anchorHint": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "layout": {
+        "width": "136px",
+        "height": "80px"
+      },
+      "layoutNumeric": {
+        "width": {
+          "kind": "px",
+          "value": 136.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 80.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 864.0,
+        "y": 66.0,
+        "width": 136.0,
+        "height": 80.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "22px",
+        "font-weight": "800",
+        "line-height": "76px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeSettingsButtonText",
+        "data-ui-role": "text/title",
+        "style": "width:136px;height:80px;font-size:22px;line-height:76px;text-align:center;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeHeroPanel",
+      "name": "HomeHeroPanel",
+      "tag": "div",
+      "role": "panel/hero",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "SUNNY POP TRAILS OF ORCHARD MAGIC Sunbeam Orchard • World 12 Play Level 128 Collect 24 honey drops and clear 18 jelly tiles.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "72px",
+        "top": "196px",
+        "width": "936px",
+        "height": "580px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 72.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 196.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 936.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 580.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 72.0,
+        "y": 196.0,
+        "width": 936.0,
+        "height": 580.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 250, 243, 0.96) 0%, rgba(255, 244, 232, 0.94) 100%)",
+        "background-color": "var(--panel-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.82)",
+        "border-radius": "42px",
+        "box-shadow": "var(--shadow-hero)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeHeroPanel",
+        "data-ui-role": "panel/hero",
+        "data-ui-shape": "plate",
+        "style": "position:absolute;left:72px;top:196px;width:936px;height:580px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeHeroPanel/HomeHeroBadge",
+      "name": "HomeHeroBadge",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [
+        "sunburst-badge"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "340px",
+        "top": "44px",
+        "width": "256px",
+        "height": "256px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 340.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 44.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 256.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 256.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 412.0,
+        "y": 240.0,
+        "width": 256.0,
+        "height": 256.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/badge_sunburst.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "HomeHeroBadge",
+        "class": "sunburst-badge",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "ornament/sunburst-badge",
+        "data-ui-asset-type": "ornament",
+        "data-ui-asset-usage": "logo-badge",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "256",
+        "data-ui-asset-height": "256",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:340px;top:44px;width:256px;height:256px;box-sizing:border-box;background:url('../assets/badge_sunburst.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;animation:pulse 2.2s ease-in-out infinite;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeHeroPanel/HomeLogoTitle",
+      "name": "HomeLogoTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "SUNNY POP",
+      "aggregateText": "SUNNY POP",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "204px",
+        "top": "250px",
+        "width": "528px",
+        "height": "68px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 204.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 250.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 528.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 68.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 276.0,
+        "y": 446.0,
+        "width": 528.0,
+        "height": 68.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "64px",
+        "font-weight": "800",
+        "line-height": "68px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeLogoTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:204px;top:250px;width:528px;height:68px;box-sizing:border-box;font-size:64px;line-height:68px;text-align:center;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeHeroPanel/HomeLogoSubTitle",
+      "name": "HomeLogoSubTitle",
+      "tag": "div",
+      "role": "text/gold",
+      "classes": [],
+      "contentType": "text",
+      "directText": "TRAILS OF ORCHARD MAGIC",
+      "aggregateText": "TRAILS OF ORCHARD MAGIC",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "258px",
+        "top": "328px",
+        "width": "420px",
+        "height": "24px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 258.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 328.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 420.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 24.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 330.0,
+        "y": 524.0,
+        "width": 420.0,
+        "height": 24.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "#f39a39",
+        "font-size": "20px",
+        "font-weight": "800",
+        "line-height": "24px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeLogoSubTitle",
+        "data-ui-role": "text/gold",
+        "style": "position:absolute;left:258px;top:328px;width:420px;height:24px;box-sizing:border-box;font-size:20px;line-height:24px;text-align:center;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeHeroPanel/HomeWorldRibbon",
+      "name": "HomeWorldRibbon",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "ribbon-badge"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Sunbeam Orchard • World 12",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "264px",
+        "top": "384px",
+        "width": "408px",
+        "height": "74px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 264.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 384.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 408.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 74.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 336.0,
+        "y": 580.0,
+        "width": 408.0,
+        "height": 74.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 220, 113, 1) 0%, rgba(255, 182, 86, 1) 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.52)",
+        "border-radius": "28px",
+        "box-shadow": "0 12px 24px rgba(255, 183, 92, 0.24)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeWorldRibbon",
+        "class": "ribbon-badge",
+        "style": "position:absolute;left:264px;top:384px;width:408px;height:74px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeHeroPanel/HomeWorldRibbon/HomeWorldRibbonLabel",
+      "name": "HomeWorldRibbonLabel",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Sunbeam Orchard • World 12",
+      "aggregateText": "Sunbeam Orchard • World 12",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "34px",
+        "top": "18px",
+        "width": "340px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 340.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 370.0,
+        "y": 598.0,
+        "width": 340.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "24px",
+        "font-weight": "800",
+        "line-height": "24px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeWorldRibbonLabel",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:34px;top:18px;width:340px;height:22px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:center;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeHeroPanel/HomePlayButton",
+      "name": "HomePlayButton",
+      "tag": "button",
+      "role": "button/primary",
+      "classes": [],
+      "contentType": "button",
+      "directText": "",
+      "aggregateText": "Play Level 128",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "178px",
+        "top": "428px",
+        "width": "580px",
+        "height": "116px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 178.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 428.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 580.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 116.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 250.0,
+        "y": 624.0,
+        "width": 580.0,
+        "height": 116.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)"
+      },
+      "visualStyle": {
+        "background": "linear-gradient(180deg, var(--accent-green-a) 0%, var(--accent-green-b) 100%)",
+        "background-color": "var(--accent-yellow)",
+        "border": "2px solid rgba(255, 255, 255, 0.54)",
+        "border-radius": "34px",
+        "box-shadow": "0 18px 36px rgba(74, 191, 85, 0.24)"
+      },
+      "attrs": {
+        "data-ui-name": "HomePlayButton",
+        "data-ui-role": "button/primary",
+        "data-ui-element": "button/primary",
+        "style": "position:absolute;left:178px;top:428px;width:580px;height:116px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeHeroPanel/HomePlayButton/HomePlayButtonText",
+      "name": "HomePlayButtonText",
+      "tag": "span",
+      "role": "text/title-inverse",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Play Level 128",
+      "aggregateText": "Play Level 128",
+      "anchorHint": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "layout": {
+        "width": "580px",
+        "height": "116px"
+      },
+      "layoutNumeric": {
+        "width": {
+          "kind": "px",
+          "value": 580.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 116.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 250.0,
+        "y": 624.0,
+        "width": 580.0,
+        "height": 116.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)",
+        "font-size": "40px",
+        "font-weight": "800",
+        "line-height": "108px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomePlayButtonText",
+        "data-ui-role": "text/title-inverse",
+        "style": "width:580px;height:116px;font-size:40px;line-height:108px;text-align:center;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeHeroPanel/HomePlayNote",
+      "name": "HomePlayNote",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Collect 24 honey drops and clear 18 jelly tiles.",
+      "aggregateText": "Collect 24 honey drops and clear 18 jelly tiles.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "248px",
+        "top": "554px",
+        "width": "440px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 248.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 554.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 440.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 320.0,
+        "y": 750.0,
+        "width": 440.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "18px",
+        "line-height": "22px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomePlayNote",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:248px;top:554px;width:440px;height:22px;box-sizing:border-box;font-size:18px;line-height:22px;text-align:center;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection",
+      "name": "HomeEventSection",
+      "tag": "div",
+      "role": "panel/section",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Today's Fun Short-session events and streak rewards designed for casual portrait play. DAILY STREAK Day 6 Bloom Finish one stage to unlock a rainbow rocket and 30 bonus coins. View Reward LIMITED EVENT Treasure Cruise Chain five win streaks to fill the picnic map and claim a golden chest. Open Event",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "72px",
+        "top": "812px",
+        "width": "936px",
+        "height": "356px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 72.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 812.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 936.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 356.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 72.0,
+        "y": 812.0,
+        "width": 936.0,
+        "height": 356.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 253, 255, 0.86) 100%)",
+        "background-color": "var(--panel-soft)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "34px",
+        "box-shadow": "var(--shadow-soft)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeEventSection",
+        "data-ui-role": "panel/section",
+        "style": "position:absolute;left:72px;top:812px;width:936px;height:356px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeEventSectionTitle",
+      "name": "HomeEventSectionTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Today's Fun",
+      "aggregateText": "Today's Fun",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "34px",
+        "top": "28px",
+        "width": "220px",
+        "height": "28px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 220.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 28.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 106.0,
+        "y": 840.0,
+        "width": 220.0,
+        "height": 28.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "32px",
+        "font-weight": "800",
+        "line-height": "32px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeEventSectionTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:34px;top:28px;width:220px;height:28px;box-sizing:border-box;font-size:32px;line-height:32px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeEventSectionBody",
+      "name": "HomeEventSectionBody",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Short-session events and streak rewards designed for casual portrait play.",
+      "aggregateText": "Short-session events and streak rewards designed for casual portrait play.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "34px",
+        "top": "64px",
+        "width": "520px",
+        "height": "20px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 64.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 520.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 20.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 106.0,
+        "y": 876.0,
+        "width": 520.0,
+        "height": 20.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "18px",
+        "line-height": "20px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeEventSectionBody",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:34px;top:64px;width:520px;height:20px;box-sizing:border-box;font-size:18px;line-height:20px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeDailyStreakCard",
+      "name": "HomeDailyStreakCard",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "event-card"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "DAILY STREAK Day 6 Bloom Finish one stage to unlock a rainbow rocket and 30 bonus coins. View Reward",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "34px",
+        "top": "112px",
+        "width": "414px",
+        "height": "210px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 414.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 210.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 106.0,
+        "y": 924.0,
+        "width": 414.0,
+        "height": 210.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(248, 253, 255, 0.9) 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.78)",
+        "border-radius": "30px",
+        "box-shadow": "0 14px 30px rgba(91, 140, 176, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeDailyStreakCard",
+        "class": "event-card",
+        "style": "position:absolute;left:34px;top:112px;width:414px;height:210px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeDailyStreakCard/HomeDailyStreakLabel",
+      "name": "HomeDailyStreakLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "DAILY STREAK",
+      "aggregateText": "DAILY STREAK",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "24px",
+        "width": "160px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 160.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 130.0,
+        "y": 948.0,
+        "width": 160.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeDailyStreakLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:24px;top:24px;width:160px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeDailyStreakCard/HomeDailyStreakTitle",
+      "name": "HomeDailyStreakTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Day 6 Bloom",
+      "aggregateText": "Day 6 Bloom",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "54px",
+        "width": "220px",
+        "height": "24px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 54.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 220.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 24.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 130.0,
+        "y": 978.0,
+        "width": 220.0,
+        "height": 24.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "28px",
+        "font-weight": "800",
+        "line-height": "28px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeDailyStreakTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:24px;top:54px;width:220px;height:24px;box-sizing:border-box;font-size:28px;line-height:28px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeDailyStreakCard/HomeDailyStreakBody",
+      "name": "HomeDailyStreakBody",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Finish one stage to unlock a rainbow rocket and 30 bonus coins.",
+      "aggregateText": "Finish one stage to unlock a rainbow rocket and 30 bonus coins.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "92px",
+        "width": "278px",
+        "height": "40px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 92.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 40.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 130.0,
+        "y": 1016.0,
+        "width": 278.0,
+        "height": 40.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "18px",
+        "line-height": "20px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeDailyStreakBody",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:24px;top:92px;width:278px;height:40px;box-sizing:border-box;font-size:18px;line-height:20px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeDailyStreakCard/HomeDailyClaimButton",
+      "name": "HomeDailyClaimButton",
+      "tag": "button",
+      "role": "button/secondary",
+      "classes": [],
+      "contentType": "button",
+      "directText": "",
+      "aggregateText": "View Reward",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "148px",
+        "width": "186px",
+        "height": "46px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 148.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 186.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 46.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 130.0,
+        "y": 1072.0,
+        "width": 186.0,
+        "height": 46.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)"
+      },
+      "visualStyle": {
+        "background": "linear-gradient(180deg, var(--accent-coral-a) 0%, var(--accent-coral-b) 100%)",
+        "background-color": "var(--accent-coral-a)",
+        "border": "2px solid rgba(255, 255, 255, 0.5)",
+        "border-radius": "30px",
+        "box-shadow": "0 14px 28px rgba(255, 125, 120, 0.24)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeDailyClaimButton",
+        "data-ui-role": "button/secondary",
+        "data-ui-element": "button/secondary",
+        "style": "position:absolute;left:24px;top:148px;width:186px;height:46px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeDailyStreakCard/HomeDailyClaimButton/HomeDailyClaimButtonText",
+      "name": "HomeDailyClaimButtonText",
+      "tag": "span",
+      "role": "text/title-inverse",
+      "classes": [],
+      "contentType": "text",
+      "directText": "View Reward",
+      "aggregateText": "View Reward",
+      "anchorHint": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "layout": {
+        "width": "186px",
+        "height": "46px"
+      },
+      "layoutNumeric": {
+        "width": {
+          "kind": "px",
+          "value": 186.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 46.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 130.0,
+        "y": 1072.0,
+        "width": 186.0,
+        "height": 46.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)",
+        "font-size": "18px",
+        "font-weight": "800",
+        "line-height": "42px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeDailyClaimButtonText",
+        "data-ui-role": "text/title-inverse",
+        "style": "width:186px;height:46px;font-size:18px;line-height:42px;text-align:center;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeTreasureCruiseCard",
+      "name": "HomeTreasureCruiseCard",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "event-card"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "LIMITED EVENT Treasure Cruise Chain five win streaks to fill the picnic map and claim a golden chest. Open Event",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "488px",
+        "top": "112px",
+        "width": "414px",
+        "height": "210px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 488.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 414.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 210.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 560.0,
+        "y": 924.0,
+        "width": 414.0,
+        "height": 210.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(248, 253, 255, 0.9) 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.78)",
+        "border-radius": "30px",
+        "box-shadow": "0 14px 30px rgba(91, 140, 176, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeTreasureCruiseCard",
+        "class": "event-card",
+        "style": "position:absolute;left:488px;top:112px;width:414px;height:210px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeTreasureCruiseCard/HomeTreasureCruiseLabel",
+      "name": "HomeTreasureCruiseLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "LIMITED EVENT",
+      "aggregateText": "LIMITED EVENT",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "24px",
+        "width": "180px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 180.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 584.0,
+        "y": 948.0,
+        "width": 180.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeTreasureCruiseLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:24px;top:24px;width:180px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeTreasureCruiseCard/HomeTreasureCruiseTitle",
+      "name": "HomeTreasureCruiseTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Treasure Cruise",
+      "aggregateText": "Treasure Cruise",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "54px",
+        "width": "260px",
+        "height": "24px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 54.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 260.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 24.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 584.0,
+        "y": 978.0,
+        "width": 260.0,
+        "height": 24.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "28px",
+        "font-weight": "800",
+        "line-height": "28px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeTreasureCruiseTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:24px;top:54px;width:260px;height:24px;box-sizing:border-box;font-size:28px;line-height:28px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeTreasureCruiseCard/HomeTreasureCruiseBody",
+      "name": "HomeTreasureCruiseBody",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Chain five win streaks to fill the picnic map and claim a golden chest.",
+      "aggregateText": "Chain five win streaks to fill the picnic map and claim a golden chest.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "92px",
+        "width": "290px",
+        "height": "40px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 92.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 290.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 40.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 584.0,
+        "y": 1016.0,
+        "width": 290.0,
+        "height": 40.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "18px",
+        "line-height": "20px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeTreasureCruiseBody",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:24px;top:92px;width:290px;height:40px;box-sizing:border-box;font-size:18px;line-height:20px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeTreasureCruiseCard/HomeTreasureOpenButton",
+      "name": "HomeTreasureOpenButton",
+      "tag": "button",
+      "role": "button/secondary",
+      "classes": [],
+      "contentType": "button",
+      "directText": "",
+      "aggregateText": "Open Event",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "148px",
+        "width": "186px",
+        "height": "46px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 148.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 186.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 46.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 584.0,
+        "y": 1072.0,
+        "width": 186.0,
+        "height": 46.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)"
+      },
+      "visualStyle": {
+        "background": "linear-gradient(180deg, var(--accent-coral-a) 0%, var(--accent-coral-b) 100%)",
+        "background-color": "var(--accent-coral-a)",
+        "border": "2px solid rgba(255, 255, 255, 0.5)",
+        "border-radius": "30px",
+        "box-shadow": "0 14px 28px rgba(255, 125, 120, 0.24)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeTreasureOpenButton",
+        "data-ui-role": "button/secondary",
+        "data-ui-element": "button/secondary",
+        "style": "position:absolute;left:24px;top:148px;width:186px;height:46px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeEventSection/HomeTreasureCruiseCard/HomeTreasureOpenButton/HomeTreasureOpenButtonText",
+      "name": "HomeTreasureOpenButtonText",
+      "tag": "span",
+      "role": "text/title-inverse",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Open Event",
+      "aggregateText": "Open Event",
+      "anchorHint": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "layout": {
+        "width": "186px",
+        "height": "46px"
+      },
+      "layoutNumeric": {
+        "width": {
+          "kind": "px",
+          "value": 186.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 46.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 584.0,
+        "y": 1072.0,
+        "width": 186.0,
+        "height": 46.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)",
+        "font-size": "18px",
+        "font-weight": "800",
+        "line-height": "42px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeTreasureOpenButtonText",
+        "data-ui-role": "text/title-inverse",
+        "style": "width:186px;height:46px;font-size:18px;line-height:42px;text-align:center;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard",
+      "name": "HomeJourneyCard",
+      "tag": "div",
+      "role": "panel/hero",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Road to Level 128 You are one win away from the orchard gate. Keep your boosters for the honey lane. WORLD PROGRESS 78% NEXT GOAL Honey Drop Rescue Use fewer than 20 moves to keep the streak chest alive. TEAM UPDATE Picnic Club Rank 3 Two more wins this week unlock the shared blossom chest.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "72px",
+        "top": "1202px",
+        "width": "936px",
+        "height": "430px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 72.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 1202.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 936.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 430.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 72.0,
+        "y": 1202.0,
+        "width": 936.0,
+        "height": 430.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 250, 243, 0.96) 0%, rgba(255, 244, 232, 0.94) 100%)",
+        "background-color": "var(--panel-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.82)",
+        "border-radius": "42px",
+        "box-shadow": "var(--shadow-hero)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeJourneyCard",
+        "data-ui-role": "panel/hero",
+        "data-ui-shape": "plate",
+        "style": "position:absolute;left:72px;top:1202px;width:936px;height:430px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeJourneyTitle",
+      "name": "HomeJourneyTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Road to Level 128",
+      "aggregateText": "Road to Level 128",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "34px",
+        "top": "28px",
+        "width": "240px",
+        "height": "28px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 240.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 28.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 106.0,
+        "y": 1230.0,
+        "width": 240.0,
+        "height": 28.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "32px",
+        "font-weight": "800",
+        "line-height": "32px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeJourneyTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:34px;top:28px;width:240px;height:28px;box-sizing:border-box;font-size:32px;line-height:32px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeJourneyBody",
+      "name": "HomeJourneyBody",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "You are one win away from the orchard gate. Keep your boosters for the honey lane.",
+      "aggregateText": "You are one win away from the orchard gate. Keep your boosters for the honey lane.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "34px",
+        "top": "66px",
+        "width": "520px",
+        "height": "20px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 66.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 520.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 20.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 106.0,
+        "y": 1268.0,
+        "width": 520.0,
+        "height": 20.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "18px",
+        "line-height": "20px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeJourneyBody",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:34px;top:66px;width:520px;height:20px;box-sizing:border-box;font-size:18px;line-height:20px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeJourneyBand",
+      "name": "HomeJourneyBand",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "journey-band"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "WORLD PROGRESS 78%",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "34px",
+        "top": "112px",
+        "width": "868px",
+        "height": "118px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 868.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 118.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 106.0,
+        "y": 1314.0,
+        "width": 868.0,
+        "height": 118.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(233, 255, 243, 0.98) 0%, rgba(221, 249, 240, 0.94) 100%)",
+        "border": "2px solid rgba(145, 232, 182, 0.36)",
+        "border-radius": "28px"
+      },
+      "attrs": {
+        "data-ui-name": "HomeJourneyBand",
+        "class": "journey-band",
+        "style": "position:absolute;left:34px;top:112px;width:868px;height:118px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeJourneyBand/HomeJourneyBandLabel",
+      "name": "HomeJourneyBandLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "WORLD PROGRESS",
+      "aggregateText": "WORLD PROGRESS",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "26px",
+        "top": "20px",
+        "width": "140px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 26.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 140.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 132.0,
+        "y": 1334.0,
+        "width": 140.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeJourneyBandLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:26px;top:20px;width:140px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeJourneyBand/HomeJourneyProgressTrack",
+      "name": "HomeJourneyProgressTrack",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "progress-track"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "26px",
+        "top": "58px",
+        "width": "816px",
+        "height": "26px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 26.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 58.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 816.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 26.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 132.0,
+        "y": 1372.0,
+        "width": 816.0,
+        "height": 26.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "rgba(220, 234, 243, 0.92)",
+        "border-radius": "24px"
+      },
+      "attrs": {
+        "data-ui-name": "HomeJourneyProgressTrack",
+        "class": "progress-track",
+        "style": "position:absolute;left:26px;top:58px;width:816px;height:26px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeJourneyBand/HomeJourneyProgressFill",
+      "name": "HomeJourneyProgressFill",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "progress-fill"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "26px",
+        "top": "58px",
+        "width": "642px",
+        "height": "26px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 26.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 58.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 642.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 26.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 132.0,
+        "y": 1372.0,
+        "width": 642.0,
+        "height": 26.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(90deg, var(--accent-gold-a) 0%, var(--accent-coral-a) 52%, var(--accent-coral-b) 100%)",
+        "border-radius": "24px",
+        "box-shadow": "0 10px 18px rgba(255, 151, 95, 0.18)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeJourneyProgressFill",
+        "class": "progress-fill",
+        "style": "position:absolute;left:26px;top:58px;width:642px;height:26px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeJourneyBand/HomeJourneyProgressText",
+      "name": "HomeJourneyProgressText",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "78%",
+      "aggregateText": "78%",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "684px",
+        "top": "18px",
+        "width": "140px",
+        "height": "26px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 684.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 140.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 26.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 790.0,
+        "y": 1332.0,
+        "width": 140.0,
+        "height": 26.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "24px",
+        "font-weight": "800",
+        "line-height": "26px",
+        "text-align": "right"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeJourneyProgressText",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:684px;top:18px;width:140px;height:26px;box-sizing:border-box;font-size:24px;line-height:26px;text-align:right;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeGoalCard",
+      "name": "HomeGoalCard",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "NEXT GOAL Honey Drop Rescue Use fewer than 20 moves to keep the streak chest alive.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "34px",
+        "top": "258px",
+        "width": "412px",
+        "height": "136px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 258.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 412.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 136.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 106.0,
+        "y": 1460.0,
+        "width": 412.0,
+        "height": 136.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(244, 251, 255, 0.88) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.68)",
+        "border-radius": "26px"
+      },
+      "attrs": {
+        "data-ui-name": "HomeGoalCard",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:34px;top:258px;width:412px;height:136px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeGoalCard/HomeGoalCardLabel",
+      "name": "HomeGoalCardLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "NEXT GOAL",
+      "aggregateText": "NEXT GOAL",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "20px",
+        "width": "120px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 128.0,
+        "y": 1480.0,
+        "width": 120.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeGoalCardLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:22px;top:20px;width:120px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeGoalCard/HomeGoalCardTitle",
+      "name": "HomeGoalCardTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Honey Drop Rescue",
+      "aggregateText": "Honey Drop Rescue",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "52px",
+        "width": "260px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 52.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 260.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 128.0,
+        "y": 1512.0,
+        "width": 260.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "24px",
+        "font-weight": "800",
+        "line-height": "24px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeGoalCardTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:22px;top:52px;width:260px;height:22px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeGoalCard/HomeGoalCardBody",
+      "name": "HomeGoalCardBody",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Use fewer than 20 moves to keep the streak chest alive.",
+      "aggregateText": "Use fewer than 20 moves to keep the streak chest alive.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "86px",
+        "width": "320px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 86.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 320.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 128.0,
+        "y": 1546.0,
+        "width": 320.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "16px",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeGoalCardBody",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:22px;top:86px;width:320px;height:18px;box-sizing:border-box;font-size:16px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeClubCard",
+      "name": "HomeClubCard",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "TEAM UPDATE Picnic Club Rank 3 Two more wins this week unlock the shared blossom chest.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "490px",
+        "top": "258px",
+        "width": "412px",
+        "height": "136px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 490.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 258.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 412.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 136.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 562.0,
+        "y": 1460.0,
+        "width": 412.0,
+        "height": 136.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(244, 251, 255, 0.88) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.68)",
+        "border-radius": "26px"
+      },
+      "attrs": {
+        "data-ui-name": "HomeClubCard",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:490px;top:258px;width:412px;height:136px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeClubCard/HomeClubCardLabel",
+      "name": "HomeClubCardLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "TEAM UPDATE",
+      "aggregateText": "TEAM UPDATE",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "20px",
+        "width": "120px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 584.0,
+        "y": 1480.0,
+        "width": 120.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeClubCardLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:22px;top:20px;width:120px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeClubCard/HomeClubCardTitle",
+      "name": "HomeClubCardTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Picnic Club Rank 3",
+      "aggregateText": "Picnic Club Rank 3",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "52px",
+        "width": "260px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 52.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 260.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 584.0,
+        "y": 1512.0,
+        "width": 260.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "24px",
+        "font-weight": "800",
+        "line-height": "24px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeClubCardTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:22px;top:52px;width:260px;height:22px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeJourneyCard/HomeClubCard/HomeClubCardBody",
+      "name": "HomeClubCardBody",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Two more wins this week unlock the shared blossom chest.",
+      "aggregateText": "Two more wins this week unlock the shared blossom chest.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "86px",
+        "width": "330px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 86.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 330.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 584.0,
+        "y": 1546.0,
+        "width": 330.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "16px",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeClubCardBody",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:22px;top:86px;width:330px;height:18px;box-sizing:border-box;font-size:16px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf",
+      "name": "HomeBoosterShelf",
+      "tag": "div",
+      "role": "panel/resource-bar",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Booster Shelf Hammer x12 Shuffle x7 Rocket x9",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "96px",
+        "top": "1670px",
+        "width": "888px",
+        "height": "170px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 96.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 1670.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 888.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 170.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 96.0,
+        "y": 1670.0,
+        "width": 888.0,
+        "height": 170.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(244, 252, 255, 0.9) 100%)",
+        "background-color": "var(--panel-white)",
+        "border": "2px solid rgba(255, 255, 255, 0.66)",
+        "border-radius": "34px",
+        "box-shadow": "var(--shadow-soft)"
+      },
+      "attrs": {
+        "data-ui-name": "HomeBoosterShelf",
+        "data-ui-role": "panel/resource-bar",
+        "style": "position:absolute;left:96px;top:1670px;width:888px;height:170px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterShelfTitle",
+      "name": "HomeBoosterShelfTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Booster Shelf",
+      "aggregateText": "Booster Shelf",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "34px",
+        "top": "22px",
+        "width": "220px",
+        "height": "26px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 220.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 26.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 130.0,
+        "y": 1692.0,
+        "width": 220.0,
+        "height": 26.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "28px",
+        "font-weight": "800",
+        "line-height": "28px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeBoosterShelfTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:34px;top:22px;width:220px;height:26px;box-sizing:border-box;font-size:28px;line-height:28px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterHammerCard",
+      "name": "HomeBoosterHammerCard",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Hammer x12",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "34px",
+        "top": "66px",
+        "width": "250px",
+        "height": "78px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 66.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 250.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 78.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 130.0,
+        "y": 1736.0,
+        "width": 250.0,
+        "height": 78.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(244, 251, 255, 0.88) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.68)",
+        "border-radius": "26px"
+      },
+      "attrs": {
+        "data-ui-name": "HomeBoosterHammerCard",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:34px;top:66px;width:250px;height:78px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterHammerCard/HomeBoosterHammerIcon",
+      "name": "HomeBoosterHammerIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "20px",
+        "width": "36px",
+        "height": "36px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 36.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 36.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 148.0,
+        "y": 1756.0,
+        "width": 36.0,
+        "height": 36.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_hammer.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "HomeBoosterHammerIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/hammer",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "booster-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "36",
+        "data-ui-asset-height": "36",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:18px;top:20px;width:36px;height:36px;box-sizing:border-box;background:url('../assets/icon_hammer.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterHammerCard/HomeBoosterHammerTitle",
+      "name": "HomeBoosterHammerTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Hammer",
+      "aggregateText": "Hammer",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "68px",
+        "top": "16px",
+        "width": "120px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 68.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 16.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 198.0,
+        "y": 1752.0,
+        "width": 120.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "20px",
+        "font-weight": "800",
+        "line-height": "20px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeBoosterHammerTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:68px;top:16px;width:120px;height:18px;box-sizing:border-box;font-size:20px;line-height:20px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterHammerCard/HomeBoosterHammerCount",
+      "name": "HomeBoosterHammerCount",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "x12",
+      "aggregateText": "x12",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "68px",
+        "top": "42px",
+        "width": "80px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 68.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 42.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 80.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 198.0,
+        "y": 1778.0,
+        "width": 80.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "18px",
+        "font-weight": "800",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeBoosterHammerCount",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:68px;top:42px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterShuffleCard",
+      "name": "HomeBoosterShuffleCard",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Shuffle x7",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "318px",
+        "top": "66px",
+        "width": "250px",
+        "height": "78px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 318.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 66.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 250.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 78.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 414.0,
+        "y": 1736.0,
+        "width": 250.0,
+        "height": 78.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(244, 251, 255, 0.88) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.68)",
+        "border-radius": "26px"
+      },
+      "attrs": {
+        "data-ui-name": "HomeBoosterShuffleCard",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:318px;top:66px;width:250px;height:78px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterShuffleCard/HomeBoosterShuffleIcon",
+      "name": "HomeBoosterShuffleIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "20px",
+        "width": "36px",
+        "height": "36px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 36.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 36.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 432.0,
+        "y": 1756.0,
+        "width": 36.0,
+        "height": 36.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_shuffle.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "HomeBoosterShuffleIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/shuffle",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "booster-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "36",
+        "data-ui-asset-height": "36",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:18px;top:20px;width:36px;height:36px;box-sizing:border-box;background:url('../assets/icon_shuffle.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterShuffleCard/HomeBoosterShuffleTitle",
+      "name": "HomeBoosterShuffleTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Shuffle",
+      "aggregateText": "Shuffle",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "68px",
+        "top": "16px",
+        "width": "120px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 68.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 16.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 482.0,
+        "y": 1752.0,
+        "width": 120.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "20px",
+        "font-weight": "800",
+        "line-height": "20px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeBoosterShuffleTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:68px;top:16px;width:120px;height:18px;box-sizing:border-box;font-size:20px;line-height:20px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterShuffleCard/HomeBoosterShuffleCount",
+      "name": "HomeBoosterShuffleCount",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "x7",
+      "aggregateText": "x7",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "68px",
+        "top": "42px",
+        "width": "80px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 68.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 42.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 80.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 482.0,
+        "y": 1778.0,
+        "width": 80.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "18px",
+        "font-weight": "800",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeBoosterShuffleCount",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:68px;top:42px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterRocketCard",
+      "name": "HomeBoosterRocketCard",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Rocket x9",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "602px",
+        "top": "66px",
+        "width": "250px",
+        "height": "78px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 602.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 66.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 250.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 78.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 698.0,
+        "y": 1736.0,
+        "width": 250.0,
+        "height": 78.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(244, 251, 255, 0.88) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.68)",
+        "border-radius": "26px"
+      },
+      "attrs": {
+        "data-ui-name": "HomeBoosterRocketCard",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:602px;top:66px;width:250px;height:78px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterRocketCard/HomeBoosterRocketIcon",
+      "name": "HomeBoosterRocketIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "20px",
+        "width": "36px",
+        "height": "36px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 36.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 36.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 716.0,
+        "y": 1756.0,
+        "width": 36.0,
+        "height": 36.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_rocket.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "HomeBoosterRocketIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/rocket",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "booster-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "36",
+        "data-ui-asset-height": "36",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:18px;top:20px;width:36px;height:36px;box-sizing:border-box;background:url('../assets/icon_rocket.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterRocketCard/HomeBoosterRocketTitle",
+      "name": "HomeBoosterRocketTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Rocket",
+      "aggregateText": "Rocket",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "68px",
+        "top": "16px",
+        "width": "120px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 68.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 16.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 766.0,
+        "y": 1752.0,
+        "width": 120.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "20px",
+        "font-weight": "800",
+        "line-height": "20px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeBoosterRocketTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:68px;top:16px;width:120px;height:18px;box-sizing:border-box;font-size:20px;line-height:20px;text-align:left;"
+      }
+    },
+    {
+      "path": "HomeRoot/HomeBoosterShelf/HomeBoosterRocketCard/HomeBoosterRocketCount",
+      "name": "HomeBoosterRocketCount",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "x9",
+      "aggregateText": "x9",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "68px",
+        "top": "42px",
+        "width": "80px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 68.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 42.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 80.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 766.0,
+        "y": 1778.0,
+        "width": 80.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "18px",
+        "font-weight": "800",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "HomeBoosterRocketCount",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:68px;top:42px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;"
+      }
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1021 @@
+{
+  "contractVersion": "1.0",
+  "workflow": {
+    "mode": "draft-first",
+    "currentStage": "normalized",
+    "normalizePolicy": {
+      "preserve": [
+        "structure",
+        "layout",
+        "semantic-nodes",
+        "key-copy"
+      ],
+      "degradeOrder": [
+        "special-effects",
+        "ornament-overdraw",
+        "shape-complexity",
+        "layout"
+      ]
+    }
+  },
+  "site": {
+    "siteId": "fps_operator_semantic_ui",
+    "displayName": "FPS Operator Semantic UI",
+    "designWidth": 1920,
+    "designHeight": 1080,
+    "themeCss": "theme.css",
+    "sharedStyles": [
+      "shared/widgets.css"
+    ]
+  },
+  "pages": [
+    {
+      "pageId": "combat-hud",
+      "displayName": "Combat HUD",
+      "html": "pages/combat-hud.html",
+      "prefabName": "FPSOperatorSemanticUIPanel",
+      "targetLayer": "Normal",
+      "visualLanguage": {
+        "layoutArchetype": "dashboard",
+        "shapeLanguage": "plate",
+        "frameLanguage": "outline",
+        "ornamentLanguage": "none"
+      },
+      "root": {
+        "name": "FPSOperatorHudRoot",
+        "tag": "div",
+        "role": "window/main",
+        "classes": [
+          "screen-root"
+        ],
+        "text": "",
+        "sizePolicy": "fixed",
+        "style": {
+          "position": "absolute",
+          "left": "0",
+          "top": "0",
+          "width": "1920px",
+          "height": "1080px",
+          "overflow": "hidden",
+          "box-sizing": "border-box"
+        }
+      },
+      "namedNodes": [
+        {
+          "name": "MiniMapPlaceholder",
+          "tag": "div",
+          "role": "panel/section",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "40px",
+            "top": "40px",
+            "width": "240px",
+            "height": "240px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "MiniMapTitle",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "AREA SCAN",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "16px",
+            "top": "14px",
+            "width": "120px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "MiniMapFrame",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "16px",
+            "top": "40px",
+            "width": "208px",
+            "height": "184px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "MiniMapLaneHorizontal",
+          "tag": "div",
+          "role": "card/accent",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "86px",
+            "width": "164px",
+            "height": "12px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "MiniMapLaneVertical",
+          "tag": "div",
+          "role": "card/accent",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "98px",
+            "top": "20px",
+            "width": "12px",
+            "height": "144px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "MiniMapHotspotA",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "36px",
+            "top": "34px",
+            "width": "26px",
+            "height": "26px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "MiniMapHotspotB",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "142px",
+            "top": "58px",
+            "width": "26px",
+            "height": "26px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "MiniMapHotspotC",
+          "tag": "div",
+          "role": "card/accent",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "90px",
+            "top": "122px",
+            "width": "30px",
+            "height": "30px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "TopMatchInfo",
+          "tag": "div",
+          "role": "panel/resource-bar",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "720px",
+            "top": "20px",
+            "width": "480px",
+            "height": "64px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "TopMatchMode",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "CONTROL / ROUND 05",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "10px",
+            "width": "120px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "TopMatchScore",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "3 - 2",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "152px",
+            "top": "18px",
+            "width": "176px",
+            "height": "28px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "TopMatchTimer",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "01:18",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "346px",
+            "top": "18px",
+            "width": "116px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "TopRightKillFeed",
+          "tag": "div",
+          "role": "panel/ink",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "1460px",
+            "top": "28px",
+            "width": "380px",
+            "height": "220px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "TopRightKillFeedTitle",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "KILL FEED",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "14px",
+            "width": "120px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "KillFeedEntryA",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "42px",
+            "width": "344px",
+            "height": "36px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "KillFeedEntryAText",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "NOVA took Point A from STRIKE",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "14px",
+            "top": "10px",
+            "width": "316px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "KillFeedEntryB",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "88px",
+            "width": "344px",
+            "height": "36px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "KillFeedEntryBText",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "ALPHA eliminated HOSTILE-04",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "14px",
+            "top": "10px",
+            "width": "316px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "KillFeedEntryC",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "134px",
+            "width": "344px",
+            "height": "36px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "KillFeedEntryCText",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "WARD secured crossfire angle",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "14px",
+            "top": "10px",
+            "width": "316px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "KillFeedEntryD",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "180px",
+            "width": "344px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "KillFeedEntryDText",
+          "tag": "div",
+          "role": "text/micro",
+          "classes": [],
+          "text": "last event 2.1s ago",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "14px",
+            "top": "4px",
+            "width": "316px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "CenterCrosshair",
+          "tag": "div",
+          "role": "panel/section",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "930px",
+            "top": "500px",
+            "width": "60px",
+            "height": "60px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "CrosshairTop",
+          "tag": "div",
+          "role": "card/accent",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "8px",
+            "width": "16px",
+            "height": "10px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "CrosshairLeft",
+          "tag": "div",
+          "role": "card/accent",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "8px",
+            "top": "22px",
+            "width": "10px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "CrosshairRight",
+          "tag": "div",
+          "role": "card/accent",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "42px",
+            "top": "22px",
+            "width": "10px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "CrosshairBottom",
+          "tag": "div",
+          "role": "card/accent",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "42px",
+            "width": "16px",
+            "height": "10px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "CrosshairCenter",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "24px",
+            "width": "12px",
+            "height": "12px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "MidPrompt",
+          "tag": "div",
+          "role": "panel/resource-bar",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "760px",
+            "top": "760px",
+            "width": "400px",
+            "height": "64px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "MidPromptLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "INTERACT",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "10px",
+            "width": "90px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "MidPromptBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Hold F to secure uplink relay",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "30px",
+            "width": "320px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomLeftHealthArmor",
+          "tag": "div",
+          "role": "panel/ink",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "40px",
+            "top": "906px",
+            "width": "360px",
+            "height": "124px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomLeftHealthCard",
+          "tag": "div",
+          "role": "card/accent",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "18px",
+            "width": "108px",
+            "height": "88px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomLeftHealthLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "HP",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "12px",
+            "width": "64px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomLeftHealthValue",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "83",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "42px",
+            "width": "64px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomLeftArmorCard",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "136px",
+            "top": "18px",
+            "width": "108px",
+            "height": "88px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomLeftArmorLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "ARMOR",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "12px",
+            "width": "64px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomLeftArmorValue",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "52",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "42px",
+            "width": "64px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomLeftStateCard",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "254px",
+            "top": "18px",
+            "width": "88px",
+            "height": "88px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomLeftStateLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "STATE",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "12px",
+            "width": "52px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomLeftStateValue",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "READY",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "42px",
+            "width": "60px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomRightAmmoAbility",
+          "tag": "div",
+          "role": "panel/hero",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "1420px",
+            "top": "876px",
+            "width": "420px",
+            "height": "154px",
+            "box-sizing": "border-box"
+          },
+          "shapeId": "plate"
+        },
+        {
+          "name": "BottomRightAmmoLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "AMMO",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "14px",
+            "width": "90px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomRightAmmoValue",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "28",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "34px",
+            "width": "120px",
+            "height": "36px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomRightAmmoReserve",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "/ 84",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "120px",
+            "top": "46px",
+            "width": "80px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BottomRightMode",
+          "tag": "div",
+          "role": "text/gold",
+          "classes": [],
+          "text": "AUTO FIRE",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "82px",
+            "width": "120px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardA",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "228px",
+            "top": "18px",
+            "width": "76px",
+            "height": "54px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardALabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "Q",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "8px",
+            "width": "20px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardAValue",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Scan",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "28px",
+            "width": "46px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardB",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "316px",
+            "top": "18px",
+            "width": "76px",
+            "height": "54px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardBLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "E",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "8px",
+            "width": "20px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardBValue",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Dash",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "28px",
+            "width": "46px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardC",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "228px",
+            "top": "82px",
+            "width": "76px",
+            "height": "54px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardCLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "X",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "8px",
+            "width": "20px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardCValue",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Pack",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "28px",
+            "width": "46px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardD",
+          "tag": "div",
+          "role": "card/accent",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "316px",
+            "top": "82px",
+            "width": "76px",
+            "height": "54px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardDLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "C",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "8px",
+            "width": "20px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "AbilityCardDValue",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Burst",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "12px",
+            "top": "28px",
+            "width": "46px",
+            "height": "14px",
+            "box-sizing": "border-box"
+          }
+        }
+      ],
+      "relativeSizeNodes": [],
+      "templateSizeNodes": [],
+      "notes": []
+    }
+  ],
+  "usedRoles": [
+    "card/accent",
+    "card/entry",
+    "card/info",
+    "panel/hero",
+    "panel/ink",
+    "panel/resource-bar",
+    "panel/section",
+    "text/body",
+    "text/gold",
+    "text/label",
+    "text/micro",
+    "text/title",
+    "text/value",
+    "window/main"
+  ],
+  "usedClasses": [
+    "screen-root"
+  ],
+  "notes": [
+    "Generated from normalized HTML after the draft-first convergence pass."
+  ]
+}

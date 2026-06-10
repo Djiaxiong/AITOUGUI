@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FPS Loadout Skill Generated - Weapon Loadout</title>
+  <link rel="stylesheet" href="../theme.css">
+  <link rel="stylesheet" href="../shared/widgets.css">
+</head>
+<body>
+  <div class="screen-root" data-ui-page="weapon-loadout" data-ui-name="FPSLoadoutRoot" data-ui-role="window/main">
+    <div data-ui-name="TopNavBar" data-ui-role="panel/resource-bar" data-ui-asset-id="frame/loadout-topbar" data-ui-asset-type="frame" data-ui-asset-usage="topbar-frame" data-ui-asset-import="nineslice" data-ui-asset-slice="28,18,28,18" data-ui-asset-width="1840" data-ui-asset-height="76" data-ui-asset-tint="none" style="position:absolute;left:40px;top:24px;width:1840px;height:76px;box-sizing:border-box;background:url('../assets/loadout_topbar_frame.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;">
+      <div data-ui-name="TopBrandTitle" data-ui-role="text/title" style="position:absolute;left:24px;top:16px;width:320px;height:24px;box-sizing:border-box;font-size:22px;line-height:24px;text-align:left;">TACTICAL ARMORY</div>
+      <div data-ui-name="TopBrandPath" data-ui-role="text/body" style="position:absolute;left:24px;top:44px;width:360px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:left;">OPS / LOADOUT / PRIMARY CONFIGURATION</div>
+      <div data-ui-name="TopStatusPower" data-ui-role="card/info" style="position:absolute;left:700px;top:12px;width:174px;height:52px;box-sizing:border-box;">
+        <div data-ui-name="TopStatusPowerLabel" data-ui-role="text/label" style="position:absolute;left:14px;top:8px;width:120px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">OPERATOR POWER</div>
+        <div data-ui-name="TopStatusPowerValue" data-ui-role="text/value" style="position:absolute;left:14px;top:24px;width:120px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;">864</div>
+      </div>
+      <div data-ui-name="TopStatusBudget" data-ui-role="card/info" style="position:absolute;left:890px;top:12px;width:174px;height:52px;box-sizing:border-box;">
+        <div data-ui-name="TopStatusBudgetLabel" data-ui-role="text/label" style="position:absolute;left:14px;top:8px;width:120px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">WEIGHT BUDGET</div>
+        <div data-ui-name="TopStatusBudgetValue" data-ui-role="text/value" style="position:absolute;left:14px;top:24px;width:120px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;">26 / 30</div>
+      </div>
+      <div data-ui-name="TopStatusPreset" data-ui-role="card/info" style="position:absolute;left:1080px;top:12px;width:174px;height:52px;box-sizing:border-box;">
+        <div data-ui-name="TopStatusPresetLabel" data-ui-role="text/label" style="position:absolute;left:14px;top:8px;width:120px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">PRESET SLOT</div>
+        <div data-ui-name="TopStatusPresetValue" data-ui-role="text/value" style="position:absolute;left:14px;top:24px;width:120px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;">ALPHA-03</div>
+      </div>
+      <button data-ui-name="TopBackButton" data-ui-role="button/ghost" data-ui-element="button/ghost" style="position:absolute;left:1496px;top:12px;width:132px;height:52px;box-sizing:border-box;">
+        <span data-ui-name="TopBackButtonText" data-ui-role="text/body" style="width:132px;height:52px;font-size:18px;line-height:48px;text-align:center;">Back</span>
+      </button>
+      <button data-ui-name="TopDeployButton" data-ui-role="button/primary" data-ui-element="button/primary" style="position:absolute;left:1644px;top:12px;width:172px;height:52px;box-sizing:border-box;">
+        <span data-ui-name="TopDeployButtonText" data-ui-role="text/title-inverse" style="width:172px;height:52px;font-size:18px;line-height:48px;text-align:center;">Queue Match</span>
+      </button>
+    </div>
+
+    <div data-ui-name="LeftWeaponList" data-ui-role="panel/ink" style="position:absolute;left:48px;top:132px;width:360px;height:820px;box-sizing:border-box;">
+      <div data-ui-name="LeftWeaponListTitle" data-ui-role="text/title" style="position:absolute;left:24px;top:24px;width:240px;height:30px;box-sizing:border-box;font-size:28px;line-height:30px;text-align:left;">Weapon Catalog</div>
+      <div data-ui-name="LeftWeaponListBody" data-ui-role="text/body" style="position:absolute;left:24px;top:62px;width:300px;height:40px;box-sizing:border-box;font-size:16px;line-height:20px;text-align:left;">Select a stable rifle profile, then tune optics, barrel, grip, and magazine behavior.</div>
+      <div data-ui-name="LeftCategoryStrip" data-ui-role="card/info" style="position:absolute;left:24px;top:118px;width:312px;height:54px;box-sizing:border-box;">
+        <div data-ui-name="LeftCategoryStripText" data-ui-role="text/label" style="position:absolute;left:16px;top:18px;width:280px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:left;">PRIMARY / ASSAULT RIFLES / CONTROL BUILD</div>
+      </div>
+
+      <div data-ui-name="WeaponEntryA" data-ui-role="card/accent" data-ui-shape="plate" style="position:absolute;left:24px;top:192px;width:312px;height:112px;box-sizing:border-box;">
+        <div data-ui-name="WeaponEntryATitle" data-ui-role="text/title" style="position:absolute;left:16px;top:14px;width:210px;height:24px;box-sizing:border-box;font-size:22px;line-height:24px;text-align:left;">AER-45 Carbine</div>
+        <div data-ui-name="WeaponEntryABody" data-ui-role="text/body" style="position:absolute;left:16px;top:46px;width:240px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:left;">Balanced recoil, clean first-shot reset</div>
+        <div data-ui-name="WeaponEntryAValue" data-ui-role="text/value" style="position:absolute;left:16px;top:74px;width:160px;height:18px;box-sizing:border-box;font-size:16px;line-height:18px;text-align:left;">DAMAGE 43 / RPM 710</div>
+        <div data-ui-name="WeaponEntryATag" data-ui-role="text/gold" style="position:absolute;left:224px;top:18px;width:72px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:right;">SELECTED</div>
+      </div>
+      <div data-ui-name="WeaponEntryB" data-ui-role="card/entry" style="position:absolute;left:24px;top:320px;width:312px;height:100px;box-sizing:border-box;">
+        <div data-ui-name="WeaponEntryBTitle" data-ui-role="text/title" style="position:absolute;left:16px;top:14px;width:220px;height:22px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">KSR-12 Burst</div>
+        <div data-ui-name="WeaponEntryBBody" data-ui-role="text/body" style="position:absolute;left:16px;top:42px;width:240px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">Fast pick utility with strict cadence</div>
+        <div data-ui-name="WeaponEntryBValue" data-ui-role="text/label" style="position:absolute;left:16px;top:70px;width:200px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">HEADSHOT MULTIPLIER 1.6</div>
+      </div>
+      <div data-ui-name="WeaponEntryC" data-ui-role="card/entry" style="position:absolute;left:24px;top:436px;width:312px;height:100px;box-sizing:border-box;">
+        <div data-ui-name="WeaponEntryCTitle" data-ui-role="text/title" style="position:absolute;left:16px;top:14px;width:220px;height:22px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">Raptor CQB</div>
+        <div data-ui-name="WeaponEntryCBody" data-ui-role="text/body" style="position:absolute;left:16px;top:42px;width:240px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">Short barrel brawler for hard entries</div>
+        <div data-ui-name="WeaponEntryCValue" data-ui-role="text/label" style="position:absolute;left:16px;top:70px;width:200px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">MOBILITY PRIORITY</div>
+      </div>
+      <div data-ui-name="WeaponEntryD" data-ui-role="card/entry" style="position:absolute;left:24px;top:552px;width:312px;height:100px;box-sizing:border-box;">
+        <div data-ui-name="WeaponEntryDTitle" data-ui-role="text/title" style="position:absolute;left:16px;top:14px;width:220px;height:22px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">Hydra DMR</div>
+        <div data-ui-name="WeaponEntryDBody" data-ui-role="text/body" style="position:absolute;left:16px;top:42px;width:240px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">High precision at long lane control</div>
+        <div data-ui-name="WeaponEntryDValue" data-ui-role="text/label" style="position:absolute;left:16px;top:70px;width:200px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">RANGE PRIORITY</div>
+      </div>
+      <div data-ui-name="WeaponEntryE" data-ui-role="card/entry" style="position:absolute;left:24px;top:668px;width:312px;height:100px;box-sizing:border-box;">
+        <div data-ui-name="WeaponEntryETitle" data-ui-role="text/title" style="position:absolute;left:16px;top:14px;width:220px;height:22px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">VLM Scout</div>
+        <div data-ui-name="WeaponEntryEBody" data-ui-role="text/body" style="position:absolute;left:16px;top:42px;width:240px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">Light marksman setup for flank duty</div>
+        <div data-ui-name="WeaponEntryEValue" data-ui-role="text/label" style="position:absolute;left:16px;top:70px;width:200px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">ADS SPEED PRIORITY</div>
+      </div>
+    </div>
+
+    <div data-ui-name="CenterWeaponStage" data-ui-role="panel/hero" data-ui-shape="plate" style="position:absolute;left:436px;top:132px;width:760px;height:610px;box-sizing:border-box;">
+      <div data-ui-name="CenterWeaponStageTitle" data-ui-role="text/title" style="position:absolute;left:30px;top:24px;width:280px;height:32px;box-sizing:border-box;font-size:30px;line-height:32px;text-align:left;">Selected Platform</div>
+      <div data-ui-name="CenterWeaponStageBody" data-ui-role="text/body" style="position:absolute;left:30px;top:62px;width:460px;height:20px;box-sizing:border-box;font-size:16px;line-height:20px;text-align:left;">Stable recoil pattern with low visual noise and clear stat anchors.</div>
+
+      <div data-ui-name="WeaponStageCard" data-ui-role="card/accent" data-ui-shape="plate" data-ui-asset-id="background/loadout-stage-card" data-ui-asset-type="background" data-ui-asset-usage="hero-plate" data-ui-asset-import="sprite" data-ui-asset-width="700" data-ui-asset-height="248" data-ui-asset-tint="none" style="position:absolute;left:30px;top:102px;width:700px;height:248px;box-sizing:border-box;background:url('../assets/loadout_stage_card.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;">
+        <div data-ui-name="WeaponStageCardTitle" data-ui-role="text/title" style="position:absolute;left:24px;top:22px;width:280px;height:26px;box-sizing:border-box;font-size:24px;line-height:26px;text-align:left;">AER-45 Carbine</div>
+        <div data-ui-name="WeaponStageCardSub" data-ui-role="text/gold" style="position:absolute;left:24px;top:54px;width:240px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:left;">CONTROLLED MID-RANGE PACKAGE</div>
+        <div data-ui-name="WeaponProfileBody" data-ui-role="card/info" style="position:absolute;left:24px;top:94px;width:560px;height:112px;box-sizing:border-box;">
+          <div data-ui-name="WeaponProfileBarA" data-ui-role="card/accent" style="position:absolute;left:28px;top:24px;width:388px;height:18px;box-sizing:border-box;"></div>
+          <div data-ui-name="WeaponProfileBarB" data-ui-role="card/info" style="position:absolute;left:414px;top:26px;width:104px;height:14px;box-sizing:border-box;"></div>
+          <div data-ui-name="WeaponProfileBarC" data-ui-role="card/info" style="position:absolute;left:104px;top:56px;width:236px;height:16px;box-sizing:border-box;"></div>
+          <div data-ui-name="WeaponProfileBarD" data-ui-role="card/info" style="position:absolute;left:340px;top:58px;width:146px;height:12px;box-sizing:border-box;"></div>
+          <div data-ui-name="WeaponProfileBarE" data-ui-role="card/info" style="position:absolute;left:58px;top:80px;width:126px;height:10px;box-sizing:border-box;"></div>
+          <div data-ui-name="WeaponProfileBarF" data-ui-role="card/info" style="position:absolute;left:184px;top:80px;width:214px;height:10px;box-sizing:border-box;"></div>
+        </div>
+        <div data-ui-name="WeaponStageCardBody" data-ui-role="text/body" style="position:absolute;left:606px;top:102px;width:70px;height:92px;box-sizing:border-box;font-size:13px;line-height:18px;text-align:left;">16 in barrel Low-rise optic Match recoil grip</div>
+      </div>
+
+      <div data-ui-name="StageStatAccuracy" data-ui-role="card/info" style="position:absolute;left:30px;top:384px;width:160px;height:92px;box-sizing:border-box;">
+        <div data-ui-name="StageStatAccuracyLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:96px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">ACCURACY</div>
+        <div data-ui-name="StageStatAccuracyValue" data-ui-role="text/value" style="position:absolute;left:16px;top:44px;width:96px;height:24px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:left;">84</div>
+      </div>
+      <div data-ui-name="StageStatRecoil" data-ui-role="card/info" style="position:absolute;left:206px;top:384px;width:160px;height:92px;box-sizing:border-box;">
+        <div data-ui-name="StageStatRecoilLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:96px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">RECOIL</div>
+        <div data-ui-name="StageStatRecoilValue" data-ui-role="text/value" style="position:absolute;left:16px;top:44px;width:96px;height:24px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:left;">31</div>
+      </div>
+      <div data-ui-name="StageStatHandling" data-ui-role="card/info" style="position:absolute;left:382px;top:384px;width:160px;height:92px;box-sizing:border-box;">
+        <div data-ui-name="StageStatHandlingLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:96px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">HANDLING</div>
+        <div data-ui-name="StageStatHandlingValue" data-ui-role="text/value" style="position:absolute;left:16px;top:44px;width:96px;height:24px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:left;">67</div>
+      </div>
+      <div data-ui-name="StageStatControl" data-ui-role="card/info" style="position:absolute;left:558px;top:384px;width:172px;height:92px;box-sizing:border-box;">
+        <div data-ui-name="StageStatControlLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:120px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">CONTROL INDEX</div>
+        <div data-ui-name="StageStatControlValue" data-ui-role="text/value" style="position:absolute;left:16px;top:44px;width:120px;height:24px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:left;">91</div>
+      </div>
+      <div data-ui-name="StageOperatorNote" data-ui-role="panel/section" style="position:absolute;left:30px;top:498px;width:700px;height:84px;box-sizing:border-box;">
+        <div data-ui-name="StageOperatorNoteLabel" data-ui-role="text/label" style="position:absolute;left:18px;top:16px;width:120px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">FIELD NOTE</div>
+        <div data-ui-name="StageOperatorNoteBody" data-ui-role="text/body" style="position:absolute;left:18px;top:40px;width:650px;height:24px;box-sizing:border-box;font-size:16px;line-height:20px;text-align:left;">Keep muzzle climb predictable. This build is meant to translate cleanly into a low-risk procedural Unity preview.</div>
+      </div>
+    </div>
+
+    <div data-ui-name="RightAttachmentBoard" data-ui-role="panel/ink" style="position:absolute;left:1228px;top:132px;width:644px;height:610px;box-sizing:border-box;">
+      <div data-ui-name="RightAttachmentBoardTitle" data-ui-role="text/title" style="position:absolute;left:24px;top:24px;width:240px;height:30px;box-sizing:border-box;font-size:28px;line-height:30px;text-align:left;">Attachment Board</div>
+      <div data-ui-name="RightAttachmentBoardBody" data-ui-role="text/body" style="position:absolute;left:24px;top:62px;width:420px;height:20px;box-sizing:border-box;font-size:16px;line-height:20px;text-align:left;">Each slot is expressed as a direct panel block with explicit bounds.</div>
+      <div data-ui-name="AttachmentSlotOptic" data-ui-role="card/info" style="position:absolute;left:24px;top:100px;width:286px;height:100px;box-sizing:border-box;">
+        <div data-ui-name="AttachmentSlotOpticLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:120px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">OPTIC</div>
+        <div data-ui-name="AttachmentSlotOpticValue" data-ui-role="text/title" style="position:absolute;left:16px;top:40px;width:180px;height:22px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">Falcon 2x</div>
+        <div data-ui-name="AttachmentSlotOpticBody" data-ui-role="text/micro" style="position:absolute;left:16px;top:70px;width:220px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">clean sight picture, low sway</div>
+      </div>
+      <div data-ui-name="AttachmentSlotMuzzle" data-ui-role="card/info" style="position:absolute;left:334px;top:100px;width:286px;height:100px;box-sizing:border-box;">
+        <div data-ui-name="AttachmentSlotMuzzleLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:120px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">MUZZLE</div>
+        <div data-ui-name="AttachmentSlotMuzzleValue" data-ui-role="text/title" style="position:absolute;left:16px;top:40px;width:180px;height:22px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">Vector Brake</div>
+        <div data-ui-name="AttachmentSlotMuzzleBody" data-ui-role="text/micro" style="position:absolute;left:16px;top:70px;width:220px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">vertical kick reduction</div>
+      </div>
+      <div data-ui-name="AttachmentSlotBarrel" data-ui-role="card/info" style="position:absolute;left:24px;top:214px;width:286px;height:100px;box-sizing:border-box;">
+        <div data-ui-name="AttachmentSlotBarrelLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:120px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">BARREL</div>
+        <div data-ui-name="AttachmentSlotBarrelValue" data-ui-role="text/title" style="position:absolute;left:16px;top:40px;width:180px;height:22px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">16 in Match</div>
+        <div data-ui-name="AttachmentSlotBarrelBody" data-ui-role="text/micro" style="position:absolute;left:16px;top:70px;width:220px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">tuned for recoil lane stability</div>
+      </div>
+      <div data-ui-name="AttachmentSlotUnderbarrel" data-ui-role="card/info" style="position:absolute;left:334px;top:214px;width:286px;height:100px;box-sizing:border-box;">
+        <div data-ui-name="AttachmentSlotUnderbarrelLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:120px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">UNDERBARREL</div>
+        <div data-ui-name="AttachmentSlotUnderbarrelValue" data-ui-role="text/title" style="position:absolute;left:16px;top:40px;width:180px;height:22px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">Atlas Grip</div>
+        <div data-ui-name="AttachmentSlotUnderbarrelBody" data-ui-role="text/micro" style="position:absolute;left:16px;top:70px;width:220px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">horizontal stabilization</div>
+      </div>
+      <div data-ui-name="AttachmentSlotMagazine" data-ui-role="card/info" style="position:absolute;left:24px;top:328px;width:286px;height:100px;box-sizing:border-box;">
+        <div data-ui-name="AttachmentSlotMagazineLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:120px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">MAGAZINE</div>
+        <div data-ui-name="AttachmentSlotMagazineValue" data-ui-role="text/title" style="position:absolute;left:16px;top:40px;width:180px;height:22px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">40 Round</div>
+        <div data-ui-name="AttachmentSlotMagazineBody" data-ui-role="text/micro" style="position:absolute;left:16px;top:70px;width:220px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">extended combat pacing</div>
+      </div>
+      <div data-ui-name="AttachmentSlotRearGrip" data-ui-role="card/info" style="position:absolute;left:334px;top:328px;width:286px;height:100px;box-sizing:border-box;">
+        <div data-ui-name="AttachmentSlotRearGripLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:120px;height:16px;box-sizing:border-box;font-size:13px;line-height:16px;text-align:left;">REAR GRIP</div>
+        <div data-ui-name="AttachmentSlotRearGripValue" data-ui-role="text/title" style="position:absolute;left:16px;top:40px;width:180px;height:22px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">Carbon Wrap</div>
+        <div data-ui-name="AttachmentSlotRearGripBody" data-ui-role="text/micro" style="position:absolute;left:16px;top:70px;width:220px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">steadier ADS transition</div>
+      </div>
+      <div data-ui-name="AttachmentSummaryCard" data-ui-role="panel/section" style="position:absolute;left:24px;top:446px;width:596px;height:72px;box-sizing:border-box;">
+        <div data-ui-name="AttachmentSummaryLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:12px;width:120px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">LOADOUT SUMMARY</div>
+        <div data-ui-name="AttachmentSummaryBody" data-ui-role="text/body" style="position:absolute;left:16px;top:34px;width:552px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:left;">This configuration trades a small amount of mobility for calmer recoil and easier burst correction.</div>
+      </div>
+      <button data-ui-name="RightSaveButton" data-ui-role="button/secondary" data-ui-element="button/secondary" style="position:absolute;left:24px;top:538px;width:286px;height:52px;box-sizing:border-box;">
+        <span data-ui-name="RightSaveButtonText" data-ui-role="text/title" style="width:286px;height:52px;font-size:18px;line-height:48px;text-align:center;">Save Preset</span>
+      </button>
+      <button data-ui-name="RightApplyButton" data-ui-role="button/primary" data-ui-element="button/primary" style="position:absolute;left:334px;top:538px;width:286px;height:52px;box-sizing:border-box;">
+        <span data-ui-name="RightApplyButtonText" data-ui-role="text/title-inverse" style="width:286px;height:52px;font-size:18px;line-height:48px;text-align:center;">Apply Build</span>
+      </button>
+    </div>
+
+    <div data-ui-name="BottomStatCompare" data-ui-role="panel/section" style="position:absolute;left:436px;top:770px;width:1436px;height:182px;box-sizing:border-box;">
+      <div data-ui-name="BottomStatCompareTitle" data-ui-role="text/title" style="position:absolute;left:24px;top:18px;width:220px;height:24px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:left;">Stat Compare</div>
+      <div data-ui-name="CompareDamageCard" data-ui-role="card/info" style="position:absolute;left:24px;top:46px;width:250px;height:112px;box-sizing:border-box;">
+        <div data-ui-name="CompareDamageLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:100px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">DAMAGE</div>
+        <div data-ui-name="CompareDamageValue" data-ui-role="text/value" style="position:absolute;left:16px;top:40px;width:100px;height:22px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;">43</div>
+        <div data-ui-name="CompareDamageDelta" data-ui-role="text/gold" style="position:absolute;left:140px;top:42px;width:84px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:right;">+2 vs base</div>
+      </div>
+      <div data-ui-name="CompareRangeCard" data-ui-role="card/info" style="position:absolute;left:294px;top:46px;width:250px;height:112px;box-sizing:border-box;">
+        <div data-ui-name="CompareRangeLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:100px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">RANGE</div>
+        <div data-ui-name="CompareRangeValue" data-ui-role="text/value" style="position:absolute;left:16px;top:40px;width:100px;height:22px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;">71</div>
+        <div data-ui-name="CompareRangeDelta" data-ui-role="text/gold" style="position:absolute;left:140px;top:42px;width:84px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:right;">+8 reach</div>
+      </div>
+      <div data-ui-name="CompareAimCard" data-ui-role="card/info" style="position:absolute;left:564px;top:46px;width:250px;height:112px;box-sizing:border-box;">
+        <div data-ui-name="CompareAimLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:100px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">ADS SPEED</div>
+        <div data-ui-name="CompareAimValue" data-ui-role="text/value" style="position:absolute;left:16px;top:40px;width:100px;height:22px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;">228 ms</div>
+        <div data-ui-name="CompareAimDelta" data-ui-role="text/gold" style="position:absolute;left:134px;top:42px;width:90px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:right;">-12 ms</div>
+      </div>
+      <div data-ui-name="CompareSprintCard" data-ui-role="card/info" style="position:absolute;left:834px;top:46px;width:250px;height:112px;box-sizing:border-box;">
+        <div data-ui-name="CompareSprintLabel" data-ui-role="text/label" style="position:absolute;left:16px;top:14px;width:100px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">SPRINT OUT</div>
+        <div data-ui-name="CompareSprintValue" data-ui-role="text/value" style="position:absolute;left:16px;top:40px;width:100px;height:22px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;">112 ms</div>
+        <div data-ui-name="CompareSprintDelta" data-ui-role="text/gold" style="position:absolute;left:134px;top:42px;width:90px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:right;">+stable</div>
+      </div>
+      <div data-ui-name="CompareReadyCard" data-ui-role="card/accent" data-ui-shape="plate" style="position:absolute;left:1104px;top:46px;width:308px;height:112px;box-sizing:border-box;">
+        <div data-ui-name="CompareReadyLabel" data-ui-role="text/label" style="position:absolute;left:18px;top:14px;width:120px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;">BUILD READINESS</div>
+        <div data-ui-name="CompareReadyValue" data-ui-role="text/title" style="position:absolute;left:18px;top:38px;width:160px;height:24px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:left;">Ranked Ready</div>
+        <div data-ui-name="CompareReadyBody" data-ui-role="text/body" style="position:absolute;left:18px;top:72px;width:260px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:left;">Stable spread and low visual noise for repeat preview checks.</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

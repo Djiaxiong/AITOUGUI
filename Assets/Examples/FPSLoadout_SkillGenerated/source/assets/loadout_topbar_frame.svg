@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1840" height="76" viewBox="0 0 1840 76" fill="none">
+  <defs>
+    <linearGradient id="fill" x1="920" y1="2" x2="920" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#142236" />
+      <stop offset="1" stop-color="#0B1828" />
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7EC7FF" stop-opacity="0.32" />
+      <stop offset="0.5" stop-color="#A6E7FF" stop-opacity="0.08" />
+      <stop offset="1" stop-color="#7EC7FF" stop-opacity="0.32" />
+    </linearGradient>
+  </defs>
+  <path d="M18 2H1822C1830.84 2 1838 9.16 1838 18V58C1838 66.84 1830.84 74 1822 74H18C9.16 74 2 66.84 2 58V18C2 9.16 9.16 2 18 2Z" fill="url(#fill)" stroke="#7EC7FF" stroke-opacity="0.68" stroke-width="2"/>
+  <path d="M24 14H420" stroke="url(#shine)" stroke-width="2"/>
+  <path d="M1416 14H1720" stroke="url(#shine)" stroke-width="2"/>
+  <path d="M86 60H346" stroke="#FF8F4F" stroke-opacity="0.92" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1718 18L1742 38L1718 58" stroke="#FF8F4F" stroke-opacity="0.86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34 22L54 22M34 54L64 54M1778 22L1806 22M1766 54L1806 54" stroke="#7EC7FF" stroke-opacity="0.68" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,3632 @@
+{
+  "siteId": "fps_operator_semantic_ui",
+  "pageId": "combat-hud",
+  "designWidth": 1920,
+  "designHeight": 1080,
+  "pageRootFound": true,
+  "pageRootName": "FPSOperatorHudRoot",
+  "entries": [
+    {
+      "path": "FPSOperatorHudRoot",
+      "name": "FPSOperatorHudRoot",
+      "tag": "div",
+      "role": "window/main",
+      "classes": [
+        "screen-root"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "AREA SCAN CONTROL / ROUND 05 3 - 2 01:18 KILL FEED NOVA took Point A from STRIKE ALPHA eliminated HOSTILE-04 WARD secured crossfire angle last event 2.1s ago INTERACT Hold F to secure uplink relay HP 83 ARMOR 52 STATE READY AMMO 28 / 84 AUTO FIRE Q Scan E Dash X Pack C Burst",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "0",
+        "top": "0",
+        "width": "1920px",
+        "height": "1080px",
+        "overflow": "hidden",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 0.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 0.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 1920.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 1080.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1920.0,
+        "height": 1080.0,
+        "measured": true,
+        "source": "page-root"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, var(--bg-top) 0%, var(--bg-mid) 50%, var(--bg-bottom) 100%)",
+        "background-color": "var(--page-bg)"
+      },
+      "attrs": {
+        "class": "screen-root",
+        "data-ui-page": "combat-hud",
+        "data-ui-name": "FPSOperatorHudRoot",
+        "data-ui-role": "window/main"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MiniMapPlaceholder",
+      "name": "MiniMapPlaceholder",
+      "tag": "div",
+      "role": "panel/section",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "AREA SCAN",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "40px",
+        "top": "40px",
+        "width": "240px",
+        "height": "240px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 40.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 40.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 240.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 240.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 40.0,
+        "y": 40.0,
+        "width": 240.0,
+        "height": 240.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(11, 22, 34, 0.80) 0%, rgba(5, 12, 20, 0.80) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.20)",
+        "border-radius": "18px"
+      },
+      "attrs": {
+        "data-ui-name": "MiniMapPlaceholder",
+        "data-ui-role": "panel/section",
+        "style": "position:absolute;left:40px;top:40px;width:240px;height:240px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MiniMapPlaceholder/MiniMapTitle",
+      "name": "MiniMapTitle",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "AREA SCAN",
+      "aggregateText": "AREA SCAN",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "16px",
+        "top": "14px",
+        "width": "120px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 16.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 14.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 56.0,
+        "y": 54.0,
+        "width": 120.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "MiniMapTitle",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:16px;top:14px;width:120px;height:16px;box-sizing:border-box;font-size:12px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MiniMapPlaceholder/MiniMapFrame",
+      "name": "MiniMapFrame",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "16px",
+        "top": "40px",
+        "width": "208px",
+        "height": "184px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 16.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 40.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 208.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 184.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 56.0,
+        "y": 80.0,
+        "width": 208.0,
+        "height": 184.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/hud_minimap_frame.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "14px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "MiniMapFrame",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "frame/hud-minimap",
+        "data-ui-asset-type": "frame",
+        "data-ui-asset-usage": "minimap-frame",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "208",
+        "data-ui-asset-height": "184",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:16px;top:40px;width:208px;height:184px;box-sizing:border-box;background:url('../assets/hud_minimap_frame.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MiniMapPlaceholder/MiniMapFrame/MiniMapLaneHorizontal",
+      "name": "MiniMapLaneHorizontal",
+      "tag": "div",
+      "role": "card/accent",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "86px",
+        "width": "164px",
+        "height": "12px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 86.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 164.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 12.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 78.0,
+        "y": 166.0,
+        "width": 164.0,
+        "height": 12.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(24, 74, 98, 0.92) 0%, rgba(10, 34, 49, 0.92) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.70)",
+        "border-radius": "16px"
+      },
+      "attrs": {
+        "data-ui-name": "MiniMapLaneHorizontal",
+        "data-ui-role": "card/accent",
+        "style": "position:absolute;left:22px;top:86px;width:164px;height:12px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MiniMapPlaceholder/MiniMapFrame/MiniMapLaneVertical",
+      "name": "MiniMapLaneVertical",
+      "tag": "div",
+      "role": "card/accent",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "98px",
+        "top": "20px",
+        "width": "12px",
+        "height": "144px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 98.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 144.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 154.0,
+        "y": 100.0,
+        "width": 12.0,
+        "height": 144.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(24, 74, 98, 0.92) 0%, rgba(10, 34, 49, 0.92) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.70)",
+        "border-radius": "16px"
+      },
+      "attrs": {
+        "data-ui-name": "MiniMapLaneVertical",
+        "data-ui-role": "card/accent",
+        "style": "position:absolute;left:98px;top:20px;width:12px;height:144px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MiniMapPlaceholder/MiniMapFrame/MiniMapHotspotA",
+      "name": "MiniMapHotspotA",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "36px",
+        "top": "34px",
+        "width": "26px",
+        "height": "26px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 36.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 26.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 26.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 92.0,
+        "y": 114.0,
+        "width": 26.0,
+        "height": 26.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(13, 24, 38, 0.82) 0%, rgba(7, 14, 23, 0.82) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(118, 216, 255, 0.16)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "MiniMapHotspotA",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:36px;top:34px;width:26px;height:26px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MiniMapPlaceholder/MiniMapFrame/MiniMapHotspotB",
+      "name": "MiniMapHotspotB",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "142px",
+        "top": "58px",
+        "width": "26px",
+        "height": "26px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 142.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 58.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 26.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 26.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 198.0,
+        "y": 138.0,
+        "width": 26.0,
+        "height": 26.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(13, 24, 38, 0.82) 0%, rgba(7, 14, 23, 0.82) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(118, 216, 255, 0.16)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "MiniMapHotspotB",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:142px;top:58px;width:26px;height:26px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MiniMapPlaceholder/MiniMapFrame/MiniMapHotspotC",
+      "name": "MiniMapHotspotC",
+      "tag": "div",
+      "role": "card/accent",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "90px",
+        "top": "122px",
+        "width": "30px",
+        "height": "30px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 90.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 122.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 30.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 146.0,
+        "y": 202.0,
+        "width": 30.0,
+        "height": 30.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(24, 74, 98, 0.92) 0%, rgba(10, 34, 49, 0.92) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.70)",
+        "border-radius": "16px"
+      },
+      "attrs": {
+        "data-ui-name": "MiniMapHotspotC",
+        "data-ui-role": "card/accent",
+        "style": "position:absolute;left:90px;top:122px;width:30px;height:30px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopMatchInfo",
+      "name": "TopMatchInfo",
+      "tag": "div",
+      "role": "panel/resource-bar",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "CONTROL / ROUND 05 3 - 2 01:18",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "720px",
+        "top": "20px",
+        "width": "480px",
+        "height": "64px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 720.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 480.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 64.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 720.0,
+        "y": 20.0,
+        "width": 480.0,
+        "height": 64.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(9, 18, 30, 0.90) 0%, rgba(6, 13, 22, 0.90) 100%)",
+        "border": "2px solid var(--line-main)",
+        "border-radius": "16px",
+        "box-shadow": "var(--shadow-main)"
+      },
+      "attrs": {
+        "data-ui-name": "TopMatchInfo",
+        "data-ui-role": "panel/resource-bar",
+        "style": "position:absolute;left:720px;top:20px;width:480px;height:64px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopMatchInfo/TopMatchMode",
+      "name": "TopMatchMode",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "CONTROL / ROUND 05",
+      "aggregateText": "CONTROL / ROUND 05",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "10px",
+        "width": "120px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 10.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 738.0,
+        "y": 30.0,
+        "width": 120.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "TopMatchMode",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:18px;top:10px;width:120px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopMatchInfo/TopMatchScore",
+      "name": "TopMatchScore",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "3 - 2",
+      "aggregateText": "3 - 2",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "152px",
+        "top": "18px",
+        "width": "176px",
+        "height": "28px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 152.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 176.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 28.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 872.0,
+        "y": 38.0,
+        "width": 176.0,
+        "height": 28.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "28px",
+        "font-weight": "700",
+        "line-height": "28px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "TopMatchScore",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:152px;top:18px;width:176px;height:28px;box-sizing:border-box;font-size:28px;line-height:28px;text-align:center;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopMatchInfo/TopMatchTimer",
+      "name": "TopMatchTimer",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "01:18",
+      "aggregateText": "01:18",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "346px",
+        "top": "18px",
+        "width": "116px",
+        "height": "24px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 346.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 116.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 24.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1066.0,
+        "y": 38.0,
+        "width": 116.0,
+        "height": 24.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "24px",
+        "font-weight": "700",
+        "line-height": "24px",
+        "text-align": "right"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "TopMatchTimer",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:346px;top:18px;width:116px;height:24px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:right;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopRightKillFeed",
+      "name": "TopRightKillFeed",
+      "tag": "div",
+      "role": "panel/ink",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "KILL FEED NOVA took Point A from STRIKE ALPHA eliminated HOSTILE-04 WARD secured crossfire angle last event 2.1s ago",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "1460px",
+        "top": "28px",
+        "width": "380px",
+        "height": "220px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 1460.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 380.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 220.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1460.0,
+        "y": 28.0,
+        "width": 380.0,
+        "height": 220.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(9, 18, 30, 0.82) 0%, rgba(4, 10, 18, 0.82) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.22)",
+        "border-radius": "18px",
+        "box-shadow": "var(--shadow-main)"
+      },
+      "attrs": {
+        "data-ui-name": "TopRightKillFeed",
+        "data-ui-role": "panel/ink",
+        "style": "position:absolute;left:1460px;top:28px;width:380px;height:220px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopRightKillFeed/TopRightKillFeedTitle",
+      "name": "TopRightKillFeedTitle",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "KILL FEED",
+      "aggregateText": "KILL FEED",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "14px",
+        "width": "120px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 14.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1478.0,
+        "y": 42.0,
+        "width": 120.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "TopRightKillFeedTitle",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:18px;top:14px;width:120px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopRightKillFeed/KillFeedEntryA",
+      "name": "KillFeedEntryA",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "NOVA took Point A from STRIKE",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "42px",
+        "width": "344px",
+        "height": "36px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 42.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 344.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 36.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1478.0,
+        "y": 70.0,
+        "width": 344.0,
+        "height": 36.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(14, 28, 43, 0.88) 0%, rgba(6, 13, 22, 0.88) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.18)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "KillFeedEntryA",
+        "data-ui-role": "card/entry",
+        "style": "position:absolute;left:18px;top:42px;width:344px;height:36px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopRightKillFeed/KillFeedEntryA/KillFeedEntryAText",
+      "name": "KillFeedEntryAText",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "NOVA took Point A from STRIKE",
+      "aggregateText": "NOVA took Point A from STRIKE",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "14px",
+        "top": "10px",
+        "width": "316px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 14.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 10.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 316.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1492.0,
+        "y": 80.0,
+        "width": 316.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "14px",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "KillFeedEntryAText",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:14px;top:10px;width:316px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopRightKillFeed/KillFeedEntryB",
+      "name": "KillFeedEntryB",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "ALPHA eliminated HOSTILE-04",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "88px",
+        "width": "344px",
+        "height": "36px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 88.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 344.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 36.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1478.0,
+        "y": 116.0,
+        "width": 344.0,
+        "height": 36.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(14, 28, 43, 0.88) 0%, rgba(6, 13, 22, 0.88) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.18)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "KillFeedEntryB",
+        "data-ui-role": "card/entry",
+        "style": "position:absolute;left:18px;top:88px;width:344px;height:36px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopRightKillFeed/KillFeedEntryB/KillFeedEntryBText",
+      "name": "KillFeedEntryBText",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "ALPHA eliminated HOSTILE-04",
+      "aggregateText": "ALPHA eliminated HOSTILE-04",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "14px",
+        "top": "10px",
+        "width": "316px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 14.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 10.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 316.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1492.0,
+        "y": 126.0,
+        "width": 316.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "14px",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "KillFeedEntryBText",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:14px;top:10px;width:316px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopRightKillFeed/KillFeedEntryC",
+      "name": "KillFeedEntryC",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "WARD secured crossfire angle",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "134px",
+        "width": "344px",
+        "height": "36px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 134.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 344.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 36.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1478.0,
+        "y": 162.0,
+        "width": 344.0,
+        "height": 36.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(14, 28, 43, 0.88) 0%, rgba(6, 13, 22, 0.88) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.18)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "KillFeedEntryC",
+        "data-ui-role": "card/entry",
+        "style": "position:absolute;left:18px;top:134px;width:344px;height:36px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopRightKillFeed/KillFeedEntryC/KillFeedEntryCText",
+      "name": "KillFeedEntryCText",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "WARD secured crossfire angle",
+      "aggregateText": "WARD secured crossfire angle",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "14px",
+        "top": "10px",
+        "width": "316px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 14.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 10.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 316.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1492.0,
+        "y": 172.0,
+        "width": 316.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "14px",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "KillFeedEntryCText",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:14px;top:10px;width:316px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopRightKillFeed/KillFeedEntryD",
+      "name": "KillFeedEntryD",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "last event 2.1s ago",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "180px",
+        "width": "344px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 180.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 344.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1478.0,
+        "y": 208.0,
+        "width": 344.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(14, 28, 43, 0.88) 0%, rgba(6, 13, 22, 0.88) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.18)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "KillFeedEntryD",
+        "data-ui-role": "card/entry",
+        "style": "position:absolute;left:18px;top:180px;width:344px;height:22px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/TopRightKillFeed/KillFeedEntryD/KillFeedEntryDText",
+      "name": "KillFeedEntryDText",
+      "tag": "div",
+      "role": "text/micro",
+      "classes": [],
+      "contentType": "text",
+      "directText": "last event 2.1s ago",
+      "aggregateText": "last event 2.1s ago",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "14px",
+        "top": "4px",
+        "width": "316px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 14.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 4.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 316.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1492.0,
+        "y": 212.0,
+        "width": 316.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "KillFeedEntryDText",
+        "data-ui-role": "text/micro",
+        "style": "position:absolute;left:14px;top:4px;width:316px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/CenterCrosshair",
+      "name": "CenterCrosshair",
+      "tag": "div",
+      "role": "panel/section",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "930px",
+        "top": "500px",
+        "width": "60px",
+        "height": "60px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 930.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 500.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 60.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 60.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 930.0,
+        "y": 500.0,
+        "width": 60.0,
+        "height": 60.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/hud_crosshair.svg') center center / 100% 100% no-repeat",
+        "border": "none",
+        "border-radius": "18px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "CenterCrosshair",
+        "data-ui-role": "panel/section",
+        "data-ui-asset-id": "icon/hud-crosshair",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "combat-crosshair",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "60",
+        "data-ui-asset-height": "60",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:930px;top:500px;width:60px;height:60px;box-sizing:border-box;background:url('../assets/hud_crosshair.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/CenterCrosshair/CrosshairTop",
+      "name": "CrosshairTop",
+      "tag": "div",
+      "role": "card/accent",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "8px",
+        "width": "16px",
+        "height": "10px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 8.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 16.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 10.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 952.0,
+        "y": 508.0,
+        "width": 16.0,
+        "height": 10.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(24, 74, 98, 0.92) 0%, rgba(10, 34, 49, 0.92) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.70)",
+        "border-radius": "16px",
+        "opacity": "0"
+      },
+      "attrs": {
+        "data-ui-name": "CrosshairTop",
+        "data-ui-role": "card/accent",
+        "style": "position:absolute;left:22px;top:8px;width:16px;height:10px;box-sizing:border-box;opacity:0;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/CenterCrosshair/CrosshairLeft",
+      "name": "CrosshairLeft",
+      "tag": "div",
+      "role": "card/accent",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "8px",
+        "top": "22px",
+        "width": "10px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 8.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 10.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 938.0,
+        "y": 522.0,
+        "width": 10.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(24, 74, 98, 0.92) 0%, rgba(10, 34, 49, 0.92) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.70)",
+        "border-radius": "16px",
+        "opacity": "0"
+      },
+      "attrs": {
+        "data-ui-name": "CrosshairLeft",
+        "data-ui-role": "card/accent",
+        "style": "position:absolute;left:8px;top:22px;width:10px;height:16px;box-sizing:border-box;opacity:0;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/CenterCrosshair/CrosshairRight",
+      "name": "CrosshairRight",
+      "tag": "div",
+      "role": "card/accent",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "42px",
+        "top": "22px",
+        "width": "10px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 42.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 10.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 972.0,
+        "y": 522.0,
+        "width": 10.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(24, 74, 98, 0.92) 0%, rgba(10, 34, 49, 0.92) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.70)",
+        "border-radius": "16px",
+        "opacity": "0"
+      },
+      "attrs": {
+        "data-ui-name": "CrosshairRight",
+        "data-ui-role": "card/accent",
+        "style": "position:absolute;left:42px;top:22px;width:10px;height:16px;box-sizing:border-box;opacity:0;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/CenterCrosshair/CrosshairBottom",
+      "name": "CrosshairBottom",
+      "tag": "div",
+      "role": "card/accent",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "42px",
+        "width": "16px",
+        "height": "10px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 42.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 16.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 10.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 952.0,
+        "y": 542.0,
+        "width": 16.0,
+        "height": 10.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(24, 74, 98, 0.92) 0%, rgba(10, 34, 49, 0.92) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.70)",
+        "border-radius": "16px",
+        "opacity": "0"
+      },
+      "attrs": {
+        "data-ui-name": "CrosshairBottom",
+        "data-ui-role": "card/accent",
+        "style": "position:absolute;left:22px;top:42px;width:16px;height:10px;box-sizing:border-box;opacity:0;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/CenterCrosshair/CrosshairCenter",
+      "name": "CrosshairCenter",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "24px",
+        "width": "12px",
+        "height": "12px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 12.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 954.0,
+        "y": 524.0,
+        "width": 12.0,
+        "height": 12.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(13, 24, 38, 0.82) 0%, rgba(7, 14, 23, 0.82) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(118, 216, 255, 0.16)",
+        "border-radius": "14px",
+        "opacity": "0"
+      },
+      "attrs": {
+        "data-ui-name": "CrosshairCenter",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:24px;top:24px;width:12px;height:12px;box-sizing:border-box;opacity:0;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MidPrompt",
+      "name": "MidPrompt",
+      "tag": "div",
+      "role": "panel/resource-bar",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "INTERACT Hold F to secure uplink relay",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "760px",
+        "top": "760px",
+        "width": "400px",
+        "height": "64px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 760.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 760.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 400.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 64.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 760.0,
+        "y": 760.0,
+        "width": 400.0,
+        "height": 64.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(9, 18, 30, 0.90) 0%, rgba(6, 13, 22, 0.90) 100%)",
+        "border": "2px solid var(--line-main)",
+        "border-radius": "16px",
+        "box-shadow": "var(--shadow-main)"
+      },
+      "attrs": {
+        "data-ui-name": "MidPrompt",
+        "data-ui-role": "panel/resource-bar",
+        "style": "position:absolute;left:760px;top:760px;width:400px;height:64px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MidPrompt/MidPromptLabel",
+      "name": "MidPromptLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "INTERACT",
+      "aggregateText": "INTERACT",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "10px",
+        "width": "90px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 10.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 90.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 778.0,
+        "y": 770.0,
+        "width": 90.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "MidPromptLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:18px;top:10px;width:90px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/MidPrompt/MidPromptBody",
+      "name": "MidPromptBody",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Hold F to secure uplink relay",
+      "aggregateText": "Hold F to secure uplink relay",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "30px",
+        "width": "320px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 320.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 778.0,
+        "y": 790.0,
+        "width": 320.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "16px",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "MidPromptBody",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:18px;top:30px;width:320px;height:18px;box-sizing:border-box;font-size:16px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomLeftHealthArmor",
+      "name": "BottomLeftHealthArmor",
+      "tag": "div",
+      "role": "panel/ink",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "HP 83 ARMOR 52 STATE READY",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "40px",
+        "top": "906px",
+        "width": "360px",
+        "height": "124px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 40.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 906.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 360.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 124.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 40.0,
+        "y": 906.0,
+        "width": 360.0,
+        "height": 124.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(9, 18, 30, 0.82) 0%, rgba(4, 10, 18, 0.82) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.22)",
+        "border-radius": "18px",
+        "box-shadow": "var(--shadow-main)"
+      },
+      "attrs": {
+        "data-ui-name": "BottomLeftHealthArmor",
+        "data-ui-role": "panel/ink",
+        "style": "position:absolute;left:40px;top:906px;width:360px;height:124px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomLeftHealthArmor/BottomLeftHealthCard",
+      "name": "BottomLeftHealthCard",
+      "tag": "div",
+      "role": "card/accent",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "HP 83",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "18px",
+        "width": "108px",
+        "height": "88px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 108.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 88.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 58.0,
+        "y": 924.0,
+        "width": 108.0,
+        "height": 88.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(24, 74, 98, 0.92) 0%, rgba(10, 34, 49, 0.92) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.70)",
+        "border-radius": "16px"
+      },
+      "attrs": {
+        "data-ui-name": "BottomLeftHealthCard",
+        "data-ui-role": "card/accent",
+        "style": "position:absolute;left:18px;top:18px;width:108px;height:88px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomLeftHealthArmor/BottomLeftHealthCard/BottomLeftHealthLabel",
+      "name": "BottomLeftHealthLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "HP",
+      "aggregateText": "HP",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "12px",
+        "width": "64px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 64.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 70.0,
+        "y": 936.0,
+        "width": 64.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "BottomLeftHealthLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:12px;top:12px;width:64px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomLeftHealthArmor/BottomLeftHealthCard/BottomLeftHealthValue",
+      "name": "BottomLeftHealthValue",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "83",
+      "aggregateText": "83",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "42px",
+        "width": "64px",
+        "height": "24px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 42.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 64.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 24.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 70.0,
+        "y": 966.0,
+        "width": 64.0,
+        "height": 24.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "26px",
+        "font-weight": "700",
+        "line-height": "24px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "BottomLeftHealthValue",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:12px;top:42px;width:64px;height:24px;box-sizing:border-box;font-size:26px;line-height:24px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomLeftHealthArmor/BottomLeftArmorCard",
+      "name": "BottomLeftArmorCard",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "ARMOR 52",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "136px",
+        "top": "18px",
+        "width": "108px",
+        "height": "88px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 136.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 108.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 88.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 176.0,
+        "y": 924.0,
+        "width": 108.0,
+        "height": 88.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(13, 24, 38, 0.82) 0%, rgba(7, 14, 23, 0.82) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(118, 216, 255, 0.16)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "BottomLeftArmorCard",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:136px;top:18px;width:108px;height:88px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomLeftHealthArmor/BottomLeftArmorCard/BottomLeftArmorLabel",
+      "name": "BottomLeftArmorLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "ARMOR",
+      "aggregateText": "ARMOR",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "12px",
+        "width": "64px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 64.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 188.0,
+        "y": 936.0,
+        "width": 64.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "BottomLeftArmorLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:12px;top:12px;width:64px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomLeftHealthArmor/BottomLeftArmorCard/BottomLeftArmorValue",
+      "name": "BottomLeftArmorValue",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "52",
+      "aggregateText": "52",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "42px",
+        "width": "64px",
+        "height": "24px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 42.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 64.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 24.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 188.0,
+        "y": 966.0,
+        "width": 64.0,
+        "height": 24.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "26px",
+        "font-weight": "700",
+        "line-height": "24px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "BottomLeftArmorValue",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:12px;top:42px;width:64px;height:24px;box-sizing:border-box;font-size:26px;line-height:24px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomLeftHealthArmor/BottomLeftStateCard",
+      "name": "BottomLeftStateCard",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "STATE READY",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "254px",
+        "top": "18px",
+        "width": "88px",
+        "height": "88px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 254.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 88.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 88.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 294.0,
+        "y": 924.0,
+        "width": 88.0,
+        "height": 88.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(13, 24, 38, 0.82) 0%, rgba(7, 14, 23, 0.82) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(118, 216, 255, 0.16)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "BottomLeftStateCard",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:254px;top:18px;width:88px;height:88px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomLeftHealthArmor/BottomLeftStateCard/BottomLeftStateLabel",
+      "name": "BottomLeftStateLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "STATE",
+      "aggregateText": "STATE",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "12px",
+        "width": "52px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 52.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 306.0,
+        "y": 936.0,
+        "width": 52.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "BottomLeftStateLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:12px;top:12px;width:52px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomLeftHealthArmor/BottomLeftStateCard/BottomLeftStateValue",
+      "name": "BottomLeftStateValue",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "READY",
+      "aggregateText": "READY",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "42px",
+        "width": "60px",
+        "height": "24px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 42.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 60.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 24.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 306.0,
+        "y": 966.0,
+        "width": 60.0,
+        "height": 24.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "15px",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "BottomLeftStateValue",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:12px;top:42px;width:60px;height:24px;box-sizing:border-box;font-size:15px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility",
+      "name": "BottomRightAmmoAbility",
+      "tag": "div",
+      "role": "panel/hero",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "AMMO 28 / 84 AUTO FIRE Q Scan E Dash X Pack C Burst",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "1420px",
+        "top": "876px",
+        "width": "420px",
+        "height": "154px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 1420.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 876.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 420.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 154.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1420.0,
+        "y": 876.0,
+        "width": 420.0,
+        "height": 154.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/hud_ammo_panel.svg') center center / 100% 100% no-repeat",
+        "border": "none",
+        "border-radius": "22px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "BottomRightAmmoAbility",
+        "data-ui-role": "panel/hero",
+        "data-ui-shape": "plate",
+        "data-ui-asset-id": "background/hud-ammo-panel",
+        "data-ui-asset-type": "background",
+        "data-ui-asset-usage": "ammo-panel",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "420",
+        "data-ui-asset-height": "154",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:1420px;top:876px;width:420px;height:154px;box-sizing:border-box;background:url('../assets/hud_ammo_panel.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/BottomRightAmmoLabel",
+      "name": "BottomRightAmmoLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "AMMO",
+      "aggregateText": "AMMO",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "14px",
+        "width": "90px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 14.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 90.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1438.0,
+        "y": 890.0,
+        "width": 90.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "BottomRightAmmoLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:18px;top:14px;width:90px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/BottomRightAmmoValue",
+      "name": "BottomRightAmmoValue",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "28",
+      "aggregateText": "28",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "34px",
+        "width": "120px",
+        "height": "36px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 36.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1438.0,
+        "y": 910.0,
+        "width": 120.0,
+        "height": 36.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "36px",
+        "font-weight": "700",
+        "line-height": "36px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "BottomRightAmmoValue",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:18px;top:34px;width:120px;height:36px;box-sizing:border-box;font-size:36px;line-height:36px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/BottomRightAmmoReserve",
+      "name": "BottomRightAmmoReserve",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "/ 84",
+      "aggregateText": "/ 84",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "120px",
+        "top": "46px",
+        "width": "80px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 46.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 80.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1540.0,
+        "y": 922.0,
+        "width": 80.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "18px",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "BottomRightAmmoReserve",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:120px;top:46px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/BottomRightMode",
+      "name": "BottomRightMode",
+      "tag": "div",
+      "role": "text/gold",
+      "classes": [],
+      "contentType": "text",
+      "directText": "AUTO FIRE",
+      "aggregateText": "AUTO FIRE",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "18px",
+        "top": "82px",
+        "width": "120px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 82.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1438.0,
+        "y": 958.0,
+        "width": 120.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-warm)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "BottomRightMode",
+        "data-ui-role": "text/gold",
+        "style": "position:absolute;left:18px;top:82px;width:120px;height:18px;box-sizing:border-box;font-size:14px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardA",
+      "name": "AbilityCardA",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Q Scan",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "228px",
+        "top": "18px",
+        "width": "76px",
+        "height": "54px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 228.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 76.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 54.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1648.0,
+        "y": 894.0,
+        "width": 76.0,
+        "height": 54.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(13, 24, 38, 0.82) 0%, rgba(7, 14, 23, 0.82) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(118, 216, 255, 0.16)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "AbilityCardA",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:228px;top:18px;width:76px;height:54px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardA/AbilityCardALabel",
+      "name": "AbilityCardALabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Q",
+      "aggregateText": "Q",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "8px",
+        "width": "20px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 8.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1660.0,
+        "y": 902.0,
+        "width": 20.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "AbilityCardALabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:12px;top:8px;width:20px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardA/AbilityCardAValue",
+      "name": "AbilityCardAValue",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Scan",
+      "aggregateText": "Scan",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "28px",
+        "width": "46px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 46.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1660.0,
+        "y": 922.0,
+        "width": 46.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "AbilityCardAValue",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:12px;top:28px;width:46px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardB",
+      "name": "AbilityCardB",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "E Dash",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "316px",
+        "top": "18px",
+        "width": "76px",
+        "height": "54px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 316.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 76.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 54.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1736.0,
+        "y": 894.0,
+        "width": 76.0,
+        "height": 54.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(13, 24, 38, 0.82) 0%, rgba(7, 14, 23, 0.82) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(118, 216, 255, 0.16)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "AbilityCardB",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:316px;top:18px;width:76px;height:54px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardB/AbilityCardBLabel",
+      "name": "AbilityCardBLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "E",
+      "aggregateText": "E",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "8px",
+        "width": "20px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 8.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1748.0,
+        "y": 902.0,
+        "width": 20.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "AbilityCardBLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:12px;top:8px;width:20px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardB/AbilityCardBValue",
+      "name": "AbilityCardBValue",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Dash",
+      "aggregateText": "Dash",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "28px",
+        "width": "46px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 46.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1748.0,
+        "y": 922.0,
+        "width": 46.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "AbilityCardBValue",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:12px;top:28px;width:46px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardC",
+      "name": "AbilityCardC",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "X Pack",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "228px",
+        "top": "82px",
+        "width": "76px",
+        "height": "54px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 228.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 82.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 76.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 54.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1648.0,
+        "y": 958.0,
+        "width": 76.0,
+        "height": 54.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(13, 24, 38, 0.82) 0%, rgba(7, 14, 23, 0.82) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(118, 216, 255, 0.16)",
+        "border-radius": "14px"
+      },
+      "attrs": {
+        "data-ui-name": "AbilityCardC",
+        "data-ui-role": "card/info",
+        "style": "position:absolute;left:228px;top:82px;width:76px;height:54px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardC/AbilityCardCLabel",
+      "name": "AbilityCardCLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "X",
+      "aggregateText": "X",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "8px",
+        "width": "20px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 8.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1660.0,
+        "y": 966.0,
+        "width": 20.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "AbilityCardCLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:12px;top:8px;width:20px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardC/AbilityCardCValue",
+      "name": "AbilityCardCValue",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Pack",
+      "aggregateText": "Pack",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "28px",
+        "width": "46px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 46.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1660.0,
+        "y": 986.0,
+        "width": 46.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "AbilityCardCValue",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:12px;top:28px;width:46px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardD",
+      "name": "AbilityCardD",
+      "tag": "div",
+      "role": "card/accent",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "C Burst",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "316px",
+        "top": "82px",
+        "width": "76px",
+        "height": "54px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 316.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 82.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 76.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 54.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1736.0,
+        "y": 958.0,
+        "width": 76.0,
+        "height": 54.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(24, 74, 98, 0.92) 0%, rgba(10, 34, 49, 0.92) 100%)",
+        "border": "2px solid rgba(118, 216, 255, 0.70)",
+        "border-radius": "16px"
+      },
+      "attrs": {
+        "data-ui-name": "AbilityCardD",
+        "data-ui-role": "card/accent",
+        "style": "position:absolute;left:316px;top:82px;width:76px;height:54px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardD/AbilityCardDLabel",
+      "name": "AbilityCardDLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "C",
+      "aggregateText": "C",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "8px",
+        "width": "20px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 8.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1748.0,
+        "y": 966.0,
+        "width": 20.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "AbilityCardDLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:12px;top:8px;width:20px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    },
+    {
+      "path": "FPSOperatorHudRoot/BottomRightAmmoAbility/AbilityCardD/AbilityCardDValue",
+      "name": "AbilityCardDValue",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Burst",
+      "aggregateText": "Burst",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "12px",
+        "top": "28px",
+        "width": "46px",
+        "height": "14px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 46.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 14.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 1748.0,
+        "y": 986.0,
+        "width": 46.0,
+        "height": 14.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "12px",
+        "line-height": "14px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "AbilityCardDValue",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:12px;top:28px;width:46px;height:14px;box-sizing:border-box;font-size:12px;line-height:14px;text-align:left;"
+      }
+    }
+  ],
+  "warnings": []
+}

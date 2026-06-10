@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sunny Pop Trails - Gameplay</title>
+  <link rel="stylesheet" href="../theme.css">
+  <link rel="stylesheet" href="../shared/widgets.css">
+</head>
+<body>
+  <div class="screen-root gameplay-root" data-ui-page="gameplay" data-ui-name="GameplayRoot" data-ui-role="window/main">
+    <div data-ui-name="GameplayTopBar" data-ui-role="panel/resource-bar" style="position:absolute;left:40px;top:44px;width:1000px;height:166px;box-sizing:border-box;">
+      <button data-ui-name="GameplayBackButton" data-ui-role="button/ghost" data-ui-element="button/ghost" style="position:absolute;left:24px;top:28px;width:134px;height:110px;box-sizing:border-box;">
+        <span data-ui-name="GameplayBackButtonText" data-ui-role="text/title" style="width:134px;height:110px;font-size:22px;line-height:104px;text-align:center;">Back</span>
+      </button>
+      <div data-ui-name="GameplayStageTitle" data-ui-role="text/title" style="position:absolute;left:184px;top:34px;width:340px;height:34px;box-sizing:border-box;font-size:38px;line-height:38px;text-align:left;">Sunny Meadow 128</div>
+      <div data-ui-name="GameplayStageBody" data-ui-role="text/body" style="position:absolute;left:184px;top:82px;width:420px;height:20px;box-sizing:border-box;font-size:18px;line-height:20px;text-align:left;">Collect honey drops and clear the jelly lane before moves run out.</div>
+      <div data-ui-name="GameplayTopStarIcon" data-ui-role="card/info" data-ui-asset-id="icon/star" data-ui-asset-type="icon" data-ui-asset-usage="stage-progress-icon" data-ui-asset-import="sprite" data-ui-asset-width="44" data-ui-asset-height="44" data-ui-asset-tint="none" style="position:absolute;left:858px;top:34px;width:44px;height:44px;box-sizing:border-box;background:url('../assets/icon_star.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"></div>
+      <div data-ui-name="GameplayTopStarValue" data-ui-role="text/value" style="position:absolute;left:912px;top:40px;width:60px;height:20px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:left;">2/3</div>
+    </div>
+
+    <div data-ui-name="GameplayGoalPanel" data-ui-role="panel/section" style="position:absolute;left:40px;top:236px;width:344px;height:120px;box-sizing:border-box;">
+      <div data-ui-name="GameplayGoalTitle" data-ui-role="text/label" style="position:absolute;left:22px;top:20px;width:120px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">TARGETS</div>
+      <div data-ui-name="GameplayGoalStarToken" class="goal-token" style="position:absolute;left:22px;top:50px;width:138px;height:48px;box-sizing:border-box;">
+        <div data-ui-name="GameplayGoalStarIcon" data-ui-role="card/info" data-ui-asset-id="icon/star" data-ui-asset-type="icon" data-ui-asset-usage="goal-icon" data-ui-asset-import="sprite" data-ui-asset-width="28" data-ui-asset-height="28" data-ui-asset-tint="none" style="position:absolute;left:14px;top:10px;width:28px;height:28px;box-sizing:border-box;background:url('../assets/icon_star.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"></div>
+        <div data-ui-name="GameplayGoalStarText" data-ui-role="text/title" style="position:absolute;left:54px;top:12px;width:68px;height:22px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;">24</div>
+      </div>
+      <div data-ui-name="GameplayGoalJellyToken" class="goal-token goal-jelly" style="position:absolute;left:176px;top:50px;width:138px;height:48px;box-sizing:border-box;">
+        <div data-ui-name="GameplayGoalJellyText" data-ui-role="text/title-inverse" style="position:absolute;left:16px;top:12px;width:96px;height:22px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;">18 Jelly</div>
+      </div>
+    </div>
+
+    <div data-ui-name="GameplayMovesPanel" class="score-pill" style="position:absolute;left:400px;top:236px;width:192px;height:120px;box-sizing:border-box;">
+      <div data-ui-name="GameplayMovesLabel" data-ui-role="text/label" style="position:absolute;left:22px;top:20px;width:90px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">MOVES</div>
+      <div data-ui-name="GameplayMovesValue" data-ui-role="text/title" style="position:absolute;left:22px;top:52px;width:100px;height:34px;box-sizing:border-box;font-size:42px;line-height:42px;text-align:left;">21</div>
+    </div>
+
+    <div data-ui-name="GameplayScorePanel" class="score-pill" style="position:absolute;left:608px;top:236px;width:256px;height:120px;box-sizing:border-box;">
+      <div data-ui-name="GameplayScoreLabel" data-ui-role="text/label" style="position:absolute;left:22px;top:20px;width:90px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">SCORE</div>
+      <div data-ui-name="GameplayScoreValue" data-ui-role="text/title" style="position:absolute;left:22px;top:52px;width:180px;height:34px;box-sizing:border-box;font-size:42px;line-height:42px;text-align:left;">42,880</div>
+    </div>
+
+    <button data-ui-name="GameplayPauseButton" data-ui-role="button/ghost" data-ui-element="button/ghost" style="position:absolute;left:880px;top:236px;width:160px;height:120px;box-sizing:border-box;">
+      <span data-ui-name="GameplayPauseButtonText" data-ui-role="text/title" style="width:160px;height:120px;font-size:24px;line-height:112px;text-align:center;">Pause</span>
+    </button>
+
+    <div data-ui-name="GameplayBoardPanel" data-ui-role="panel/hero" class="board-shell" style="position:absolute;left:144px;top:388px;width:792px;height:916px;box-sizing:border-box;">
+      <div data-ui-name="BoardTileR1C1" data-ui-role="card/entry" class="board-tile tile-yellow" style="position:absolute;left:30px;top:30px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR1C2" data-ui-role="card/entry" class="board-tile tile-blue" style="position:absolute;left:154px;top:30px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR1C3" data-ui-role="card/entry" class="board-tile tile-pink" style="position:absolute;left:278px;top:30px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR1C4" data-ui-role="card/entry" class="board-tile tile-green" style="position:absolute;left:402px;top:30px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR1C5" data-ui-role="card/entry" class="board-tile tile-red" style="position:absolute;left:526px;top:30px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR1C6" data-ui-role="card/entry" class="board-tile tile-purple" style="position:absolute;left:650px;top:30px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR2C1" data-ui-role="card/entry" class="board-tile tile-green" style="position:absolute;left:30px;top:154px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR2C2" data-ui-role="card/entry" class="board-tile tile-yellow" style="position:absolute;left:154px;top:154px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR2C3" data-ui-role="card/entry" class="board-tile tile-purple" style="position:absolute;left:278px;top:154px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR2C4" data-ui-role="card/entry" class="board-tile tile-blue" style="position:absolute;left:402px;top:154px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR2C5" data-ui-role="card/entry" class="board-tile tile-pink" style="position:absolute;left:526px;top:154px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR2C6" data-ui-role="card/entry" class="board-tile tile-red" style="position:absolute;left:650px;top:154px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR3C1" data-ui-role="card/entry" class="board-tile tile-red" style="position:absolute;left:30px;top:278px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR3C2" data-ui-role="card/entry" class="board-tile tile-purple" style="position:absolute;left:154px;top:278px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR3C3" data-ui-role="card/entry" class="board-tile tile-yellow" style="position:absolute;left:278px;top:278px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR3C4" data-ui-role="card/entry" class="board-tile tile-green" style="position:absolute;left:402px;top:278px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR3C5" data-ui-role="card/entry" class="board-tile tile-blue" style="position:absolute;left:526px;top:278px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR3C6" data-ui-role="card/entry" class="board-tile tile-pink" style="position:absolute;left:650px;top:278px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR4C1" data-ui-role="card/entry" class="board-tile tile-blue" style="position:absolute;left:30px;top:402px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR4C2" data-ui-role="card/entry" class="board-tile tile-pink" style="position:absolute;left:154px;top:402px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR4C3" data-ui-role="card/entry" class="board-tile tile-green" style="position:absolute;left:278px;top:402px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR4C4" data-ui-role="card/entry" class="board-tile tile-red" style="position:absolute;left:402px;top:402px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR4C5" data-ui-role="card/entry" class="board-tile tile-purple" style="position:absolute;left:526px;top:402px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR4C6" data-ui-role="card/entry" class="board-tile tile-yellow" style="position:absolute;left:650px;top:402px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR5C1" data-ui-role="card/entry" class="board-tile tile-yellow" style="position:absolute;left:30px;top:526px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR5C2" data-ui-role="card/entry" class="board-tile tile-green" style="position:absolute;left:154px;top:526px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR5C3" data-ui-role="card/entry" class="board-tile tile-blue" style="position:absolute;left:278px;top:526px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR5C4" data-ui-role="card/entry" class="board-tile tile-pink" style="position:absolute;left:402px;top:526px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR5C5" data-ui-role="card/entry" class="board-tile tile-red" style="position:absolute;left:526px;top:526px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR5C6" data-ui-role="card/entry" class="board-tile tile-purple" style="position:absolute;left:650px;top:526px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR6C1" data-ui-role="card/entry" class="board-tile tile-purple" style="position:absolute;left:30px;top:650px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR6C2" data-ui-role="card/entry" class="board-tile tile-red" style="position:absolute;left:154px;top:650px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR6C3" data-ui-role="card/entry" class="board-tile tile-pink" style="position:absolute;left:278px;top:650px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR6C4" data-ui-role="card/entry" class="board-tile tile-yellow" style="position:absolute;left:402px;top:650px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR6C5" data-ui-role="card/entry" class="board-tile tile-green" style="position:absolute;left:526px;top:650px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR6C6" data-ui-role="card/entry" class="board-tile tile-blue" style="position:absolute;left:650px;top:650px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR7C1" data-ui-role="card/entry" class="board-tile tile-green" style="position:absolute;left:30px;top:774px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR7C2" data-ui-role="card/entry" class="board-tile tile-blue" style="position:absolute;left:154px;top:774px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR7C3" data-ui-role="card/entry" class="board-tile tile-yellow" style="position:absolute;left:278px;top:774px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR7C4" data-ui-role="card/entry" class="board-tile tile-purple" style="position:absolute;left:402px;top:774px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR7C5" data-ui-role="card/entry" class="board-tile tile-pink" style="position:absolute;left:526px;top:774px;width:112px;height:112px;box-sizing:border-box;"></div>
+      <div data-ui-name="BoardTileR7C6" data-ui-role="card/entry" class="board-tile tile-red" style="position:absolute;left:650px;top:774px;width:112px;height:112px;box-sizing:border-box;"></div>
+    </div>
+
+    <div data-ui-name="GameplayComboCard" data-ui-role="panel/resource-bar" style="position:absolute;left:56px;top:1338px;width:968px;height:112px;box-sizing:border-box;">
+      <div data-ui-name="GameplayComboLabel" data-ui-role="text/label" style="position:absolute;left:28px;top:20px;width:140px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;">COMBO METER</div>
+      <div data-ui-name="GameplayComboPill" class="combo-pill" style="position:absolute;left:28px;top:48px;width:912px;height:34px;box-sizing:border-box;"></div>
+      <div data-ui-name="GameplayComboValue" data-ui-role="text/title-inverse" style="position:absolute;left:386px;top:54px;width:200px;height:22px;box-sizing:border-box;font-size:24px;line-height:22px;text-align:center;">Sweet Chain x4</div>
+    </div>
+
+    <div data-ui-name="GameplayBoosterTray" data-ui-role="panel/section" style="position:absolute;left:56px;top:1474px;width:968px;height:184px;box-sizing:border-box;">
+      <div data-ui-name="GameplayBoosterTrayTitle" data-ui-role="text/title" style="position:absolute;left:28px;top:24px;width:220px;height:24px;box-sizing:border-box;font-size:30px;line-height:30px;text-align:left;">Boosters</div>
+      <div data-ui-name="GameplayBoosterHammerCard" data-ui-role="card/info" class="booster-slot" style="position:absolute;left:28px;top:72px;width:284px;height:86px;box-sizing:border-box;">
+        <div data-ui-name="GameplayBoosterHammerIcon" data-ui-role="card/info" data-ui-asset-id="icon/hammer" data-ui-asset-type="icon" data-ui-asset-usage="booster-icon" data-ui-asset-import="sprite" data-ui-asset-width="34" data-ui-asset-height="34" data-ui-asset-tint="none" style="position:absolute;left:22px;top:26px;width:34px;height:34px;box-sizing:border-box;background:url('../assets/icon_hammer.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"></div>
+        <div data-ui-name="GameplayBoosterHammerTitle" data-ui-role="text/title" style="position:absolute;left:70px;top:18px;width:120px;height:18px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;">Hammer</div>
+        <div data-ui-name="GameplayBoosterHammerCount" data-ui-role="text/value" style="position:absolute;left:70px;top:46px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;">x11</div>
+      </div>
+      <button data-ui-name="GameplayBoosterHammerButton" data-ui-role="button/secondary" data-ui-element="button/secondary" style="position:absolute;left:28px;top:72px;width:284px;height:86px;box-sizing:border-box;background:rgba(255,255,255,0);border:2px solid rgba(255,255,255,0.18);border-radius:30px;box-shadow:none;">
+        <span data-ui-name="GameplayBoosterHammerButtonText" data-ui-role="text/title-inverse" style="width:284px;height:86px;font-size:1px;line-height:1px;text-align:center;color:transparent;">Use Hammer</span>
+      </button>
+      <div data-ui-name="GameplayBoosterShuffleCard" data-ui-role="card/info" class="booster-slot" style="position:absolute;left:342px;top:72px;width:284px;height:86px;box-sizing:border-box;">
+        <div data-ui-name="GameplayBoosterShuffleIcon" data-ui-role="card/info" data-ui-asset-id="icon/shuffle" data-ui-asset-type="icon" data-ui-asset-usage="booster-icon" data-ui-asset-import="sprite" data-ui-asset-width="34" data-ui-asset-height="34" data-ui-asset-tint="none" style="position:absolute;left:22px;top:26px;width:34px;height:34px;box-sizing:border-box;background:url('../assets/icon_shuffle.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"></div>
+        <div data-ui-name="GameplayBoosterShuffleTitle" data-ui-role="text/title" style="position:absolute;left:70px;top:18px;width:120px;height:18px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;">Shuffle</div>
+        <div data-ui-name="GameplayBoosterShuffleCount" data-ui-role="text/value" style="position:absolute;left:70px;top:46px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;">x6</div>
+      </div>
+      <button data-ui-name="GameplayBoosterShuffleButton" data-ui-role="button/secondary" data-ui-element="button/secondary" style="position:absolute;left:342px;top:72px;width:284px;height:86px;box-sizing:border-box;background:rgba(255,255,255,0);border:2px solid rgba(255,255,255,0.18);border-radius:30px;box-shadow:none;">
+        <span data-ui-name="GameplayBoosterShuffleButtonText" data-ui-role="text/title-inverse" style="width:284px;height:86px;font-size:1px;line-height:1px;text-align:center;color:transparent;">Use Shuffle</span>
+      </button>
+      <div data-ui-name="GameplayBoosterRocketCard" data-ui-role="card/info" class="booster-slot" style="position:absolute;left:656px;top:72px;width:284px;height:86px;box-sizing:border-box;">
+        <div data-ui-name="GameplayBoosterRocketIcon" data-ui-role="card/info" data-ui-asset-id="icon/rocket" data-ui-asset-type="icon" data-ui-asset-usage="booster-icon" data-ui-asset-import="sprite" data-ui-asset-width="34" data-ui-asset-height="34" data-ui-asset-tint="none" style="position:absolute;left:22px;top:26px;width:34px;height:34px;box-sizing:border-box;background:url('../assets/icon_rocket.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"></div>
+        <div data-ui-name="GameplayBoosterRocketTitle" data-ui-role="text/title" style="position:absolute;left:70px;top:18px;width:120px;height:18px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;">Rocket</div>
+        <div data-ui-name="GameplayBoosterRocketCount" data-ui-role="text/value" style="position:absolute;left:70px;top:46px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;">x9</div>
+      </div>
+      <button data-ui-name="GameplayBoosterRocketButton" data-ui-role="button/secondary" data-ui-element="button/secondary" style="position:absolute;left:656px;top:72px;width:284px;height:86px;box-sizing:border-box;background:rgba(255,255,255,0);border:2px solid rgba(255,255,255,0.18);border-radius:30px;box-shadow:none;">
+        <span data-ui-name="GameplayBoosterRocketButtonText" data-ui-role="text/title-inverse" style="width:284px;height:86px;font-size:1px;line-height:1px;text-align:center;color:transparent;">Use Rocket</span>
+      </button>
+    </div>
+
+    <div data-ui-name="GameplayGoalSummary" data-ui-role="panel/resource-bar" style="position:absolute;left:56px;top:1680px;width:968px;height:180px;box-sizing:border-box;">
+      <div data-ui-name="GameplayGoalSummaryTitle" data-ui-role="text/title" style="position:absolute;left:28px;top:24px;width:240px;height:24px;box-sizing:border-box;font-size:28px;line-height:28px;text-align:left;">Stage Notes</div>
+      <div data-ui-name="GameplayGoalSummaryBody" data-ui-role="text/body" style="position:absolute;left:28px;top:64px;width:654px;height:40px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;">The jelly lane is concentrated on the lower right. Save your rocket for the final corner after the honey column opens.</div>
+      <div data-ui-name="GameplayGoalSummaryBadge" class="ribbon-badge" style="position:absolute;left:724px;top:46px;width:196px;height:72px;box-sizing:border-box;">
+        <div data-ui-name="GameplayGoalSummaryBadgeText" data-ui-role="text/title" style="position:absolute;left:24px;top:20px;width:148px;height:22px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:center;">Goal 74%</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

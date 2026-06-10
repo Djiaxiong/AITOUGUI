@@ -1,0 +1,3656 @@
+{
+  "contractVersion": "1.0",
+  "workflow": {
+    "mode": "draft-first",
+    "currentStage": "normalized",
+    "normalizePolicy": {
+      "preserve": [
+        "structure",
+        "layout",
+        "semantic-nodes",
+        "key-copy"
+      ],
+      "degradeOrder": [
+        "special-effects",
+        "ornament-overdraw",
+        "shape-complexity",
+        "layout"
+      ]
+    }
+  },
+  "site": {
+    "siteId": "sunny_pop_trails_portrait_suite",
+    "displayName": "Sunny Pop Trails Portrait Suite",
+    "designWidth": 1080,
+    "designHeight": 1920,
+    "themeCss": "theme.css",
+    "sharedStyles": [
+      "shared/widgets.css"
+    ]
+  },
+  "pages": [
+    {
+      "pageId": "home",
+      "displayName": "Home",
+      "html": "pages/home.html",
+      "prefabName": "SunnyPopTrailsHomePanel",
+      "targetLayer": "Normal",
+      "visualLanguage": {
+        "layoutArchetype": "dashboard",
+        "shapeLanguage": "plate",
+        "frameLanguage": "solid",
+        "ornamentLanguage": "ribbon"
+      },
+      "root": {
+        "name": "HomeRoot",
+        "tag": "div",
+        "role": "window/main",
+        "classes": [
+          "screen-root",
+          "home-root"
+        ],
+        "text": "",
+        "sizePolicy": "fixed",
+        "style": {
+          "position": "absolute",
+          "left": "0",
+          "top": "0",
+          "width": "1080px",
+          "height": "1920px",
+          "overflow": "hidden",
+          "box-sizing": "border-box"
+        }
+      },
+      "namedNodes": [
+        {
+          "name": "HomeCloudLeft",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "soft-cloud"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "66px",
+            "top": "132px",
+            "width": "206px",
+            "height": "80px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeCloudRight",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "soft-cloud"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "792px",
+            "top": "164px",
+            "width": "184px",
+            "height": "72px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeTopStatusBar",
+          "tag": "div",
+          "role": "panel/resource-bar",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "56px",
+            "top": "48px",
+            "width": "968px",
+            "height": "116px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeLivesChip",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "top-pill"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "18px",
+            "width": "220px",
+            "height": "80px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeLivesIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "20px",
+            "top": "20px",
+            "width": "40px",
+            "height": "40px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeLivesValue",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "5",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "74px",
+            "top": "18px",
+            "width": "80px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeLivesLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "FULL LIVES",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "74px",
+            "top": "48px",
+            "width": "120px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeCoinsChip",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "top-pill"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "262px",
+            "top": "18px",
+            "width": "260px",
+            "height": "80px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeCoinsIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "20px",
+            "top": "20px",
+            "width": "40px",
+            "height": "40px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeCoinsValue",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "12,840",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "74px",
+            "top": "18px",
+            "width": "120px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeCoinsLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "SUN COINS",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "74px",
+            "top": "48px",
+            "width": "140px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeStarsChip",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "top-pill"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "540px",
+            "top": "18px",
+            "width": "244px",
+            "height": "80px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeStarsIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "20px",
+            "top": "20px",
+            "width": "40px",
+            "height": "40px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeStarsValue",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "287",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "74px",
+            "top": "18px",
+            "width": "90px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeStarsLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "STARS",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "74px",
+            "top": "48px",
+            "width": "120px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeSettingsButton",
+          "tag": "button",
+          "role": "button/ghost",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "808px",
+            "top": "18px",
+            "width": "136px",
+            "height": "80px",
+            "box-sizing": "border-box"
+          },
+          "elementId": "button",
+          "variantId": "ghost"
+        },
+        {
+          "name": "HomeSettingsButtonText",
+          "tag": "span",
+          "role": "text/title",
+          "classes": [],
+          "text": "Menu",
+          "sizePolicy": "fixed",
+          "style": {
+            "width": "136px",
+            "height": "80px",
+            "color": "#28435c",
+            "font-size": "22px",
+            "font-weight": "800",
+            "line-height": "76px",
+            "text-align": "center"
+          }
+        },
+        {
+          "name": "HomeHeroPanel",
+          "tag": "div",
+          "role": "panel/hero",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "72px",
+            "top": "196px",
+            "width": "936px",
+            "height": "580px",
+            "box-sizing": "border-box"
+          },
+          "shapeId": "plate"
+        },
+        {
+          "name": "HomeHeroBadge",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [
+            "sunburst-badge"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "340px",
+            "top": "44px",
+            "width": "256px",
+            "height": "256px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeLogoTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "SUNNY POP",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "204px",
+            "top": "250px",
+            "width": "528px",
+            "height": "68px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeLogoSubTitle",
+          "tag": "div",
+          "role": "text/gold",
+          "classes": [],
+          "text": "TRAILS OF ORCHARD MAGIC",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "258px",
+            "top": "328px",
+            "width": "420px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeWorldRibbon",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "ribbon-badge"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "264px",
+            "top": "384px",
+            "width": "408px",
+            "height": "74px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeWorldRibbonLabel",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Sunbeam Orchard • World 12",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "18px",
+            "width": "340px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomePlayButton",
+          "tag": "button",
+          "role": "button/primary",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "178px",
+            "top": "428px",
+            "width": "580px",
+            "height": "116px",
+            "box-sizing": "border-box"
+          },
+          "elementId": "button",
+          "variantId": "primary"
+        },
+        {
+          "name": "HomePlayButtonText",
+          "tag": "span",
+          "role": "text/title-inverse",
+          "classes": [],
+          "text": "Play Level 128",
+          "sizePolicy": "fixed",
+          "style": {
+            "width": "580px",
+            "height": "116px",
+            "color": "#ffffff",
+            "font-size": "40px",
+            "font-weight": "800",
+            "line-height": "108px",
+            "text-align": "center"
+          }
+        },
+        {
+          "name": "HomePlayNote",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Collect 24 honey drops and clear 18 jelly tiles.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "248px",
+            "top": "554px",
+            "width": "440px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeEventSection",
+          "tag": "div",
+          "role": "panel/section",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "72px",
+            "top": "812px",
+            "width": "936px",
+            "height": "356px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeEventSectionTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Today's Fun",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "28px",
+            "width": "220px",
+            "height": "28px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeEventSectionBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Short-session events and streak rewards designed for casual portrait play.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "64px",
+            "width": "520px",
+            "height": "20px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeDailyStreakCard",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "event-card"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "112px",
+            "width": "414px",
+            "height": "210px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeDailyStreakLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "DAILY STREAK",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "24px",
+            "width": "160px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeDailyStreakTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Day 6 Bloom",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "54px",
+            "width": "220px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeDailyStreakBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Finish one stage to unlock a rainbow rocket and 30 bonus coins.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "92px",
+            "width": "278px",
+            "height": "40px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeDailyClaimButton",
+          "tag": "button",
+          "role": "button/secondary",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "148px",
+            "width": "186px",
+            "height": "46px",
+            "box-sizing": "border-box"
+          },
+          "elementId": "button",
+          "variantId": "secondary"
+        },
+        {
+          "name": "HomeDailyClaimButtonText",
+          "tag": "span",
+          "role": "text/title-inverse",
+          "classes": [],
+          "text": "View Reward",
+          "sizePolicy": "fixed",
+          "style": {
+            "width": "186px",
+            "height": "46px",
+            "color": "#ffffff",
+            "font-size": "18px",
+            "font-weight": "800",
+            "line-height": "42px",
+            "text-align": "center"
+          }
+        },
+        {
+          "name": "HomeTreasureCruiseCard",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "event-card"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "488px",
+            "top": "112px",
+            "width": "414px",
+            "height": "210px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeTreasureCruiseLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "LIMITED EVENT",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "24px",
+            "width": "180px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeTreasureCruiseTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Treasure Cruise",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "54px",
+            "width": "260px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeTreasureCruiseBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Chain five win streaks to fill the picnic map and claim a golden chest.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "92px",
+            "width": "290px",
+            "height": "40px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeTreasureOpenButton",
+          "tag": "button",
+          "role": "button/secondary",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "148px",
+            "width": "186px",
+            "height": "46px",
+            "box-sizing": "border-box"
+          },
+          "elementId": "button",
+          "variantId": "secondary"
+        },
+        {
+          "name": "HomeTreasureOpenButtonText",
+          "tag": "span",
+          "role": "text/title-inverse",
+          "classes": [],
+          "text": "Open Event",
+          "sizePolicy": "fixed",
+          "style": {
+            "width": "186px",
+            "height": "46px",
+            "color": "#ffffff",
+            "font-size": "18px",
+            "font-weight": "800",
+            "line-height": "42px",
+            "text-align": "center"
+          }
+        },
+        {
+          "name": "HomeJourneyCard",
+          "tag": "div",
+          "role": "panel/hero",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "72px",
+            "top": "1202px",
+            "width": "936px",
+            "height": "430px",
+            "box-sizing": "border-box"
+          },
+          "shapeId": "plate"
+        },
+        {
+          "name": "HomeJourneyTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Road to Level 128",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "28px",
+            "width": "240px",
+            "height": "28px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeJourneyBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "You are one win away from the orchard gate. Keep your boosters for the honey lane.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "66px",
+            "width": "520px",
+            "height": "20px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeJourneyBand",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "journey-band"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "112px",
+            "width": "868px",
+            "height": "118px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeJourneyBandLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "WORLD PROGRESS",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "26px",
+            "top": "20px",
+            "width": "140px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeJourneyProgressTrack",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "progress-track"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "26px",
+            "top": "58px",
+            "width": "816px",
+            "height": "26px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeJourneyProgressFill",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "progress-fill"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "26px",
+            "top": "58px",
+            "width": "642px",
+            "height": "26px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeJourneyProgressText",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "78%",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "684px",
+            "top": "18px",
+            "width": "140px",
+            "height": "26px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeGoalCard",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "258px",
+            "width": "412px",
+            "height": "136px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeGoalCardLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "NEXT GOAL",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "20px",
+            "width": "120px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeGoalCardTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Honey Drop Rescue",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "52px",
+            "width": "260px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeGoalCardBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Use fewer than 20 moves to keep the streak chest alive.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "86px",
+            "width": "320px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeClubCard",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "490px",
+            "top": "258px",
+            "width": "412px",
+            "height": "136px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeClubCardLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "TEAM UPDATE",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "20px",
+            "width": "120px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeClubCardTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Picnic Club Rank 3",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "52px",
+            "width": "260px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeClubCardBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Two more wins this week unlock the shared blossom chest.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "86px",
+            "width": "330px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterShelf",
+          "tag": "div",
+          "role": "panel/resource-bar",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "96px",
+            "top": "1670px",
+            "width": "888px",
+            "height": "170px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterShelfTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Booster Shelf",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "22px",
+            "width": "220px",
+            "height": "26px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterHammerCard",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "66px",
+            "width": "250px",
+            "height": "78px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterHammerIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "20px",
+            "width": "36px",
+            "height": "36px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterHammerTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Hammer",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "68px",
+            "top": "16px",
+            "width": "120px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterHammerCount",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "x12",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "68px",
+            "top": "42px",
+            "width": "80px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterShuffleCard",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "318px",
+            "top": "66px",
+            "width": "250px",
+            "height": "78px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterShuffleIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "20px",
+            "width": "36px",
+            "height": "36px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterShuffleTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Shuffle",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "68px",
+            "top": "16px",
+            "width": "120px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterShuffleCount",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "x7",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "68px",
+            "top": "42px",
+            "width": "80px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterRocketCard",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "602px",
+            "top": "66px",
+            "width": "250px",
+            "height": "78px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterRocketIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "18px",
+            "top": "20px",
+            "width": "36px",
+            "height": "36px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterRocketTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Rocket",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "68px",
+            "top": "16px",
+            "width": "120px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "HomeBoosterRocketCount",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "x9",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "68px",
+            "top": "42px",
+            "width": "80px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        }
+      ],
+      "relativeSizeNodes": [],
+      "templateSizeNodes": [],
+      "notes": []
+    },
+    {
+      "pageId": "loading",
+      "displayName": "Loading",
+      "html": "pages/loading.html",
+      "prefabName": "SunnyPopTrailsLoadingPanel",
+      "targetLayer": "Normal",
+      "visualLanguage": {
+        "layoutArchetype": "dashboard",
+        "shapeLanguage": "roundrect",
+        "frameLanguage": "outline",
+        "ornamentLanguage": "ribbon"
+      },
+      "root": {
+        "name": "LoadingRoot",
+        "tag": "div",
+        "role": "window/main",
+        "classes": [
+          "screen-root",
+          "loading-root"
+        ],
+        "text": "",
+        "sizePolicy": "fixed",
+        "style": {
+          "position": "absolute",
+          "left": "0",
+          "top": "0",
+          "width": "1080px",
+          "height": "1920px",
+          "overflow": "hidden",
+          "box-sizing": "border-box"
+        }
+      },
+      "namedNodes": [
+        {
+          "name": "LoadingCloudLeft",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "soft-cloud"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "82px",
+            "top": "180px",
+            "width": "164px",
+            "height": "68px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingCloudRight",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "soft-cloud"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "842px",
+            "top": "238px",
+            "width": "152px",
+            "height": "62px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingHeroBadge",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [
+            "sunburst-badge"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "348px",
+            "top": "160px",
+            "width": "384px",
+            "height": "384px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Entering Sunny Meadow",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "200px",
+            "top": "560px",
+            "width": "680px",
+            "height": "68px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Packing boosters, goals, and orchard surprises for your next run.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "240px",
+            "top": "632px",
+            "width": "600px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingLevelCard",
+          "tag": "div",
+          "role": "panel/hero",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "140px",
+            "top": "688px",
+            "width": "800px",
+            "height": "140px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingLevelCardLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "UP NEXT",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "32px",
+            "top": "26px",
+            "width": "160px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingLevelCardTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Level 128",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "32px",
+            "top": "54px",
+            "width": "320px",
+            "height": "28px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingLevelCardBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Collect honey drops and clear the jelly lane.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "32px",
+            "top": "94px",
+            "width": "360px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingTargetBadge",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "ribbon-badge"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "548px",
+            "top": "32px",
+            "width": "216px",
+            "height": "72px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingTargetBadgeText",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Goal 24 / 18",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "26px",
+            "top": "20px",
+            "width": "164px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingMascotPanel",
+          "tag": "div",
+          "role": "panel/section",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "236px",
+            "top": "860px",
+            "width": "608px",
+            "height": "272px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingMascotEarLeft",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "mascot-ear"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "136px",
+            "top": "26px",
+            "width": "86px",
+            "height": "86px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingMascotEarRight",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "mascot-ear"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "386px",
+            "top": "26px",
+            "width": "86px",
+            "height": "86px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingMascotBody",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "mascot-body"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "154px",
+            "top": "54px",
+            "width": "300px",
+            "height": "180px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingMascotEyeLeft",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "bubble-dot"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "262px",
+            "top": "122px",
+            "width": "24px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingMascotEyeRight",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "bubble-dot"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "322px",
+            "top": "122px",
+            "width": "24px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingMascotSmile",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "◡",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "264px",
+            "top": "152px",
+            "width": "88px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingMascotText",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Poppy is setting the meadow board.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "124px",
+            "top": "226px",
+            "width": "360px",
+            "height": "20px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingProgressCard",
+          "tag": "div",
+          "role": "panel/hero",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "140px",
+            "top": "1198px",
+            "width": "800px",
+            "height": "184px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingProgressLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "LOADING",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "28px",
+            "width": "160px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingProgressValue",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "74%",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "632px",
+            "top": "22px",
+            "width": "130px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingProgressTrack",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "progress-track"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "78px",
+            "width": "732px",
+            "height": "34px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingProgressFill",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "progress-fill"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "78px",
+            "width": "542px",
+            "height": "34px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingProgressBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Preloading stage goals, booster inventory, and combo popups.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "132px",
+            "width": "400px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingTargetPreview",
+          "tag": "div",
+          "role": "panel/section",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "140px",
+            "top": "1422px",
+            "width": "800px",
+            "height": "220px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingTargetPreviewTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Level Preview",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "26px",
+            "width": "220px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingTargetPreviewBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Watch the honey lanes and save rockets for the lower right corner.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "62px",
+            "width": "420px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingPieceHoney",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "piece-preview",
+            "piece-yellow"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "84px",
+            "top": "116px",
+            "width": "98px",
+            "height": "78px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingPieceJelly",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "piece-preview",
+            "piece-purple"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "218px",
+            "top": "116px",
+            "width": "98px",
+            "height": "78px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingPieceLeaf",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "piece-preview",
+            "piece-green"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "352px",
+            "top": "116px",
+            "width": "98px",
+            "height": "78px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingPieceDrop",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "piece-preview",
+            "piece-blue"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "486px",
+            "top": "116px",
+            "width": "98px",
+            "height": "78px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingPieceBloom",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "piece-preview",
+            "piece-pink"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "620px",
+            "top": "116px",
+            "width": "98px",
+            "height": "78px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingTipCard",
+          "tag": "div",
+          "role": "panel/resource-bar",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "120px",
+            "top": "1680px",
+            "width": "840px",
+            "height": "120px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingTipLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "TIP",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "26px",
+            "width": "120px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "LoadingTipBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "A rocket plus hammer combo is the safest answer when honey crates block the final drop lane.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "34px",
+            "top": "54px",
+            "width": "710px",
+            "height": "20px",
+            "box-sizing": "border-box"
+          }
+        }
+      ],
+      "relativeSizeNodes": [],
+      "templateSizeNodes": [],
+      "notes": []
+    },
+    {
+      "pageId": "gameplay",
+      "displayName": "Gameplay",
+      "html": "pages/gameplay.html",
+      "prefabName": "SunnyPopTrailsGameplayPanel",
+      "targetLayer": "Normal",
+      "visualLanguage": {
+        "layoutArchetype": "album-grid",
+        "shapeLanguage": "roundrect",
+        "frameLanguage": "outline",
+        "ornamentLanguage": "ribbon"
+      },
+      "root": {
+        "name": "GameplayRoot",
+        "tag": "div",
+        "role": "window/main",
+        "classes": [
+          "screen-root",
+          "gameplay-root"
+        ],
+        "text": "",
+        "sizePolicy": "fixed",
+        "style": {
+          "position": "absolute",
+          "left": "0",
+          "top": "0",
+          "width": "1080px",
+          "height": "1920px",
+          "overflow": "hidden",
+          "box-sizing": "border-box"
+        }
+      },
+      "namedNodes": [
+        {
+          "name": "GameplayTopBar",
+          "tag": "div",
+          "role": "panel/resource-bar",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "40px",
+            "top": "44px",
+            "width": "1000px",
+            "height": "166px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBackButton",
+          "tag": "button",
+          "role": "button/ghost",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "28px",
+            "width": "134px",
+            "height": "110px",
+            "box-sizing": "border-box"
+          },
+          "elementId": "button",
+          "variantId": "ghost"
+        },
+        {
+          "name": "GameplayBackButtonText",
+          "tag": "span",
+          "role": "text/title",
+          "classes": [],
+          "text": "Back",
+          "sizePolicy": "fixed",
+          "style": {
+            "width": "134px",
+            "height": "110px",
+            "color": "#28435c",
+            "font-size": "22px",
+            "font-weight": "800",
+            "line-height": "104px",
+            "text-align": "center"
+          }
+        },
+        {
+          "name": "GameplayStageTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Sunny Meadow 128",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "184px",
+            "top": "34px",
+            "width": "340px",
+            "height": "34px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayStageBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "Collect honey drops and clear the jelly lane before moves run out.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "184px",
+            "top": "82px",
+            "width": "420px",
+            "height": "20px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayTopStarIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "858px",
+            "top": "34px",
+            "width": "44px",
+            "height": "44px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayTopStarValue",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "2/3",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "912px",
+            "top": "40px",
+            "width": "60px",
+            "height": "20px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalPanel",
+          "tag": "div",
+          "role": "panel/section",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "40px",
+            "top": "236px",
+            "width": "344px",
+            "height": "120px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalTitle",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "TARGETS",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "20px",
+            "width": "120px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalStarToken",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "goal-token"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "50px",
+            "width": "138px",
+            "height": "48px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalStarIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "14px",
+            "top": "10px",
+            "width": "28px",
+            "height": "28px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalStarText",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "24",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "54px",
+            "top": "12px",
+            "width": "68px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalJellyToken",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "goal-token",
+            "goal-jelly"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "176px",
+            "top": "50px",
+            "width": "138px",
+            "height": "48px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalJellyText",
+          "tag": "div",
+          "role": "text/title-inverse",
+          "classes": [],
+          "text": "18 Jelly",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "16px",
+            "top": "12px",
+            "width": "96px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayMovesPanel",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "score-pill"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "400px",
+            "top": "236px",
+            "width": "192px",
+            "height": "120px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayMovesLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "MOVES",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "20px",
+            "width": "90px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayMovesValue",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "21",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "52px",
+            "width": "100px",
+            "height": "34px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayScorePanel",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "score-pill"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "608px",
+            "top": "236px",
+            "width": "256px",
+            "height": "120px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayScoreLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "SCORE",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "20px",
+            "width": "90px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayScoreValue",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "42,880",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "52px",
+            "width": "180px",
+            "height": "34px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayPauseButton",
+          "tag": "button",
+          "role": "button/ghost",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "880px",
+            "top": "236px",
+            "width": "160px",
+            "height": "120px",
+            "box-sizing": "border-box"
+          },
+          "elementId": "button",
+          "variantId": "ghost"
+        },
+        {
+          "name": "GameplayPauseButtonText",
+          "tag": "span",
+          "role": "text/title",
+          "classes": [],
+          "text": "Pause",
+          "sizePolicy": "fixed",
+          "style": {
+            "width": "160px",
+            "height": "120px",
+            "color": "#28435c",
+            "font-size": "24px",
+            "font-weight": "800",
+            "line-height": "112px",
+            "text-align": "center"
+          }
+        },
+        {
+          "name": "GameplayBoardPanel",
+          "tag": "div",
+          "role": "panel/hero",
+          "classes": [
+            "board-shell"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "144px",
+            "top": "388px",
+            "width": "792px",
+            "height": "916px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR1C1",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-yellow"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "30px",
+            "top": "30px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR1C2",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-blue"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "154px",
+            "top": "30px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR1C3",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-pink"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "278px",
+            "top": "30px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR1C4",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-green"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "402px",
+            "top": "30px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR1C5",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-red"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "526px",
+            "top": "30px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR1C6",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-purple"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "650px",
+            "top": "30px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR2C1",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-green"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "30px",
+            "top": "154px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR2C2",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-yellow"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "154px",
+            "top": "154px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR2C3",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-purple"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "278px",
+            "top": "154px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR2C4",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-blue"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "402px",
+            "top": "154px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR2C5",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-pink"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "526px",
+            "top": "154px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR2C6",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-red"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "650px",
+            "top": "154px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR3C1",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-red"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "30px",
+            "top": "278px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR3C2",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-purple"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "154px",
+            "top": "278px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR3C3",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-yellow"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "278px",
+            "top": "278px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR3C4",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-green"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "402px",
+            "top": "278px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR3C5",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-blue"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "526px",
+            "top": "278px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR3C6",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-pink"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "650px",
+            "top": "278px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR4C1",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-blue"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "30px",
+            "top": "402px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR4C2",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-pink"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "154px",
+            "top": "402px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR4C3",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-green"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "278px",
+            "top": "402px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR4C4",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-red"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "402px",
+            "top": "402px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR4C5",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-purple"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "526px",
+            "top": "402px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR4C6",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-yellow"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "650px",
+            "top": "402px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR5C1",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-yellow"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "30px",
+            "top": "526px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR5C2",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-green"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "154px",
+            "top": "526px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR5C3",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-blue"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "278px",
+            "top": "526px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR5C4",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-pink"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "402px",
+            "top": "526px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR5C5",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-red"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "526px",
+            "top": "526px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR5C6",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-purple"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "650px",
+            "top": "526px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR6C1",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-purple"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "30px",
+            "top": "650px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR6C2",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-red"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "154px",
+            "top": "650px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR6C3",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-pink"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "278px",
+            "top": "650px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR6C4",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-yellow"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "402px",
+            "top": "650px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR6C5",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-green"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "526px",
+            "top": "650px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR6C6",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-blue"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "650px",
+            "top": "650px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR7C1",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-green"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "30px",
+            "top": "774px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR7C2",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-blue"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "154px",
+            "top": "774px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR7C3",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-yellow"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "278px",
+            "top": "774px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR7C4",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-purple"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "402px",
+            "top": "774px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR7C5",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-pink"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "526px",
+            "top": "774px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "BoardTileR7C6",
+          "tag": "div",
+          "role": "card/entry",
+          "classes": [
+            "board-tile",
+            "tile-red"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "650px",
+            "top": "774px",
+            "width": "112px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayComboCard",
+          "tag": "div",
+          "role": "panel/resource-bar",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "56px",
+            "top": "1338px",
+            "width": "968px",
+            "height": "112px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayComboLabel",
+          "tag": "div",
+          "role": "text/label",
+          "classes": [],
+          "text": "COMBO METER",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "28px",
+            "top": "20px",
+            "width": "140px",
+            "height": "16px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayComboPill",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "combo-pill"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "28px",
+            "top": "48px",
+            "width": "912px",
+            "height": "34px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayComboValue",
+          "tag": "div",
+          "role": "text/title-inverse",
+          "classes": [],
+          "text": "Sweet Chain x4",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "386px",
+            "top": "54px",
+            "width": "200px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterTray",
+          "tag": "div",
+          "role": "panel/section",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "56px",
+            "top": "1474px",
+            "width": "968px",
+            "height": "184px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterTrayTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Boosters",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "28px",
+            "top": "24px",
+            "width": "220px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterHammerCard",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [
+            "booster-slot"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "28px",
+            "top": "72px",
+            "width": "284px",
+            "height": "86px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterHammerIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "26px",
+            "width": "34px",
+            "height": "34px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterHammerTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Hammer",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "70px",
+            "top": "18px",
+            "width": "120px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterHammerCount",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "x11",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "70px",
+            "top": "46px",
+            "width": "80px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterHammerButton",
+          "tag": "button",
+          "role": "button/secondary",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "28px",
+            "top": "72px",
+            "width": "284px",
+            "height": "86px",
+            "box-sizing": "border-box"
+          },
+          "elementId": "button",
+          "variantId": "secondary"
+        },
+        {
+          "name": "GameplayBoosterHammerButtonText",
+          "tag": "span",
+          "role": "text/title-inverse",
+          "classes": [],
+          "text": "Use Hammer",
+          "sizePolicy": "fixed",
+          "style": {
+            "width": "284px",
+            "height": "86px",
+            "color": "transparent",
+            "font-size": "1px",
+            "font-weight": "800",
+            "line-height": "1px",
+            "text-align": "center"
+          }
+        },
+        {
+          "name": "GameplayBoosterShuffleCard",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [
+            "booster-slot"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "342px",
+            "top": "72px",
+            "width": "284px",
+            "height": "86px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterShuffleIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "26px",
+            "width": "34px",
+            "height": "34px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterShuffleTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Shuffle",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "70px",
+            "top": "18px",
+            "width": "120px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterShuffleCount",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "x6",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "70px",
+            "top": "46px",
+            "width": "80px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterShuffleButton",
+          "tag": "button",
+          "role": "button/secondary",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "342px",
+            "top": "72px",
+            "width": "284px",
+            "height": "86px",
+            "box-sizing": "border-box"
+          },
+          "elementId": "button",
+          "variantId": "secondary"
+        },
+        {
+          "name": "GameplayBoosterShuffleButtonText",
+          "tag": "span",
+          "role": "text/title-inverse",
+          "classes": [],
+          "text": "Use Shuffle",
+          "sizePolicy": "fixed",
+          "style": {
+            "width": "284px",
+            "height": "86px",
+            "color": "transparent",
+            "font-size": "1px",
+            "font-weight": "800",
+            "line-height": "1px",
+            "text-align": "center"
+          }
+        },
+        {
+          "name": "GameplayBoosterRocketCard",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [
+            "booster-slot"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "656px",
+            "top": "72px",
+            "width": "284px",
+            "height": "86px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterRocketIcon",
+          "tag": "div",
+          "role": "card/info",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "22px",
+            "top": "26px",
+            "width": "34px",
+            "height": "34px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterRocketTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Rocket",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "70px",
+            "top": "18px",
+            "width": "120px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterRocketCount",
+          "tag": "div",
+          "role": "text/value",
+          "classes": [],
+          "text": "x9",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "70px",
+            "top": "46px",
+            "width": "80px",
+            "height": "18px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayBoosterRocketButton",
+          "tag": "button",
+          "role": "button/secondary",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "656px",
+            "top": "72px",
+            "width": "284px",
+            "height": "86px",
+            "box-sizing": "border-box"
+          },
+          "elementId": "button",
+          "variantId": "secondary"
+        },
+        {
+          "name": "GameplayBoosterRocketButtonText",
+          "tag": "span",
+          "role": "text/title-inverse",
+          "classes": [],
+          "text": "Use Rocket",
+          "sizePolicy": "fixed",
+          "style": {
+            "width": "284px",
+            "height": "86px",
+            "color": "transparent",
+            "font-size": "1px",
+            "font-weight": "800",
+            "line-height": "1px",
+            "text-align": "center"
+          }
+        },
+        {
+          "name": "GameplayGoalSummary",
+          "tag": "div",
+          "role": "panel/resource-bar",
+          "classes": [],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "56px",
+            "top": "1680px",
+            "width": "968px",
+            "height": "180px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalSummaryTitle",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Stage Notes",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "28px",
+            "top": "24px",
+            "width": "240px",
+            "height": "24px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalSummaryBody",
+          "tag": "div",
+          "role": "text/body",
+          "classes": [],
+          "text": "The jelly lane is concentrated on the lower right. Save your rocket for the final corner after the honey column opens.",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "28px",
+            "top": "64px",
+            "width": "654px",
+            "height": "40px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalSummaryBadge",
+          "tag": "div",
+          "role": "none",
+          "classes": [
+            "ribbon-badge"
+          ],
+          "text": "",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "724px",
+            "top": "46px",
+            "width": "196px",
+            "height": "72px",
+            "box-sizing": "border-box"
+          }
+        },
+        {
+          "name": "GameplayGoalSummaryBadgeText",
+          "tag": "div",
+          "role": "text/title",
+          "classes": [],
+          "text": "Goal 74%",
+          "sizePolicy": "fixed",
+          "style": {
+            "position": "absolute",
+            "left": "24px",
+            "top": "20px",
+            "width": "148px",
+            "height": "22px",
+            "box-sizing": "border-box"
+          }
+        }
+      ],
+      "relativeSizeNodes": [],
+      "templateSizeNodes": [],
+      "notes": []
+    }
+  ],
+  "usedRoles": [
+    "button/ghost",
+    "button/primary",
+    "button/secondary",
+    "card/entry",
+    "card/info",
+    "panel/hero",
+    "panel/resource-bar",
+    "panel/section",
+    "text/body",
+    "text/gold",
+    "text/label",
+    "text/title",
+    "text/title-inverse",
+    "text/value",
+    "window/main"
+  ],
+  "usedClasses": [
+    "board-shell",
+    "board-tile",
+    "booster-slot",
+    "bubble-dot",
+    "combo-pill",
+    "event-card",
+    "gameplay-root",
+    "goal-jelly",
+    "goal-token",
+    "home-root",
+    "journey-band",
+    "loading-root",
+    "mascot-body",
+    "mascot-ear",
+    "piece-blue",
+    "piece-green",
+    "piece-pink",
+    "piece-preview",
+    "piece-purple",
+    "piece-yellow",
+    "progress-fill",
+    "progress-track",
+    "ribbon-badge",
+    "score-pill",
+    "screen-root",
+    "soft-cloud",
+    "sunburst-badge",
+    "tile-blue",
+    "tile-green",
+    "tile-pink",
+    "tile-purple",
+    "tile-red",
+    "tile-yellow",
+    "top-pill"
+  ],
+  "notes": [
+    "Generated from normalized HTML after the draft-first convergence pass."
+  ]
+}

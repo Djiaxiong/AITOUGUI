@@ -1,0 +1,20 @@
+{
+    "name": "AIToUGUI.Lite.Editor",
+    "rootNamespace": "AIToUGUI.Lite",
+    "references": [
+        "AIToUGUI.Lite.Runtime",
+        "Unity.TextMeshPro.Editor",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "stage": "compile",
+  "siteId": "fps_operator_semantic_ui",
+  "errorCount": 0,
+  "warningCount": 0,
+  "downgradeCount": 0,
+  "errors": [],
+  "warnings": [],
+  "downgrades": [],
+  "bundlePath": "E:/UnityProject/AIGeneratedUGUI/Assets/AI_UGUI_Creator/Samples/FPS/FPSOperatorSemanticUI/compiled_site_bundle.json"
+}

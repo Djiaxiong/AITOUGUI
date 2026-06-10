@@ -1,0 +1,30 @@
+{
+    "name": "AIToUGUI.Lite.Tests.Editor",
+    "rootNamespace": "AIToUGUI.Lite.Tests",
+    "references": [
+        "AIToUGUI.Lite.Runtime",
+        "AIToUGUI.Lite.Editor",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.test-framework",
+            "expression": "0.0.0",
+            "define": "TEST_FRAMEWORK"
+        }
+    ],
+    "noEngineReferences": false
+}

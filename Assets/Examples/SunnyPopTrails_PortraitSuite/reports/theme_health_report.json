@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "warningCount": 0,
+  "infoCount": 7,
+  "warnings": [],
+  "infos": [
+    "theme.pageBackground = #7dd7ff",
+    "theme.cardFill = rgba(255, 255, 255, 0.9)",
+    "theme.panelFill = rgba(255, 250, 243, 0.96)",
+    "theme.buttonFill = #74da66",
+    "theme.accentColor = #74da66",
+    "theme.tokens count = 30",
+    "canonical role matches = 14"
+  ],
+  "bundlePath": "E:/UnityProject/AIGeneratedUGUI/Assets/AI_UGUI_Creator/Samples/Casual/SunnyPopTrails_PortraitSuite/compiled_site_bundle.json"
+}

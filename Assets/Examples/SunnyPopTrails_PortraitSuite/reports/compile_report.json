@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "stage": "compile",
+  "siteId": "sunny_pop_trails_portrait_suite",
+  "errorCount": 0,
+  "warningCount": 0,
+  "downgradeCount": 0,
+  "errors": [],
+  "warnings": [],
+  "downgrades": [],
+  "bundlePath": "E:/UnityProject/AIGeneratedUGUI/Assets/AI_UGUI_Creator/Samples/Casual/SunnyPopTrails_PortraitSuite/compiled_site_bundle.json"
+}

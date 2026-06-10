@@ -1,0 +1,55 @@
+{
+  "reportVersion": "1.0",
+  "siteId": "sunny_pop_trails_portrait_suite",
+  "siteRoot": "E:\\UnityProject\\AIGeneratedUGUI\\Assets\\AI_UGUI_Creator\\Samples\\Casual\\SunnyPopTrails_PortraitSuite",
+  "status": "fail",
+  "summary": {
+    "pageCount": 3,
+    "errorCount": 4,
+    "warningCount": 13
+  },
+  "snapshotArtifacts": {
+    "compiledSite": "",
+    "compiledPagesDir": "",
+    "layoutSnapshotsDir": ""
+  },
+  "repairSummary": "E:\\UnityProject\\AIGeneratedUGUI\\Assets\\AI_UGUI_Creator\\Samples\\Casual\\SunnyPopTrails_PortraitSuite\\reports\\repair_package\\repair_summary.md",
+  "failingPages": [
+    {
+      "pageId": "home",
+      "html": "pages/home.html",
+      "errorCount": 2,
+      "warningCount": 2
+    }
+  ],
+  "tasks": [
+    {
+      "pageId": "home",
+      "html": "pages/home.html",
+      "issueType": "errors",
+      "message": "HomePlayButton exceeds HomeHeroPanel height (588.0px > 580.0px).",
+      "advice": "HomePlayButton exceeds HomeHeroPanel height (588.0px > 580.0px).",
+      "files": [
+        "pages/home.html"
+      ],
+      "count": 1,
+      "items": [
+        "HomePlayButton exceeds HomeHeroPanel height (588.0px > 580.0px)."
+      ]
+    },
+    {
+      "pageId": "home",
+      "html": "pages/home.html",
+      "issueType": "errors",
+      "message": "HomePlayNote exceeds HomeHeroPanel height (626.0px > 580.0px).",
+      "advice": "HomePlayNote exceeds HomeHeroPanel height (626.0px > 580.0px).",
+      "files": [
+        "pages/home.html"
+      ],
+      "count": 1,
+      "items": [
+        "HomePlayNote exceeds HomeHeroPanel height (626.0px > 580.0px)."
+      ]
+    }
+  ]
+}

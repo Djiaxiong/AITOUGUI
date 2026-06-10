@@ -1,0 +1,98 @@
+{
+  "siteId": "sunny_pop_trails_portrait_suite",
+  "displayName": "Sunny Pop Trails Portrait Suite",
+  "designWidth": 1080,
+  "designHeight": 1920,
+  "themeCss": "theme.css",
+  "sharedStyles": [
+    "shared/widgets.css"
+  ],
+  "themeRoles": [
+    "button/ghost",
+    "button/primary",
+    "button/secondary",
+    "card/accent",
+    "card/entry",
+    "card/info",
+    "panel/hero",
+    "panel/ink",
+    "panel/primary",
+    "panel/resource-bar",
+    "panel/section",
+    "text/body",
+    "text/gold",
+    "text/label",
+    "text/micro",
+    "text/muted",
+    "text/title",
+    "text/title-inverse",
+    "text/value",
+    "window/main"
+  ],
+  "themeClasses": [
+    "board-shell",
+    "board-tile",
+    "booster-slot",
+    "bubble-dot",
+    "combo-pill",
+    "event-card",
+    "gameplay-root",
+    "goal-jelly",
+    "goal-token",
+    "home-root",
+    "journey-band",
+    "loading-root",
+    "mascot-body",
+    "mascot-ear",
+    "piece-blue",
+    "piece-green",
+    "piece-pink",
+    "piece-preview",
+    "piece-purple",
+    "piece-red",
+    "piece-yellow",
+    "progress-fill",
+    "progress-track",
+    "ribbon-badge",
+    "score-pill",
+    "soft-cloud",
+    "sunburst-badge",
+    "tile-blue",
+    "tile-green",
+    "tile-pink",
+    "tile-purple",
+    "tile-red",
+    "tile-yellow",
+    "top-pill"
+  ],
+  "widgetClasses": [
+    "screen-root"
+  ],
+  "widgetRoles": [],
+  "pages": [
+    {
+      "pageId": "home",
+      "html": "pages/home.html",
+      "compiledPage": "compiled_pages/home.compiled_page.json",
+      "layoutSnapshot": "layout_snapshots/home.layout_snapshot.json",
+      "warningCount": 0,
+      "pageRootFound": true
+    },
+    {
+      "pageId": "loading",
+      "html": "pages/loading.html",
+      "compiledPage": "compiled_pages/loading.compiled_page.json",
+      "layoutSnapshot": "layout_snapshots/loading.layout_snapshot.json",
+      "warningCount": 0,
+      "pageRootFound": true
+    },
+    {
+      "pageId": "gameplay",
+      "html": "pages/gameplay.html",
+      "compiledPage": "compiled_pages/gameplay.compiled_page.json",
+      "layoutSnapshot": "layout_snapshots/gameplay.layout_snapshot.json",
+      "warningCount": 0,
+      "pageRootFound": true
+    }
+  ]
+}

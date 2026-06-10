@@ -1,0 +1,22 @@
+{
+  "siteId": "fps_loadout_skill_generated",
+  "displayName": "FPS Loadout Skill Generated",
+  "designWidth": 1920,
+  "designHeight": 1080,
+  "themeCss": "theme.css",
+  "sharedStyles": [
+    "shared/widgets.css"
+  ],
+  "prefabOutputRoot": "Assets/Prefabs/UI/Generated",
+  "metadataOutputRoot": "Assets/DataConfig/UI/Generated",
+  "pages": [
+    {
+      "pageId": "weapon-loadout",
+      "displayName": "Weapon Loadout",
+      "html": "pages/weapon-loadout.html",
+      "prefabName": "FPSLoadoutSkillGeneratedPanel",
+      "targetLayer": "Normal",
+      "localStyles": []
+    }
+  ]
+}

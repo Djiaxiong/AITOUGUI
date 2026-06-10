@@ -1,0 +1,509 @@
+{
+  "version": "1.1",
+  "designResolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "html": {
+    "allowedTags": [
+      "html",
+      "head",
+      "meta",
+      "title",
+      "link",
+      "body",
+      "div",
+      "button",
+      "span",
+      "p",
+      "label",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "a",
+      "img",
+      "ul",
+      "ol",
+      "li",
+      "section",
+      "nav",
+      "header",
+      "footer",
+      "main",
+      "aside",
+      "article"
+    ],
+    "allowedAttributes": [
+      "class",
+      "style",
+      "data-ui-page",
+      "data-ui-type",
+      "data-ui-name",
+      "data-ui-role",
+      "data-ui-element",
+      "data-ui-variant",
+      "data-ui-shape",
+      "data-ui-frame",
+      "data-ui-template-size",
+      "data-ui-slot",
+      "data-ui-container",
+      "data-ui-template",
+      "data-ui-component-family",
+      "data-ui-component-variant",
+      "data-ui-render-strategy",
+      "data-ui-motion",
+      "data-ui-rotation",
+      "data-ui-loop-motion",
+      "data-ui-glow",
+      "data-ui-glow-color",
+      "data-ui-glow-blur",
+      "data-ui-glow-power",
+      "data-ui-icon",
+      "data-ui-icon-size",
+      "data-ui-asset-id",
+      "data-ui-asset-type",
+      "data-ui-asset-usage",
+      "data-ui-asset-import",
+      "data-ui-asset-slice",
+      "data-ui-asset-ppu",
+      "data-ui-asset-width",
+      "data-ui-asset-height",
+      "data-ui-asset-tint",
+      "data-ui-asset-atlas",
+      "data-ui-fidelity-note",
+      "data-ui-value",
+      "data-ui-dir",
+      "data-ui-layout",
+      "data-ui-layout-item",
+      "data-ui-grid-columns",
+      "data-ui-grid-rows",
+      "data-ui-grid-layers",
+      "data-ui-grid-cell-type",
+      "data-ui-grid-cell-width",
+      "data-ui-grid-cell-height",
+      "data-ui-grid-gap-x",
+      "data-ui-grid-gap-y",
+      "data-ui-grid-column-direction",
+      "data-ui-grid-row-direction",
+      "data-ui-grid-align-x",
+      "data-ui-grid-align-y",
+      "data-ui-curve-spacing-mode",
+      "data-ui-curve-spacing",
+      "data-ui-curve-start-at",
+      "data-ui-curve-rotation",
+      "data-ui-curve-extend-before",
+      "data-ui-curve-extend-after",
+      "data-ui-curve-lock-tangents",
+      "data-ui-curve-lock-positions",
+      "data-ui-curve-points"
+    ]
+  },
+  "selectors": {
+    "unityConsumed": [
+      ":root",
+      ".ClassName",
+      "[data-ui-role=\"role/id\"]"
+    ],
+    "previewOnly": [
+      "body",
+      "html",
+      "h1", "h2", "h3", "h4", "h5", "h6",
+      "p", "a", "ul", "ol", "li", "label",
+      "section", "nav", "header", "footer", "main", "aside", "article",
+      "*", "*::before", "*::after"
+    ],
+    "allowed": [
+      ":root",
+      "body",
+      "html",
+      ".ClassName",
+      "[data-ui-role=\"role/id\"]",
+      "h1", "h2", "h3", "h4", "h5", "h6",
+      "p", "a", "ul", "ol", "li", "label",
+      "section", "nav", "header", "footer", "main", "aside", "article",
+      "*", "*::before", "*::after"
+    ],
+    "severityNote": "unityConsumed selectors are strictly enforced; previewOnly selectors still get parsed but any CSS violation on them is downgraded to a warning (they never reach Unity)."
+  },
+  "css": {
+    "themeAllowedProperties": [
+      "background-color",
+      "color",
+      "border",
+      "border-style",
+      "border-radius",
+      "box-shadow",
+      "transform",
+      "opacity",
+      "animation",
+      "animation-delay",
+      "box-sizing",
+      "font-family",
+      "width",
+      "height",
+      "min-width",
+      "min-height",
+      "max-width",
+      "max-height",
+      "background",
+      "overflow",
+      "margin"
+    ],
+    "widgetsAllowedProperties": [
+      "display",
+      "flex-direction",
+      "flex-grow",
+      "flex-shrink",
+      "flex",
+      "gap",
+      "padding",
+      "align-items",
+      "justify-content",
+      "font-size",
+      "color",
+      "font-weight",
+      "line-height",
+      "letter-spacing",
+      "text-transform",
+      "text-align",
+      "width",
+      "height",
+      "min-width",
+      "min-height",
+      "max-width",
+      "max-height",
+      "background",
+      "background-color",
+      "position",
+      "left",
+      "right",
+      "top",
+      "bottom",
+      "border",
+      "border-style",
+      "border-radius",
+      "box-shadow",
+      "overflow",
+      "overflow-x",
+      "overflow-y",
+      "box-sizing",
+      "transform",
+      "opacity",
+      "animation",
+      "animation-delay"
+    ],
+    "inlineAllowedProperties": [
+      "position",
+      "left",
+      "right",
+      "top",
+      "bottom",
+      "width",
+      "height",
+      "padding",
+      "max-width",
+      "background-color",
+      "border",
+      "border-style",
+      "border-radius",
+      "box-shadow",
+      "color",
+      "font-size",
+      "font-weight",
+      "line-height",
+      "letter-spacing",
+      "text-align",
+      "display",
+      "flex-direction",
+      "flex-grow",
+      "flex-shrink",
+      "flex",
+      "gap",
+      "align-items",
+      "justify-content",
+      "margin-left",
+      "margin-top",
+      "margin-right",
+      "margin-bottom",
+      "min-width",
+      "min-height",
+      "max-height",
+      "background",
+      "box-sizing",
+      "font-family",
+      "overflow",
+      "overflow-x",
+      "overflow-y",
+      "text-transform",
+      "transform",
+      "opacity",
+      "animation",
+      "animation-delay",
+      "-ai-value"
+    ],
+    "fontFamilyBuckets": [
+      "primary",
+      "heading",
+      "mono"
+    ],
+    "previewOnlyProperties": [
+      "-webkit-font-smoothing",
+      "-moz-osx-font-smoothing",
+      "-webkit-text-size-adjust",
+      "-webkit-tap-highlight-color",
+      "-webkit-overflow-scrolling",
+      "scrollbar-width",
+      "scrollbar-color",
+      "user-select",
+      "-webkit-user-select",
+      "pointer-events",
+      "cursor",
+      "caret-color",
+      "list-style",
+      "list-style-type",
+      "list-style-position",
+      "outline",
+      "outline-offset",
+      "white-space",
+      "word-break",
+      "word-wrap",
+      "overflow-wrap",
+      "text-shadow",
+      "text-decoration",
+      "text-decoration-line",
+      "text-decoration-color",
+      "text-decoration-style",
+      "text-decoration-thickness",
+      "vertical-align",
+      "appearance",
+      "-webkit-appearance",
+      "-moz-appearance",
+      "background-clip",
+      "-webkit-background-clip",
+      "-webkit-text-fill-color",
+      "will-change"
+    ],
+    "previewOnlyPropertiesNote": "These properties only affect the HTML preview and are silently ignored by compile/baker; validator emits a warning, not an error.",
+    "severityPolicy": {
+      "error": [
+        "contract: missing required file",
+        "contract: missing data-ui-name / data-ui-page / data-ui-role on page root",
+        "contract: missing required button attributes",
+        "contract: missing explicit width/height on sizing-required nodes",
+        "contract: page root must resolve to 1920x1080 and box-sizing:border-box",
+        "contract: duplicate data-ui-name within a page",
+        "contract: theme.css body rule missing or wrong dimensions",
+        "contract: ui_contract.json named nodes mismatch or missing"
+      ],
+      "warn": [
+        "style: unsupported HTML tag (preview will still render; compile drops if not consumed)",
+        "style: unsupported CSS selector on preview-only target (e.g. h1, *, ::before)",
+        "style: unsupported CSS property (compile will auto-downgrade or drop; see compile_report.downgrades[])",
+        "style: unsupported CSS value (value_rules / transform / animation / border-style)",
+        "style: browser-only pattern (grid / filter / radial-gradient / ...)",
+        "style: discouraged length unit (rem / em / vw / vh)"
+      ]
+    },
+    "valueRules": {
+      "position": [
+        "absolute",
+        "relative"
+      ],
+      "display": [
+        "flex"
+      ],
+      "flex-direction": [
+        "row",
+        "column"
+      ],
+      "align-items": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "stretch"
+      ],
+      "justify-content": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between"
+      ],
+      "margin-left": [
+        "auto"
+      ],
+      "margin-top": [
+        "auto"
+      ]
+    },
+    "lengthRules": {
+      "defaultUnit": "px",
+      "percentAllowedOnlyWhen": [
+        "progress fill",
+        "explicit parent-relative fill approved in contract"
+      ]
+    }
+  },
+  "elements": {
+    "primitiveRequired": [
+      "button",
+      "input",
+      "toggle",
+      "slider",
+      "dropdown",
+      "scrollbar",
+      "scrollview",
+      "image",
+      "progress"
+    ],
+    "variantAllowlist": {
+      "button": [
+        "default",
+        "primary",
+        "secondary",
+        "danger",
+        "ghost"
+      ],
+      "input": [
+        "default"
+      ],
+      "toggle": [
+        "default"
+      ],
+      "slider": [
+        "default"
+      ],
+      "dropdown": [
+        "default"
+      ],
+      "scrollbar": [
+        "default"
+      ],
+      "scrollview": [
+        "default"
+      ],
+      "image": [
+        "default"
+      ],
+      "progress": [
+        "default"
+      ]
+    },
+    "shapeAllowlist": [
+      "roundrect",
+      "per-corner",
+      "capsule",
+      "cut-corner",
+      "plate",
+      "banner"
+    ],
+    "frameAllowlist": [
+      "solid",
+      "outline",
+      "hairline",
+      "glow"
+    ],
+    "elementShapeAllowlist": {
+      "button": [
+        "roundrect",
+        "per-corner",
+        "capsule",
+        "cut-corner",
+        "plate",
+        "banner"
+      ],
+      "input": [
+        "roundrect",
+        "per-corner",
+        "capsule"
+      ],
+      "toggle": [
+        "roundrect",
+        "per-corner",
+        "capsule"
+      ],
+      "slider": [
+        "roundrect",
+        "per-corner",
+        "capsule",
+        "plate"
+      ],
+      "dropdown": [
+        "roundrect",
+        "per-corner",
+        "capsule",
+        "cut-corner",
+        "plate"
+      ],
+      "scrollbar": [
+        "roundrect",
+        "capsule",
+        "plate"
+      ],
+      "scrollview": [
+        "roundrect",
+        "per-corner",
+        "plate"
+      ],
+      "image": [
+        "roundrect",
+        "per-corner",
+        "cut-corner",
+        "plate",
+        "banner"
+      ],
+      "progress": [
+        "roundrect",
+        "capsule",
+        "plate",
+        "banner"
+      ]
+    }
+  },
+  "sizing": {
+    "mustHaveExplicitSize": [
+      "main-panel",
+      "hud-block",
+      "button",
+      "card",
+      "resource-block",
+      "modal-panel",
+      "stat-row",
+      "progress-track",
+      "progress-fill",
+      "chip"
+    ],
+    "autoTextAllowedOnlyFor": [
+      "leaf text div",
+      "span text child",
+      "button text child",
+      "chip text child"
+    ]
+  },
+  "unsupportedPatterns": [
+    "transform (except rotate(<deg>))",
+    "opacity (except 0..1)",
+    "flex-wrap",
+    "grid",
+    "calc()",
+    "aspect-ratio",
+    "animation (except rotate/float/pulse loop presets)",
+    "@keyframes (warning only — preset animations are supported)",
+    "repeating-linear-gradient",
+    "repeating-radial-gradient",
+    "radial-gradient (warning only — approximate support via linear fallback)",
+    "conic-gradient",
+    "background-image",
+    "clip-path",
+    "mask",
+    "mix-blend-mode",
+    "filter",
+    "backdrop-filter",
+    "position:fixed",
+    "left:50% with translate centering",
+    "browser default button sizing",
+    "browser default text flow sizing"
+  ]
+}

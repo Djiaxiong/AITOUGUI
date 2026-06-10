@@ -1,0 +1,36 @@
+{
+  "reportVersion": "1.0",
+  "siteRoot": "E:\\UnityProject\\AIGeneratedUGUI\\Assets\\AI_UGUI_Creator\\Samples\\FPS\\FPSLoadout_SkillGenerated",
+  "siteId": "fps_loadout_skill_generated",
+  "status": "pass",
+  "summary": {
+    "pageCount": 1,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "violations": [],
+  "warnings": [],
+  "pageReports": [
+    {
+      "pageId": "weapon-loadout",
+      "html": "pages/weapon-loadout.html",
+      "status": "pass",
+      "errorCount": 0,
+      "warningCount": 0,
+      "errors": [],
+      "warnings": [],
+      "unsupportedTags": [],
+      "unsupportedAttributes": [],
+      "unsupportedSelectors": [],
+      "unsupportedProperties": [],
+      "unsupportedValuePatterns": [],
+      "browserOnlyPatterns": [],
+      "missingRequiredAttributes": [],
+      "missingRequiredSizeNodes": [],
+      "undefinedClasses": [],
+      "undefinedRoles": [],
+      "contractMismatches": [],
+      "metadataMismatches": []
+    }
+  ]
+}

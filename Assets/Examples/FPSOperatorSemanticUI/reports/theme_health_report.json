@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "warningCount": 0,
+  "infoCount": 7,
+  "warnings": [],
+  "infos": [
+    "theme.pageBackground = #03070c",
+    "theme.cardFill = rgba(13, 24, 38, 0.82)",
+    "theme.panelFill = rgba(9, 18, 30, 0.82)",
+    "theme.buttonFill = #2396c8",
+    "theme.accentColor = #2396c8",
+    "theme.tokens count = 17",
+    "canonical role matches = 12"
+  ],
+  "bundlePath": "E:/UnityProject/AIGeneratedUGUI/Assets/AI_UGUI_Creator/Samples/FPS/FPSOperatorSemanticUI/compiled_site_bundle.json"
+}

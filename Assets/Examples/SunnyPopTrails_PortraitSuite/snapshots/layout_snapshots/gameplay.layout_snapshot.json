@@ -1,0 +1,6071 @@
+{
+  "siteId": "sunny_pop_trails_portrait_suite",
+  "pageId": "gameplay",
+  "designWidth": 1080,
+  "designHeight": 1920,
+  "pageRootFound": true,
+  "pageRootName": "GameplayRoot",
+  "entries": [
+    {
+      "path": "GameplayRoot",
+      "name": "GameplayRoot",
+      "tag": "div",
+      "role": "window/main",
+      "classes": [
+        "screen-root",
+        "gameplay-root"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Back Sunny Meadow 128 Collect honey drops and clear the jelly lane before moves run out. 2/3 TARGETS 24 18 Jelly MOVES 21 SCORE 42,880 Pause COMBO METER Sweet Chain x4 Boosters Hammer x11 Use Hammer Shuffle x6 Use Shuffle Rocket x9 Use Rocket Stage Notes The jelly lane is concentrated on the lower right. Save your rocket for the final corner after the honey column opens. Goal 74%",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "0",
+        "top": "0",
+        "width": "1080px",
+        "height": "1920px",
+        "overflow": "hidden",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 0.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 0.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 1080.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 1920.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1080.0,
+        "height": 1920.0,
+        "measured": true,
+        "source": "page-root"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #66c6ef 0%, #cdefff 22%, #effbff 40%, #fff4df 100%)",
+        "background-color": "var(--page-bg)"
+      },
+      "attrs": {
+        "class": "screen-root gameplay-root",
+        "data-ui-page": "gameplay",
+        "data-ui-name": "GameplayRoot",
+        "data-ui-role": "window/main"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayTopBar",
+      "name": "GameplayTopBar",
+      "tag": "div",
+      "role": "panel/resource-bar",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Back Sunny Meadow 128 Collect honey drops and clear the jelly lane before moves run out. 2/3",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "40px",
+        "top": "44px",
+        "width": "1000px",
+        "height": "166px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 40.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 44.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 1000.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 166.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 40.0,
+        "y": 44.0,
+        "width": 1000.0,
+        "height": 166.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(244, 252, 255, 0.9) 100%)",
+        "background-color": "var(--panel-white)",
+        "border": "2px solid rgba(255, 255, 255, 0.66)",
+        "border-radius": "34px",
+        "box-shadow": "var(--shadow-soft)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayTopBar",
+        "data-ui-role": "panel/resource-bar",
+        "style": "position:absolute;left:40px;top:44px;width:1000px;height:166px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayTopBar/GameplayBackButton",
+      "name": "GameplayBackButton",
+      "tag": "button",
+      "role": "button/ghost",
+      "classes": [],
+      "contentType": "button",
+      "directText": "",
+      "aggregateText": "Back",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "28px",
+        "width": "134px",
+        "height": "110px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 134.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 110.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 64.0,
+        "y": 72.0,
+        "width": 134.0,
+        "height": 110.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)"
+      },
+      "visualStyle": {
+        "background": "rgba(255, 255, 255, 0.42)",
+        "background-color": "rgba(255, 255, 255, 0.42)",
+        "border": "2px solid rgba(255, 255, 255, 0.64)",
+        "border-radius": "28px"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBackButton",
+        "data-ui-role": "button/ghost",
+        "data-ui-element": "button/ghost",
+        "style": "position:absolute;left:24px;top:28px;width:134px;height:110px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayTopBar/GameplayBackButton/GameplayBackButtonText",
+      "name": "GameplayBackButtonText",
+      "tag": "span",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Back",
+      "aggregateText": "Back",
+      "anchorHint": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "layout": {
+        "width": "134px",
+        "height": "110px"
+      },
+      "layoutNumeric": {
+        "width": {
+          "kind": "px",
+          "value": 134.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 110.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 64.0,
+        "y": 72.0,
+        "width": 134.0,
+        "height": 110.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "22px",
+        "font-weight": "800",
+        "line-height": "104px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBackButtonText",
+        "data-ui-role": "text/title",
+        "style": "width:134px;height:110px;font-size:22px;line-height:104px;text-align:center;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayTopBar/GameplayStageTitle",
+      "name": "GameplayStageTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Sunny Meadow 128",
+      "aggregateText": "Sunny Meadow 128",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "184px",
+        "top": "34px",
+        "width": "340px",
+        "height": "34px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 184.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 340.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 34.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 224.0,
+        "y": 78.0,
+        "width": 340.0,
+        "height": 34.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "38px",
+        "font-weight": "800",
+        "line-height": "38px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayStageTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:184px;top:34px;width:340px;height:34px;box-sizing:border-box;font-size:38px;line-height:38px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayTopBar/GameplayStageBody",
+      "name": "GameplayStageBody",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Collect honey drops and clear the jelly lane before moves run out.",
+      "aggregateText": "Collect honey drops and clear the jelly lane before moves run out.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "184px",
+        "top": "82px",
+        "width": "420px",
+        "height": "20px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 184.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 82.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 420.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 20.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 224.0,
+        "y": 126.0,
+        "width": 420.0,
+        "height": 20.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "18px",
+        "line-height": "20px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayStageBody",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:184px;top:82px;width:420px;height:20px;box-sizing:border-box;font-size:18px;line-height:20px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayTopBar/GameplayTopStarIcon",
+      "name": "GameplayTopStarIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "858px",
+        "top": "34px",
+        "width": "44px",
+        "height": "44px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 858.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 44.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 44.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 898.0,
+        "y": 78.0,
+        "width": 44.0,
+        "height": 44.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_star.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayTopStarIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/star",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "stage-progress-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "44",
+        "data-ui-asset-height": "44",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:858px;top:34px;width:44px;height:44px;box-sizing:border-box;background:url('../assets/icon_star.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayTopBar/GameplayTopStarValue",
+      "name": "GameplayTopStarValue",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "2/3",
+      "aggregateText": "2/3",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "912px",
+        "top": "40px",
+        "width": "60px",
+        "height": "20px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 912.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 40.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 60.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 20.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 952.0,
+        "y": 84.0,
+        "width": 60.0,
+        "height": 20.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "24px",
+        "font-weight": "800",
+        "line-height": "24px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayTopStarValue",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:912px;top:40px;width:60px;height:20px;box-sizing:border-box;font-size:24px;line-height:24px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalPanel",
+      "name": "GameplayGoalPanel",
+      "tag": "div",
+      "role": "panel/section",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "TARGETS 24 18 Jelly",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "40px",
+        "top": "236px",
+        "width": "344px",
+        "height": "120px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 40.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 236.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 344.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 120.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 40.0,
+        "y": 236.0,
+        "width": 344.0,
+        "height": 120.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 253, 255, 0.86) 100%)",
+        "background-color": "var(--panel-soft)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "34px",
+        "box-shadow": "var(--shadow-soft)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayGoalPanel",
+        "data-ui-role": "panel/section",
+        "style": "position:absolute;left:40px;top:236px;width:344px;height:120px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalPanel/GameplayGoalTitle",
+      "name": "GameplayGoalTitle",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "TARGETS",
+      "aggregateText": "TARGETS",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "20px",
+        "width": "120px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 62.0,
+        "y": 256.0,
+        "width": 120.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayGoalTitle",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:22px;top:20px;width:120px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalPanel/GameplayGoalStarToken",
+      "name": "GameplayGoalStarToken",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "goal-token"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "24",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "50px",
+        "width": "138px",
+        "height": "48px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 50.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 138.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 48.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 62.0,
+        "y": 286.0,
+        "width": 138.0,
+        "height": 48.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(245, 252, 255, 0.92) 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "26px"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayGoalStarToken",
+        "class": "goal-token",
+        "style": "position:absolute;left:22px;top:50px;width:138px;height:48px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalPanel/GameplayGoalStarToken/GameplayGoalStarIcon",
+      "name": "GameplayGoalStarIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "14px",
+        "top": "10px",
+        "width": "28px",
+        "height": "28px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 14.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 10.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 28.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 76.0,
+        "y": 296.0,
+        "width": 28.0,
+        "height": 28.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_star.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayGoalStarIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/star",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "goal-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "28",
+        "data-ui-asset-height": "28",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:14px;top:10px;width:28px;height:28px;box-sizing:border-box;background:url('../assets/icon_star.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalPanel/GameplayGoalStarToken/GameplayGoalStarText",
+      "name": "GameplayGoalStarText",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "24",
+      "aggregateText": "24",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "54px",
+        "top": "12px",
+        "width": "68px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 54.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 68.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 116.0,
+        "y": 298.0,
+        "width": 68.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "22px",
+        "font-weight": "800",
+        "line-height": "22px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayGoalStarText",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:54px;top:12px;width:68px;height:22px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalPanel/GameplayGoalJellyToken",
+      "name": "GameplayGoalJellyToken",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "goal-token",
+        "goal-jelly"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "18 Jelly",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "176px",
+        "top": "50px",
+        "width": "138px",
+        "height": "48px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 176.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 50.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 138.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 48.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 216.0,
+        "y": 286.0,
+        "width": 138.0,
+        "height": 48.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #d9b7ff 0%, #a67cff 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "26px"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayGoalJellyToken",
+        "class": "goal-token goal-jelly",
+        "style": "position:absolute;left:176px;top:50px;width:138px;height:48px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalPanel/GameplayGoalJellyToken/GameplayGoalJellyText",
+      "name": "GameplayGoalJellyText",
+      "tag": "div",
+      "role": "text/title-inverse",
+      "classes": [],
+      "contentType": "text",
+      "directText": "18 Jelly",
+      "aggregateText": "18 Jelly",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "16px",
+        "top": "12px",
+        "width": "96px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 16.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 12.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 96.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 232.0,
+        "y": 298.0,
+        "width": 96.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)",
+        "font-size": "22px",
+        "font-weight": "800",
+        "line-height": "22px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayGoalJellyText",
+        "data-ui-role": "text/title-inverse",
+        "style": "position:absolute;left:16px;top:12px;width:96px;height:22px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayMovesPanel",
+      "name": "GameplayMovesPanel",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "score-pill"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "MOVES 21",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "400px",
+        "top": "236px",
+        "width": "192px",
+        "height": "120px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 400.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 236.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 192.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 120.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 400.0,
+        "y": 236.0,
+        "width": 192.0,
+        "height": 120.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(249, 252, 255, 0.92) 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "28px"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayMovesPanel",
+        "class": "score-pill",
+        "style": "position:absolute;left:400px;top:236px;width:192px;height:120px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayMovesPanel/GameplayMovesLabel",
+      "name": "GameplayMovesLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "MOVES",
+      "aggregateText": "MOVES",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "20px",
+        "width": "90px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 90.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 422.0,
+        "y": 256.0,
+        "width": 90.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayMovesLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:22px;top:20px;width:90px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayMovesPanel/GameplayMovesValue",
+      "name": "GameplayMovesValue",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "21",
+      "aggregateText": "21",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "52px",
+        "width": "100px",
+        "height": "34px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 52.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 100.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 34.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 422.0,
+        "y": 288.0,
+        "width": 100.0,
+        "height": 34.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "42px",
+        "font-weight": "800",
+        "line-height": "42px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayMovesValue",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:22px;top:52px;width:100px;height:34px;box-sizing:border-box;font-size:42px;line-height:42px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayScorePanel",
+      "name": "GameplayScorePanel",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "score-pill"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "SCORE 42,880",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "608px",
+        "top": "236px",
+        "width": "256px",
+        "height": "120px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 608.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 236.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 256.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 120.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 608.0,
+        "y": 236.0,
+        "width": 256.0,
+        "height": 120.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(249, 252, 255, 0.92) 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "28px"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayScorePanel",
+        "class": "score-pill",
+        "style": "position:absolute;left:608px;top:236px;width:256px;height:120px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayScorePanel/GameplayScoreLabel",
+      "name": "GameplayScoreLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "SCORE",
+      "aggregateText": "SCORE",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "20px",
+        "width": "90px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 90.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 630.0,
+        "y": 256.0,
+        "width": 90.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayScoreLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:22px;top:20px;width:90px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayScorePanel/GameplayScoreValue",
+      "name": "GameplayScoreValue",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "42,880",
+      "aggregateText": "42,880",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "52px",
+        "width": "180px",
+        "height": "34px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 52.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 180.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 34.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 630.0,
+        "y": 288.0,
+        "width": 180.0,
+        "height": 34.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "42px",
+        "font-weight": "800",
+        "line-height": "42px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayScoreValue",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:22px;top:52px;width:180px;height:34px;box-sizing:border-box;font-size:42px;line-height:42px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayPauseButton",
+      "name": "GameplayPauseButton",
+      "tag": "button",
+      "role": "button/ghost",
+      "classes": [],
+      "contentType": "button",
+      "directText": "",
+      "aggregateText": "Pause",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "880px",
+        "top": "236px",
+        "width": "160px",
+        "height": "120px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 880.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 236.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 160.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 120.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 880.0,
+        "y": 236.0,
+        "width": 160.0,
+        "height": 120.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)"
+      },
+      "visualStyle": {
+        "background": "rgba(255, 255, 255, 0.42)",
+        "background-color": "rgba(255, 255, 255, 0.42)",
+        "border": "2px solid rgba(255, 255, 255, 0.64)",
+        "border-radius": "28px"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayPauseButton",
+        "data-ui-role": "button/ghost",
+        "data-ui-element": "button/ghost",
+        "style": "position:absolute;left:880px;top:236px;width:160px;height:120px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayPauseButton/GameplayPauseButtonText",
+      "name": "GameplayPauseButtonText",
+      "tag": "span",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Pause",
+      "aggregateText": "Pause",
+      "anchorHint": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "layout": {
+        "width": "160px",
+        "height": "120px"
+      },
+      "layoutNumeric": {
+        "width": {
+          "kind": "px",
+          "value": 160.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 120.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 880.0,
+        "y": 236.0,
+        "width": 160.0,
+        "height": 120.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "24px",
+        "font-weight": "800",
+        "line-height": "112px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayPauseButtonText",
+        "data-ui-role": "text/title",
+        "style": "width:160px;height:120px;font-size:24px;line-height:112px;text-align:center;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel",
+      "name": "GameplayBoardPanel",
+      "tag": "div",
+      "role": "panel/hero",
+      "classes": [
+        "board-shell"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "144px",
+        "top": "388px",
+        "width": "792px",
+        "height": "916px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 144.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 388.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 792.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 916.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 144.0,
+        "y": 388.0,
+        "width": 792.0,
+        "height": 916.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(120, 212, 255, 0.36) 0%, rgba(92, 176, 226, 0.28) 100%)",
+        "background-color": "var(--panel-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.76)",
+        "border-radius": "38px",
+        "box-shadow": "0 22px 48px rgba(86, 136, 173, 0.18)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoardPanel",
+        "data-ui-role": "panel/hero",
+        "class": "board-shell",
+        "style": "position:absolute;left:144px;top:388px;width:792px;height:916px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR1C1",
+      "name": "BoardTileR1C1",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-yellow"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "30px",
+        "top": "30px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 174.0,
+        "y": 418.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffe982 0%, #ffc84b 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR1C1",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-yellow",
+        "style": "position:absolute;left:30px;top:30px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR1C2",
+      "name": "BoardTileR1C2",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-blue"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "154px",
+        "top": "30px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 298.0,
+        "y": 418.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #9de6ff 0%, #67bcff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR1C2",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-blue",
+        "style": "position:absolute;left:154px;top:30px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR1C3",
+      "name": "BoardTileR1C3",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-pink"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "278px",
+        "top": "30px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 422.0,
+        "y": 418.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffbae5 0%, #ff84be 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR1C3",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-pink",
+        "style": "position:absolute;left:278px;top:30px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR1C4",
+      "name": "BoardTileR1C4",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-green"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "402px",
+        "top": "30px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 546.0,
+        "y": 418.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #92eb7f 0%, #58c75a 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR1C4",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-green",
+        "style": "position:absolute;left:402px;top:30px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR1C5",
+      "name": "BoardTileR1C5",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-red"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "526px",
+        "top": "30px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 670.0,
+        "y": 418.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ff8b8f 0%, #ff6368 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR1C5",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-red",
+        "style": "position:absolute;left:526px;top:30px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR1C6",
+      "name": "BoardTileR1C6",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-purple"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "650px",
+        "top": "30px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 794.0,
+        "y": 418.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #cfb0ff 0%, #9e80ff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR1C6",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-purple",
+        "style": "position:absolute;left:650px;top:30px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR2C1",
+      "name": "BoardTileR2C1",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-green"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "30px",
+        "top": "154px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 174.0,
+        "y": 542.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #92eb7f 0%, #58c75a 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR2C1",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-green",
+        "style": "position:absolute;left:30px;top:154px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR2C2",
+      "name": "BoardTileR2C2",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-yellow"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "154px",
+        "top": "154px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 298.0,
+        "y": 542.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffe982 0%, #ffc84b 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR2C2",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-yellow",
+        "style": "position:absolute;left:154px;top:154px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR2C3",
+      "name": "BoardTileR2C3",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-purple"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "278px",
+        "top": "154px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 422.0,
+        "y": 542.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #cfb0ff 0%, #9e80ff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR2C3",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-purple",
+        "style": "position:absolute;left:278px;top:154px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR2C4",
+      "name": "BoardTileR2C4",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-blue"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "402px",
+        "top": "154px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 546.0,
+        "y": 542.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #9de6ff 0%, #67bcff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR2C4",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-blue",
+        "style": "position:absolute;left:402px;top:154px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR2C5",
+      "name": "BoardTileR2C5",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-pink"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "526px",
+        "top": "154px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 670.0,
+        "y": 542.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffbae5 0%, #ff84be 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR2C5",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-pink",
+        "style": "position:absolute;left:526px;top:154px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR2C6",
+      "name": "BoardTileR2C6",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-red"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "650px",
+        "top": "154px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 794.0,
+        "y": 542.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ff8b8f 0%, #ff6368 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR2C6",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-red",
+        "style": "position:absolute;left:650px;top:154px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR3C1",
+      "name": "BoardTileR3C1",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-red"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "30px",
+        "top": "278px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 174.0,
+        "y": 666.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ff8b8f 0%, #ff6368 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR3C1",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-red",
+        "style": "position:absolute;left:30px;top:278px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR3C2",
+      "name": "BoardTileR3C2",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-purple"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "154px",
+        "top": "278px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 298.0,
+        "y": 666.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #cfb0ff 0%, #9e80ff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR3C2",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-purple",
+        "style": "position:absolute;left:154px;top:278px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR3C3",
+      "name": "BoardTileR3C3",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-yellow"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "278px",
+        "top": "278px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 422.0,
+        "y": 666.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffe982 0%, #ffc84b 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR3C3",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-yellow",
+        "style": "position:absolute;left:278px;top:278px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR3C4",
+      "name": "BoardTileR3C4",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-green"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "402px",
+        "top": "278px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 546.0,
+        "y": 666.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #92eb7f 0%, #58c75a 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR3C4",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-green",
+        "style": "position:absolute;left:402px;top:278px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR3C5",
+      "name": "BoardTileR3C5",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-blue"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "526px",
+        "top": "278px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 670.0,
+        "y": 666.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #9de6ff 0%, #67bcff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR3C5",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-blue",
+        "style": "position:absolute;left:526px;top:278px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR3C6",
+      "name": "BoardTileR3C6",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-pink"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "650px",
+        "top": "278px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 794.0,
+        "y": 666.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffbae5 0%, #ff84be 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR3C6",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-pink",
+        "style": "position:absolute;left:650px;top:278px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR4C1",
+      "name": "BoardTileR4C1",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-blue"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "30px",
+        "top": "402px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 174.0,
+        "y": 790.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #9de6ff 0%, #67bcff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR4C1",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-blue",
+        "style": "position:absolute;left:30px;top:402px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR4C2",
+      "name": "BoardTileR4C2",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-pink"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "154px",
+        "top": "402px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 298.0,
+        "y": 790.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffbae5 0%, #ff84be 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR4C2",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-pink",
+        "style": "position:absolute;left:154px;top:402px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR4C3",
+      "name": "BoardTileR4C3",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-green"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "278px",
+        "top": "402px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 422.0,
+        "y": 790.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #92eb7f 0%, #58c75a 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR4C3",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-green",
+        "style": "position:absolute;left:278px;top:402px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR4C4",
+      "name": "BoardTileR4C4",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-red"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "402px",
+        "top": "402px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 546.0,
+        "y": 790.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ff8b8f 0%, #ff6368 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR4C4",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-red",
+        "style": "position:absolute;left:402px;top:402px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR4C5",
+      "name": "BoardTileR4C5",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-purple"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "526px",
+        "top": "402px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 670.0,
+        "y": 790.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #cfb0ff 0%, #9e80ff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR4C5",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-purple",
+        "style": "position:absolute;left:526px;top:402px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR4C6",
+      "name": "BoardTileR4C6",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-yellow"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "650px",
+        "top": "402px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 794.0,
+        "y": 790.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffe982 0%, #ffc84b 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR4C6",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-yellow",
+        "style": "position:absolute;left:650px;top:402px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR5C1",
+      "name": "BoardTileR5C1",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-yellow"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "30px",
+        "top": "526px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 174.0,
+        "y": 914.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffe982 0%, #ffc84b 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR5C1",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-yellow",
+        "style": "position:absolute;left:30px;top:526px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR5C2",
+      "name": "BoardTileR5C2",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-green"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "154px",
+        "top": "526px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 298.0,
+        "y": 914.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #92eb7f 0%, #58c75a 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR5C2",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-green",
+        "style": "position:absolute;left:154px;top:526px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR5C3",
+      "name": "BoardTileR5C3",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-blue"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "278px",
+        "top": "526px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 422.0,
+        "y": 914.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #9de6ff 0%, #67bcff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR5C3",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-blue",
+        "style": "position:absolute;left:278px;top:526px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR5C4",
+      "name": "BoardTileR5C4",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-pink"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "402px",
+        "top": "526px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 546.0,
+        "y": 914.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffbae5 0%, #ff84be 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR5C4",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-pink",
+        "style": "position:absolute;left:402px;top:526px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR5C5",
+      "name": "BoardTileR5C5",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-red"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "526px",
+        "top": "526px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 670.0,
+        "y": 914.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ff8b8f 0%, #ff6368 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR5C5",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-red",
+        "style": "position:absolute;left:526px;top:526px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR5C6",
+      "name": "BoardTileR5C6",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-purple"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "650px",
+        "top": "526px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 794.0,
+        "y": 914.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #cfb0ff 0%, #9e80ff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR5C6",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-purple",
+        "style": "position:absolute;left:650px;top:526px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR6C1",
+      "name": "BoardTileR6C1",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-purple"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "30px",
+        "top": "650px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 174.0,
+        "y": 1038.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #cfb0ff 0%, #9e80ff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR6C1",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-purple",
+        "style": "position:absolute;left:30px;top:650px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR6C2",
+      "name": "BoardTileR6C2",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-red"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "154px",
+        "top": "650px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 298.0,
+        "y": 1038.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ff8b8f 0%, #ff6368 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR6C2",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-red",
+        "style": "position:absolute;left:154px;top:650px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR6C3",
+      "name": "BoardTileR6C3",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-pink"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "278px",
+        "top": "650px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 422.0,
+        "y": 1038.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffbae5 0%, #ff84be 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR6C3",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-pink",
+        "style": "position:absolute;left:278px;top:650px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR6C4",
+      "name": "BoardTileR6C4",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-yellow"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "402px",
+        "top": "650px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 546.0,
+        "y": 1038.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffe982 0%, #ffc84b 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR6C4",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-yellow",
+        "style": "position:absolute;left:402px;top:650px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR6C5",
+      "name": "BoardTileR6C5",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-green"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "526px",
+        "top": "650px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 670.0,
+        "y": 1038.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #92eb7f 0%, #58c75a 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR6C5",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-green",
+        "style": "position:absolute;left:526px;top:650px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR6C6",
+      "name": "BoardTileR6C6",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-blue"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "650px",
+        "top": "650px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 794.0,
+        "y": 1038.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #9de6ff 0%, #67bcff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR6C6",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-blue",
+        "style": "position:absolute;left:650px;top:650px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR7C1",
+      "name": "BoardTileR7C1",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-green"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "30px",
+        "top": "774px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 30.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 774.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 174.0,
+        "y": 1162.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #92eb7f 0%, #58c75a 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR7C1",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-green",
+        "style": "position:absolute;left:30px;top:774px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR7C2",
+      "name": "BoardTileR7C2",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-blue"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "154px",
+        "top": "774px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 154.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 774.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 298.0,
+        "y": 1162.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #9de6ff 0%, #67bcff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR7C2",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-blue",
+        "style": "position:absolute;left:154px;top:774px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR7C3",
+      "name": "BoardTileR7C3",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-yellow"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "278px",
+        "top": "774px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 278.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 774.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 422.0,
+        "y": 1162.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffe982 0%, #ffc84b 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR7C3",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-yellow",
+        "style": "position:absolute;left:278px;top:774px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR7C4",
+      "name": "BoardTileR7C4",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-purple"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "402px",
+        "top": "774px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 402.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 774.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 546.0,
+        "y": 1162.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #cfb0ff 0%, #9e80ff 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR7C4",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-purple",
+        "style": "position:absolute;left:402px;top:774px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR7C5",
+      "name": "BoardTileR7C5",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-pink"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "526px",
+        "top": "774px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 526.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 774.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 670.0,
+        "y": 1162.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ffbae5 0%, #ff84be 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR7C5",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-pink",
+        "style": "position:absolute;left:526px;top:774px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoardPanel/BoardTileR7C6",
+      "name": "BoardTileR7C6",
+      "tag": "div",
+      "role": "card/entry",
+      "classes": [
+        "board-tile",
+        "tile-red"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "650px",
+        "top": "774px",
+        "width": "112px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 650.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 774.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 112.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 794.0,
+        "y": 1162.0,
+        "width": 112.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, #ff8b8f 0%, #ff6368 100%)",
+        "background-color": "rgba(255, 255, 255, 0.92)",
+        "border": "2px solid rgba(255, 255, 255, 0.58)",
+        "border-radius": "30px",
+        "box-shadow": "inset 0 10px 18px rgba(255, 255, 255, 0.18), 0 10px 18px rgba(58, 106, 140, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "BoardTileR7C6",
+        "data-ui-role": "card/entry",
+        "class": "board-tile tile-red",
+        "style": "position:absolute;left:650px;top:774px;width:112px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayComboCard",
+      "name": "GameplayComboCard",
+      "tag": "div",
+      "role": "panel/resource-bar",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "COMBO METER Sweet Chain x4",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "56px",
+        "top": "1338px",
+        "width": "968px",
+        "height": "112px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 56.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 1338.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 968.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 112.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 56.0,
+        "y": 1338.0,
+        "width": 968.0,
+        "height": 112.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(244, 252, 255, 0.9) 100%)",
+        "background-color": "var(--panel-white)",
+        "border": "2px solid rgba(255, 255, 255, 0.66)",
+        "border-radius": "34px",
+        "box-shadow": "var(--shadow-soft)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayComboCard",
+        "data-ui-role": "panel/resource-bar",
+        "style": "position:absolute;left:56px;top:1338px;width:968px;height:112px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayComboCard/GameplayComboLabel",
+      "name": "GameplayComboLabel",
+      "tag": "div",
+      "role": "text/label",
+      "classes": [],
+      "contentType": "text",
+      "directText": "COMBO METER",
+      "aggregateText": "COMBO METER",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "28px",
+        "top": "20px",
+        "width": "140px",
+        "height": "16px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 140.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 16.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 84.0,
+        "y": 1358.0,
+        "width": 140.0,
+        "height": 16.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-label)",
+        "font-size": "14px",
+        "font-weight": "700",
+        "line-height": "16px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayComboLabel",
+        "data-ui-role": "text/label",
+        "style": "position:absolute;left:28px;top:20px;width:140px;height:16px;box-sizing:border-box;font-size:14px;line-height:16px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayComboCard/GameplayComboPill",
+      "name": "GameplayComboPill",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "combo-pill"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "28px",
+        "top": "48px",
+        "width": "912px",
+        "height": "34px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 48.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 912.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 34.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 84.0,
+        "y": 1386.0,
+        "width": 912.0,
+        "height": 34.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(90deg, rgba(255, 214, 102, 1) 0%, rgba(255, 145, 111, 1) 52%, rgba(255, 111, 129, 1) 100%)",
+        "border-radius": "30px",
+        "box-shadow": "0 12px 24px rgba(255, 145, 111, 0.24)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayComboPill",
+        "class": "combo-pill",
+        "style": "position:absolute;left:28px;top:48px;width:912px;height:34px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayComboCard/GameplayComboValue",
+      "name": "GameplayComboValue",
+      "tag": "div",
+      "role": "text/title-inverse",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Sweet Chain x4",
+      "aggregateText": "Sweet Chain x4",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "386px",
+        "top": "54px",
+        "width": "200px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 386.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 54.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 200.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 442.0,
+        "y": 1392.0,
+        "width": 200.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)",
+        "font-size": "24px",
+        "font-weight": "800",
+        "line-height": "22px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayComboValue",
+        "data-ui-role": "text/title-inverse",
+        "style": "position:absolute;left:386px;top:54px;width:200px;height:22px;box-sizing:border-box;font-size:24px;line-height:22px;text-align:center;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray",
+      "name": "GameplayBoosterTray",
+      "tag": "div",
+      "role": "panel/section",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Boosters Hammer x11 Use Hammer Shuffle x6 Use Shuffle Rocket x9 Use Rocket",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "56px",
+        "top": "1474px",
+        "width": "968px",
+        "height": "184px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 56.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 1474.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 968.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 184.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 56.0,
+        "y": 1474.0,
+        "width": 968.0,
+        "height": 184.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 253, 255, 0.86) 100%)",
+        "background-color": "var(--panel-soft)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "34px",
+        "box-shadow": "var(--shadow-soft)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoosterTray",
+        "data-ui-role": "panel/section",
+        "style": "position:absolute;left:56px;top:1474px;width:968px;height:184px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterTrayTitle",
+      "name": "GameplayBoosterTrayTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Boosters",
+      "aggregateText": "Boosters",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "28px",
+        "top": "24px",
+        "width": "220px",
+        "height": "24px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 220.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 24.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 84.0,
+        "y": 1498.0,
+        "width": 220.0,
+        "height": 24.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "30px",
+        "font-weight": "800",
+        "line-height": "30px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBoosterTrayTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:28px;top:24px;width:220px;height:24px;box-sizing:border-box;font-size:30px;line-height:30px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterHammerCard",
+      "name": "GameplayBoosterHammerCard",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [
+        "booster-slot"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Hammer x11",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "28px",
+        "top": "72px",
+        "width": "284px",
+        "height": "86px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 72.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 284.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 86.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 84.0,
+        "y": 1546.0,
+        "width": 284.0,
+        "height": 86.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(245, 252, 255, 0.9) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "30px",
+        "box-shadow": "0 12px 24px rgba(91, 140, 176, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoosterHammerCard",
+        "data-ui-role": "card/info",
+        "class": "booster-slot",
+        "style": "position:absolute;left:28px;top:72px;width:284px;height:86px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterHammerCard/GameplayBoosterHammerIcon",
+      "name": "GameplayBoosterHammerIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "26px",
+        "width": "34px",
+        "height": "34px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 26.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 34.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 106.0,
+        "y": 1572.0,
+        "width": 34.0,
+        "height": 34.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_hammer.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoosterHammerIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/hammer",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "booster-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "34",
+        "data-ui-asset-height": "34",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:22px;top:26px;width:34px;height:34px;box-sizing:border-box;background:url('../assets/icon_hammer.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterHammerCard/GameplayBoosterHammerTitle",
+      "name": "GameplayBoosterHammerTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Hammer",
+      "aggregateText": "Hammer",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "70px",
+        "top": "18px",
+        "width": "120px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 70.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 154.0,
+        "y": 1564.0,
+        "width": 120.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "22px",
+        "font-weight": "800",
+        "line-height": "22px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBoosterHammerTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:70px;top:18px;width:120px;height:18px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterHammerCard/GameplayBoosterHammerCount",
+      "name": "GameplayBoosterHammerCount",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "x11",
+      "aggregateText": "x11",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "70px",
+        "top": "46px",
+        "width": "80px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 70.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 46.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 80.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 154.0,
+        "y": 1592.0,
+        "width": 80.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "18px",
+        "font-weight": "800",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBoosterHammerCount",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:70px;top:46px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterHammerButton",
+      "name": "GameplayBoosterHammerButton",
+      "tag": "button",
+      "role": "button/secondary",
+      "classes": [],
+      "contentType": "button",
+      "directText": "",
+      "aggregateText": "Use Hammer",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "28px",
+        "top": "72px",
+        "width": "284px",
+        "height": "86px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 72.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 284.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 86.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 84.0,
+        "y": 1546.0,
+        "width": 284.0,
+        "height": 86.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)"
+      },
+      "visualStyle": {
+        "background": "rgba(255,255,255,0)",
+        "background-color": "var(--accent-coral-a)",
+        "border": "2px solid rgba(255,255,255,0.18)",
+        "border-radius": "30px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoosterHammerButton",
+        "data-ui-role": "button/secondary",
+        "data-ui-element": "button/secondary",
+        "style": "position:absolute;left:28px;top:72px;width:284px;height:86px;box-sizing:border-box;background:rgba(255,255,255,0);border:2px solid rgba(255,255,255,0.18);border-radius:30px;box-shadow:none;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterHammerButton/GameplayBoosterHammerButtonText",
+      "name": "GameplayBoosterHammerButtonText",
+      "tag": "span",
+      "role": "text/title-inverse",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Use Hammer",
+      "aggregateText": "Use Hammer",
+      "anchorHint": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "layout": {
+        "width": "284px",
+        "height": "86px"
+      },
+      "layoutNumeric": {
+        "width": {
+          "kind": "px",
+          "value": 284.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 86.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 84.0,
+        "y": 1546.0,
+        "width": 284.0,
+        "height": 86.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "transparent",
+        "font-size": "1px",
+        "font-weight": "800",
+        "line-height": "1px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBoosterHammerButtonText",
+        "data-ui-role": "text/title-inverse",
+        "style": "width:284px;height:86px;font-size:1px;line-height:1px;text-align:center;color:transparent;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterShuffleCard",
+      "name": "GameplayBoosterShuffleCard",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [
+        "booster-slot"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Shuffle x6",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "342px",
+        "top": "72px",
+        "width": "284px",
+        "height": "86px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 342.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 72.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 284.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 86.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 398.0,
+        "y": 1546.0,
+        "width": 284.0,
+        "height": 86.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(245, 252, 255, 0.9) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "30px",
+        "box-shadow": "0 12px 24px rgba(91, 140, 176, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoosterShuffleCard",
+        "data-ui-role": "card/info",
+        "class": "booster-slot",
+        "style": "position:absolute;left:342px;top:72px;width:284px;height:86px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterShuffleCard/GameplayBoosterShuffleIcon",
+      "name": "GameplayBoosterShuffleIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "26px",
+        "width": "34px",
+        "height": "34px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 26.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 34.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 420.0,
+        "y": 1572.0,
+        "width": 34.0,
+        "height": 34.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_shuffle.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoosterShuffleIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/shuffle",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "booster-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "34",
+        "data-ui-asset-height": "34",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:22px;top:26px;width:34px;height:34px;box-sizing:border-box;background:url('../assets/icon_shuffle.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterShuffleCard/GameplayBoosterShuffleTitle",
+      "name": "GameplayBoosterShuffleTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Shuffle",
+      "aggregateText": "Shuffle",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "70px",
+        "top": "18px",
+        "width": "120px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 70.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 468.0,
+        "y": 1564.0,
+        "width": 120.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "22px",
+        "font-weight": "800",
+        "line-height": "22px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBoosterShuffleTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:70px;top:18px;width:120px;height:18px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterShuffleCard/GameplayBoosterShuffleCount",
+      "name": "GameplayBoosterShuffleCount",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "x6",
+      "aggregateText": "x6",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "70px",
+        "top": "46px",
+        "width": "80px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 70.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 46.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 80.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 468.0,
+        "y": 1592.0,
+        "width": 80.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "18px",
+        "font-weight": "800",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBoosterShuffleCount",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:70px;top:46px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterShuffleButton",
+      "name": "GameplayBoosterShuffleButton",
+      "tag": "button",
+      "role": "button/secondary",
+      "classes": [],
+      "contentType": "button",
+      "directText": "",
+      "aggregateText": "Use Shuffle",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "342px",
+        "top": "72px",
+        "width": "284px",
+        "height": "86px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 342.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 72.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 284.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 86.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 398.0,
+        "y": 1546.0,
+        "width": 284.0,
+        "height": 86.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)"
+      },
+      "visualStyle": {
+        "background": "rgba(255,255,255,0)",
+        "background-color": "var(--accent-coral-a)",
+        "border": "2px solid rgba(255,255,255,0.18)",
+        "border-radius": "30px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoosterShuffleButton",
+        "data-ui-role": "button/secondary",
+        "data-ui-element": "button/secondary",
+        "style": "position:absolute;left:342px;top:72px;width:284px;height:86px;box-sizing:border-box;background:rgba(255,255,255,0);border:2px solid rgba(255,255,255,0.18);border-radius:30px;box-shadow:none;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterShuffleButton/GameplayBoosterShuffleButtonText",
+      "name": "GameplayBoosterShuffleButtonText",
+      "tag": "span",
+      "role": "text/title-inverse",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Use Shuffle",
+      "aggregateText": "Use Shuffle",
+      "anchorHint": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "layout": {
+        "width": "284px",
+        "height": "86px"
+      },
+      "layoutNumeric": {
+        "width": {
+          "kind": "px",
+          "value": 284.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 86.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 398.0,
+        "y": 1546.0,
+        "width": 284.0,
+        "height": 86.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "transparent",
+        "font-size": "1px",
+        "font-weight": "800",
+        "line-height": "1px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBoosterShuffleButtonText",
+        "data-ui-role": "text/title-inverse",
+        "style": "width:284px;height:86px;font-size:1px;line-height:1px;text-align:center;color:transparent;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterRocketCard",
+      "name": "GameplayBoosterRocketCard",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [
+        "booster-slot"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Rocket x9",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "656px",
+        "top": "72px",
+        "width": "284px",
+        "height": "86px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 656.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 72.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 284.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 86.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 712.0,
+        "y": 1546.0,
+        "width": 284.0,
+        "height": 86.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(245, 252, 255, 0.9) 100%)",
+        "background-color": "var(--card-fill)",
+        "border": "2px solid rgba(255, 255, 255, 0.72)",
+        "border-radius": "30px",
+        "box-shadow": "0 12px 24px rgba(91, 140, 176, 0.12)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoosterRocketCard",
+        "data-ui-role": "card/info",
+        "class": "booster-slot",
+        "style": "position:absolute;left:656px;top:72px;width:284px;height:86px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterRocketCard/GameplayBoosterRocketIcon",
+      "name": "GameplayBoosterRocketIcon",
+      "tag": "div",
+      "role": "card/info",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "22px",
+        "top": "26px",
+        "width": "34px",
+        "height": "34px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 22.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 26.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 34.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 34.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 734.0,
+        "y": 1572.0,
+        "width": 34.0,
+        "height": 34.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "url('../assets/icon_rocket.svg') center center / 100% 100% no-repeat",
+        "background-color": "var(--card-fill)",
+        "border": "none",
+        "border-radius": "26px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoosterRocketIcon",
+        "data-ui-role": "card/info",
+        "data-ui-asset-id": "icon/rocket",
+        "data-ui-asset-type": "icon",
+        "data-ui-asset-usage": "booster-icon",
+        "data-ui-asset-import": "sprite",
+        "data-ui-asset-width": "34",
+        "data-ui-asset-height": "34",
+        "data-ui-asset-tint": "none",
+        "style": "position:absolute;left:22px;top:26px;width:34px;height:34px;box-sizing:border-box;background:url('../assets/icon_rocket.svg') center center / 100% 100% no-repeat;border:none;box-shadow:none;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterRocketCard/GameplayBoosterRocketTitle",
+      "name": "GameplayBoosterRocketTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Rocket",
+      "aggregateText": "Rocket",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "70px",
+        "top": "18px",
+        "width": "120px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 70.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 18.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 120.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 782.0,
+        "y": 1564.0,
+        "width": 120.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "22px",
+        "font-weight": "800",
+        "line-height": "22px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBoosterRocketTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:70px;top:18px;width:120px;height:18px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterRocketCard/GameplayBoosterRocketCount",
+      "name": "GameplayBoosterRocketCount",
+      "tag": "div",
+      "role": "text/value",
+      "classes": [],
+      "contentType": "text",
+      "directText": "x9",
+      "aggregateText": "x9",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "70px",
+        "top": "46px",
+        "width": "80px",
+        "height": "18px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 70.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 46.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 80.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 18.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 782.0,
+        "y": 1592.0,
+        "width": 80.0,
+        "height": 18.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-value)",
+        "font-size": "18px",
+        "font-weight": "800",
+        "line-height": "18px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBoosterRocketCount",
+        "data-ui-role": "text/value",
+        "style": "position:absolute;left:70px;top:46px;width:80px;height:18px;box-sizing:border-box;font-size:18px;line-height:18px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterRocketButton",
+      "name": "GameplayBoosterRocketButton",
+      "tag": "button",
+      "role": "button/secondary",
+      "classes": [],
+      "contentType": "button",
+      "directText": "",
+      "aggregateText": "Use Rocket",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "656px",
+        "top": "72px",
+        "width": "284px",
+        "height": "86px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 656.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 72.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 284.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 86.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 712.0,
+        "y": 1546.0,
+        "width": 284.0,
+        "height": 86.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-inverse)"
+      },
+      "visualStyle": {
+        "background": "rgba(255,255,255,0)",
+        "background-color": "var(--accent-coral-a)",
+        "border": "2px solid rgba(255,255,255,0.18)",
+        "border-radius": "30px",
+        "box-shadow": "none"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayBoosterRocketButton",
+        "data-ui-role": "button/secondary",
+        "data-ui-element": "button/secondary",
+        "style": "position:absolute;left:656px;top:72px;width:284px;height:86px;box-sizing:border-box;background:rgba(255,255,255,0);border:2px solid rgba(255,255,255,0.18);border-radius:30px;box-shadow:none;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayBoosterTray/GameplayBoosterRocketButton/GameplayBoosterRocketButtonText",
+      "name": "GameplayBoosterRocketButtonText",
+      "tag": "span",
+      "role": "text/title-inverse",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Use Rocket",
+      "aggregateText": "Use Rocket",
+      "anchorHint": {
+        "horizontal": "center",
+        "vertical": "center"
+      },
+      "layout": {
+        "width": "284px",
+        "height": "86px"
+      },
+      "layoutNumeric": {
+        "width": {
+          "kind": "px",
+          "value": 284.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 86.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 712.0,
+        "y": 1546.0,
+        "width": 284.0,
+        "height": 86.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "transparent",
+        "font-size": "1px",
+        "font-weight": "800",
+        "line-height": "1px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayBoosterRocketButtonText",
+        "data-ui-role": "text/title-inverse",
+        "style": "width:284px;height:86px;font-size:1px;line-height:1px;text-align:center;color:transparent;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalSummary",
+      "name": "GameplayGoalSummary",
+      "tag": "div",
+      "role": "panel/resource-bar",
+      "classes": [],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Stage Notes The jelly lane is concentrated on the lower right. Save your rocket for the final corner after the honey column opens. Goal 74%",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "56px",
+        "top": "1680px",
+        "width": "968px",
+        "height": "180px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 56.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 1680.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 968.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 180.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 56.0,
+        "y": 1680.0,
+        "width": 968.0,
+        "height": 180.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(244, 252, 255, 0.9) 100%)",
+        "background-color": "var(--panel-white)",
+        "border": "2px solid rgba(255, 255, 255, 0.66)",
+        "border-radius": "34px",
+        "box-shadow": "var(--shadow-soft)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayGoalSummary",
+        "data-ui-role": "panel/resource-bar",
+        "style": "position:absolute;left:56px;top:1680px;width:968px;height:180px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalSummary/GameplayGoalSummaryTitle",
+      "name": "GameplayGoalSummaryTitle",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Stage Notes",
+      "aggregateText": "Stage Notes",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "28px",
+        "top": "24px",
+        "width": "240px",
+        "height": "24px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 240.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 24.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 84.0,
+        "y": 1704.0,
+        "width": 240.0,
+        "height": 24.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "28px",
+        "font-weight": "800",
+        "line-height": "28px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayGoalSummaryTitle",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:28px;top:24px;width:240px;height:24px;box-sizing:border-box;font-size:28px;line-height:28px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalSummary/GameplayGoalSummaryBody",
+      "name": "GameplayGoalSummaryBody",
+      "tag": "div",
+      "role": "text/body",
+      "classes": [],
+      "contentType": "text",
+      "directText": "The jelly lane is concentrated on the lower right. Save your rocket for the final corner after the honey column opens.",
+      "aggregateText": "The jelly lane is concentrated on the lower right. Save your rocket for the final corner after the honey column opens.",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "28px",
+        "top": "64px",
+        "width": "654px",
+        "height": "40px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 28.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 64.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 654.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 40.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 84.0,
+        "y": 1744.0,
+        "width": 654.0,
+        "height": 40.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-body)",
+        "font-size": "20px",
+        "line-height": "22px",
+        "text-align": "left"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayGoalSummaryBody",
+        "data-ui-role": "text/body",
+        "style": "position:absolute;left:28px;top:64px;width:654px;height:40px;box-sizing:border-box;font-size:20px;line-height:22px;text-align:left;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalSummary/GameplayGoalSummaryBadge",
+      "name": "GameplayGoalSummaryBadge",
+      "tag": "div",
+      "role": "",
+      "classes": [
+        "ribbon-badge"
+      ],
+      "contentType": "container",
+      "directText": "",
+      "aggregateText": "Goal 74%",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "724px",
+        "top": "46px",
+        "width": "196px",
+        "height": "72px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 724.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 46.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 196.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 72.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 780.0,
+        "y": 1726.0,
+        "width": 196.0,
+        "height": 72.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {},
+      "visualStyle": {
+        "background": "linear-gradient(180deg, rgba(255, 220, 113, 1) 0%, rgba(255, 182, 86, 1) 100%)",
+        "border": "2px solid rgba(255, 255, 255, 0.52)",
+        "border-radius": "28px",
+        "box-shadow": "0 12px 24px rgba(255, 183, 92, 0.24)"
+      },
+      "attrs": {
+        "data-ui-name": "GameplayGoalSummaryBadge",
+        "class": "ribbon-badge",
+        "style": "position:absolute;left:724px;top:46px;width:196px;height:72px;box-sizing:border-box;"
+      }
+    },
+    {
+      "path": "GameplayRoot/GameplayGoalSummary/GameplayGoalSummaryBadge/GameplayGoalSummaryBadgeText",
+      "name": "GameplayGoalSummaryBadgeText",
+      "tag": "div",
+      "role": "text/title",
+      "classes": [],
+      "contentType": "text",
+      "directText": "Goal 74%",
+      "aggregateText": "Goal 74%",
+      "anchorHint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "layout": {
+        "position": "absolute",
+        "left": "24px",
+        "top": "20px",
+        "width": "148px",
+        "height": "22px",
+        "box-sizing": "border-box"
+      },
+      "layoutNumeric": {
+        "left": {
+          "kind": "px",
+          "value": 24.0
+        },
+        "top": {
+          "kind": "px",
+          "value": 20.0
+        },
+        "width": {
+          "kind": "px",
+          "value": 148.0
+        },
+        "height": {
+          "kind": "px",
+          "value": 22.0
+        }
+      },
+      "stabilityLevel": "locked",
+      "absoluteRect": {
+        "x": 804.0,
+        "y": 1746.0,
+        "width": 148.0,
+        "height": 22.0,
+        "measured": true,
+        "source": "resolved-layout"
+      },
+      "textStyle": {
+        "color": "var(--text-title)",
+        "font-size": "22px",
+        "font-weight": "800",
+        "line-height": "22px",
+        "text-align": "center"
+      },
+      "visualStyle": {},
+      "attrs": {
+        "data-ui-name": "GameplayGoalSummaryBadgeText",
+        "data-ui-role": "text/title",
+        "style": "position:absolute;left:24px;top:20px;width:148px;height:22px;box-sizing:border-box;font-size:22px;line-height:22px;text-align:center;"
+      }
+    }
+  ],
+  "warnings": []
+}
