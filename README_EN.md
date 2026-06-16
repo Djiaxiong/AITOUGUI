@@ -1,6 +1,8 @@
-# AITOUGUI
+# AITOUGUI Experimental
 
 **[简体中文](README.md) | English**
+
+> This repository is an experimental build. It is still incomplete, still evolving, and does not represent the full capability or final quality of the production version.
 
 `AITOUGUI` is an experimental Unity UGUI project for AI-assisted UI generation and landing workflows.  
 This repository contains two main parts:
@@ -10,7 +12,7 @@ This repository contains two main parts:
 
 ## Project Positioning
 
-What is published here is a **Lite, runnable, readable, extensible version** of the pipeline. It is meant to show the overall architecture, data contracts, and the basic Unity landing path.
+What is published here is an **experimental, incomplete Lite version** of the pipeline. It is meant to show the overall architecture, data contracts, and the basic Unity landing path.
 
 The internal full version used in real production depends on some **paid plugins** and more complete runtime capabilities. Because of that, the Unity plugin included in this repository is not the full commercial version. It is a dependency-reduced Lite build that can run independently.
 
@@ -19,6 +21,7 @@ That distinction matters:
 - `AIToUGUI Lite` is primarily for **parsing and preview**
 - it keeps the basic UGUI/TMP construction path
 - but some higher-end visuals, adapters, and runtime behaviors from the full version are **not included here**
+- this repository is still an **experimental public snapshot**, not a complete, stable, production-ready release package
 
 ## What The Lite Version Is
 
