@@ -9,6 +9,7 @@ This repository contains two main parts:
 
 - an AI-side workflow and Python toolchain for generating site/page packages
 - a Unity `AIToUGUI Lite` plugin that parses `compiled_site_bundle.json` and builds preview hierarchies in-scene
+- an additional root-level `AIToUGUI/` plugin directory that holds the fuller plugin skeleton
 
 ## Project Positioning
 
@@ -21,6 +22,7 @@ That distinction matters:
 - `AIToUGUI Lite` is primarily for **parsing and preview**
 - it keeps the basic UGUI/TMP construction path
 - but some higher-end visuals, adapters, and runtime behaviors from the full version are **not included here**
+- the added root-level `AIToUGUI/` folder is only a public skeleton of the fuller plugin path and **does not include the required paid plugins**
 - this repository is still an **experimental public snapshot**, not a complete, stable, production-ready release package
 
 ## What The Lite Version Is
@@ -49,6 +51,36 @@ In practice, this means:
 
 If your goal is to evaluate the workflow, data protocol, and Unity-side landing approach, this repository is enough.  
 If your goal is to reproduce the full commercial-quality output directly, treat this as a constrained demonstration build.
+
+## AIToUGUI Plugin Notes
+
+An additional outer plugin directory is now included at:
+
+- `H:\AIProject\AITOUGUI\AIToUGUI`
+
+This folder is a closer representation of the fuller `AIToUGUI` plugin organization used in the production path, including runtime, adapters, editor tooling, and dependency layout.  
+However, this GitHub repository **does not ship with the paid plugins required by that path**, so it is not plug-and-play by default.
+
+Please read this as-is:
+
+- if you only want the distributable public loop, use `AIToUGUI Lite`
+- if you want to try the `AIToUGUI/` plugin path, you must place your own legally obtained paid plugin files into `H:\AIProject\AITOUGUI\AIToUGUI\Plugins`
+- the `PrimeTween` and `WindinatorLite` content already present in this repository only represents the subset or trimmed dependencies that can be published here; it is **not** the full dependency set of the internal version
+- when those paid plugins are missing, it is expected that `AIToUGUI/` features may do nothing, Unity may report compilation errors, components may be missing, or materials/runtime behavior may break
+- if missing paid plugins cause integration, compile, compatibility, shader, or asmdef issues, users are expected to **fix those issues themselves** after importing their own plugin versions
+
+### Paid Plugin Placement
+
+Put the paid plugin content you purchased and exported into:
+
+- `H:\AIProject\AITOUGUI\AIToUGUI\Plugins`
+
+If there are still namespace, asmdef, script execution order, shader, material, or version compatibility issues after import, resolve them on your side.  
+This public repository will not include those paid dependencies and does not guarantee direct compatibility across all third-party versions.
+
+### Intro Video
+
+- [AI 生成 Unity UGUI 的 UI 界面也能 1:1 还原设计稿效果](https://www.bilibili.com/video/BV1Gi7L61EQU/?share_source=copy_web&vd_source=0b0af9c6e554b56c26123d46e123e37f)
 
 ## Included Content
 
@@ -91,6 +123,23 @@ Main uses of Lite Studio:
 - parse multi-page bundles
 - build one selected page or all pages for preview
 - attach generated preview content under `AIToUGUILitePreviewMount` in scene
+
+### 3. Outer AIToUGUI Plugin Skeleton
+
+Directory: `AIToUGUI/`
+
+Included:
+
+- `Core/`: runtime, authoring, UI system, and adapter skeletons
+- `Editor/`: bundle import, studio window, code generation, and related editor logic
+- `Plugins/`: third-party dependency drop-in folder
+- `Test/`: partial tests and sample scenes
+
+Usage prerequisites:
+
+- it is **not** a directly runnable full commercial package by default
+- you must supply the paid plugins under `AIToUGUI/Plugins/` yourself
+- any compile or compatibility issues after import must be diagnosed and fixed on your side
 
 ## Sample Content
 
@@ -141,6 +190,7 @@ This repository is a better fit for:
 
 ## Repository Layout
 
+- `AIToUGUI/`: fuller outer plugin skeleton, with paid dependencies expected to be supplied by the user
 - `Assets/AI_UGUI_Creator/AIToUGUI_LITE/`: Unity Lite plugin
 - `Assets/AI_UGUI_Creator/ai-create-ugui/`: AI workflow, specs, Python tools
 - `Assets/Examples/`: example site packages and preview outputs
@@ -154,6 +204,8 @@ This repository is a better fit for:
 - this is not a full-fidelity effects build
 - the visual output in examples does not represent the final internal production version
 - some full-version components, render helpers, and third-party plugin-based features were intentionally removed
+- missing paid plugins under `AIToUGUI/` are not distributed with this repository
+- if `AIToUGUI/` reports errors because those dependencies are absent or version-mismatched, users are expected to complete the import and repair work themselves
 
 So if the GitHub preview looks weaker than the internal full version, that is expected.  
 The reason is not a broken data pipeline. The public repository is intentionally constrained to a distributable Lite scope.
